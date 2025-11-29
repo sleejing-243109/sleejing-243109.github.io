@@ -43,18 +43,21 @@ p {
     color: var(--dark);
 }
 
-.contentbox-middle {
+.contentbox-middle,
+.contentboxtwo-middle {
     display: flex;
     gap: 10px;
     justify-content: space-between;
 }
 
-.contentbox-middle div {
+.contentbox-middle div,
+.contentboxtwo-middle div {
     position: relative;
 
 }
 
-.contentbox-middle img {
+.contentbox-middle img,
+.contentboxtwo-middle img {
     width: 100%;
     display: block;
 }
