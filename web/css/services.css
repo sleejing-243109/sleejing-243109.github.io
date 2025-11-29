@@ -79,6 +79,11 @@ p {
     position: relative;
 }
 
+.box h3 {
+    width: 50%;
+
+}
+
 .btn {
     bottom: 80px;
     left: 30px;
