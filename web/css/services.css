@@ -75,17 +75,13 @@ p {
     padding: 5px 10px;
     color: var(--light);
     z-index: 1006;
-
+    width: 55%;
 }
 
 .box {
     position: relative;
 }
 
-.box h3 {
-    width: 50%;
-
-}
 
 .btn {
     bottom: 80px;
