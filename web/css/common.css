@@ -6,8 +6,9 @@
     --primary-red: #B30E16;
     --dark: #251E1E;
     --light: #F8F6F6;
-    --white: #ffffff;
+
 }
+
 
 /* --- 字体的size --- */
 h1 {
@@ -37,6 +38,7 @@ p {
 .artist-name {
     font-size: 52px;
     font-style: italic;
+    font-weight: bold;
 }
 
 /* --- 电话的size--- */
@@ -75,31 +77,31 @@ p {
 
 .btn-dark {
     background: var(--dark);
-    color: var(--white);
+    color: var(--light);
 }
 
 
 .btn-dark:hover {
     background: var(--primary-red);
-    color: var(--white);
+    color: var(--light);
 }
 
 
 .btn-light {
-    background: var(--white);
+    background: var(--light);
     color: var(--dark);
 }
 
 
 .btn-light:hover {
     background: var(--primary-red);
-    color: var(--white);
+    color: var(--light);
 }
 
 
 .bg-red .btn-light:hover {
     background: var(--dark);
-    color: var(--white);
+    color: var(--light);
 }
 
 
