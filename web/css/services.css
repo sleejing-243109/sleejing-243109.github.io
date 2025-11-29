@@ -93,3 +93,7 @@ p {
     height: auto;
     text-align: center;
 }
+
+.contentboxtwo-middle {
+    display: flex;
+}
