@@ -120,5 +120,20 @@ p {
 }
 
 .pointcontent1 {
+    width: 100%;
+}
+
+.pointcontent1,
+.pointcontent2 {
     display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.pointcontent1 li,
+.pointcontent2 li {
+    width: 70%;
+    margin-top: 20px;
 }
