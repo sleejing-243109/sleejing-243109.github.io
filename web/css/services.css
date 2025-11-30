@@ -224,3 +224,8 @@ p {
     flex-direction: column;
     border-radius: 20px;
 }
+
+.button2 .btn-light:hover {
+    background: var(--dark);
+    color: var(--light);
+}
