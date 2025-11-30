@@ -31,7 +31,7 @@ p {
     font-weight: 400;
 }
 
-.desc {
+.desc p {
     font-size: 20px;
 }
 
@@ -72,7 +72,7 @@ p {
     border: none;
     cursor: pointer;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .btn-dark {
