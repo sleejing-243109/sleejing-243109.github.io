@@ -253,3 +253,15 @@ p {
     background: var(--dark);
     color: var(--light);
 }
+
+@media (max-width: 1024px) {
+
+    .contentbox-middle,
+    .contentboxtwo-middle {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+}
