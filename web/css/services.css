@@ -142,3 +142,21 @@ p {
 .section3content h3 {
     color: var(--primary-red);
 }
+
+.boxs {
+    background-color: var(--primary-red);
+    border: 2px var(--primary-red);
+    border-radius: 20px;
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+}
+
+.boxs h3 {
+    text-decoration: underline;
+    color: var(--light);
+}
+
+.boxs p {
+    color: var(--light);
+}
