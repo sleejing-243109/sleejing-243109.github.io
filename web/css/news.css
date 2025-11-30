@@ -1,0 +1,158 @@
+.error404 {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.error404 div {
+    justify-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.error404 img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.error404 h1 {
+    margin: 0px;
+}
+
+.error404 p {
+    margin: 0px;
+    font-size: 25px;
+}
+
+.searchbar {
+    display: flex;
+    margin: 80px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.searchbar a {
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+input[type=text] {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 400px;
+    font-size: 20px;
+}
+
+.bestofmonth {
+    margin: 80px auto;
+}
+
+.bestofmonth h1 {
+    text-align: center;
+    color: #B30E16;
+}
+
+.albumvinyl {
+    display: flex;
+    margin: auto 60px;
+    justify-content: space-between;
+}
+
+.album {
+    text-align: center;
+}
+
+.details p {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.details h3 {
+    font-size: 35px;
+    margin: 0px;
+}
+
+.listen a {
+    border-radius: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
+.listen {
+    margin: 20px auto;
+}
+
+.popular {
+    margin: 80px auto;
+}
+
+.popular h1 {
+    color: #B30E16;
+    font-size: 52px;
+    text-align: center;
+}
+
+.singles {
+    margin: auto 60px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.row img {
+    border-radius: 20px;
+    align-items: end;
+    width: 120px;
+}
+
+.cover {
+    align-self: baseline;
+}
+
+.tracks1 {
+    display: flex;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 20px;
+    gap: 20px;
+    align-items: end;
+    width: 100%;
+}
+
+.tracks2 {
+    display: flex;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #B30E16;
+    padding: 20px;
+    gap: 20px;
+    align-items: end;
+    width: 100%;
+}
+
+.backhome {
+    justify-content: space-around;
+    text-align: center;
+    margin: 80px auto;
+}
+
+.backhome a {
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}

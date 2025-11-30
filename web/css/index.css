@@ -1,0 +1,96 @@
+    .hero-banner {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-banner img {
+        width: 100%;
+    }
+
+    .hero-banner h1 {
+        position: absolute;
+        color: var(--light);
+        font-size: 52px;
+        font-weight: 900;
+        width: 50%;
+        text-align: center;
+    }
+
+    .content1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 70px 60px;
+    }
+
+    .leftside {
+        width: 60%;
+    }
+
+    .leftside h3 {
+        color: var(--primary-red);
+    }
+
+    .rightside {
+        position: relative;
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .rightside .back img {
+        position: relative;
+        top: -20px;
+        width: 60%;
+        border-radius: 20px;
+    }
+
+    .rightside .front img {
+        position: absolute;
+        width: 65%;
+        border-radius: 20px;
+        bottom: -20px;
+        left: 120px;
+    }
+
+    .content2 {
+        padding: 10px 60px;
+    }
+
+    .content2 h3 {
+        color: var(--primary-red);
+    }
+
+    .artist-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .box {
+        background-color: var(--dark);
+        width: 25%;
+        border-radius: 20px;
+        padding: 35px;
+        text-align: center;
+    }
+
+    .box img {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .artist-name h3 {
+        color: var(--light);
+    }
+
+    .desc p {
+        color: var(--light);
+        text-align: left;
+    }
+
+    .button {
+        margin-top: 40px;
+    }

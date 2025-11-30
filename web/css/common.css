@@ -31,7 +31,7 @@ p {
     font-weight: 400;
 }
 
-.desc {
+.desc p {
     font-size: 20px;
 }
 
@@ -66,13 +66,16 @@ p {
 /* --- 按钮 --- */
 
 .btn {
-    padding: 14px 32px;
-    border-radius: 20px;
-    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0 50px;
     border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
     cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .btn-dark {
