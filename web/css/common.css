@@ -6,8 +6,9 @@
     --primary-red: #B30E16;
     --dark: #251E1E;
     --light: #F8F6F6;
-    --white: #ffffff;
+
 }
+
 
 /* --- 字体的size --- */
 h1 {
@@ -30,13 +31,14 @@ p {
     font-weight: 400;
 }
 
-.desc {
+.desc p {
     font-size: 20px;
 }
 
 .artist-name {
     font-size: 52px;
     font-style: italic;
+    font-weight: bold;
 }
 
 /* --- 电话的size--- */
@@ -64,50 +66,47 @@ p {
 /* --- 按钮 --- */
 
 .btn {
-    padding: 14px 32px;
-    border-radius: 20px;
-    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 0 50px;
     border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
     cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .btn-dark {
     background: var(--dark);
-    color: var(--white);
+    color: var(--light);
 }
 
 
 .btn-dark:hover {
     background: var(--primary-red);
-    color: var(--white);
+    color: var(--light);
 }
 
 
 .btn-light {
-    background: var(--white);
+    background: var(--light);
     color: var(--dark);
 }
 
 
 .btn-light:hover {
     background: var(--primary-red);
-    color: var(--white);
+    color: var(--light);
 }
 
 
 .bg-red .btn-light:hover {
     background: var(--dark);
-    color: var(--white);
+    color: var(--light);
 }
 
-/* Hover variations */
-.btn-dark:hover,
-.btn-primary:hover,
-.btn-light:hover {
-    opacity: 0.85;
-}
 
 
 

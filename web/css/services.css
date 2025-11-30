@@ -1,7 +1,6 @@
 body {
-    background-color: white;
+    background-color: var(--white);
 }
-
 
 .banner {
     width: 100%;
@@ -25,30 +24,101 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.bannercontent {
-    color: #F8F6F6;
+    color: var(--light);
     z-index: 1003;
 }
 
+
+.allcontent {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
 .firstcontent-middle h3 {
-    color: #B30E16;
+    color: var(--primary-red);
 }
 
 .firstcontent-middle h2,
 p {
-    color: #251E1E;
+    color: var(--dark);
 }
 
-.contentbox-middle {
+.contentbox-middle,
+.contentboxtwo-middle {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.contentbox-middle div,
+.contentboxtwo-middle div {
+    position: relative;
+
+}
+
+.contentbox-middle img,
+.contentboxtwo-middle img {
+    width: 100%;
+    display: block;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.box h3 {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    padding: 5px 10px;
+    color: var(--light);
+    z-index: 1006;
+    width: 55%;
+}
+
+.box {
+    position: relative;
+}
+
+
+.btn {
+    bottom: 80px;
+    left: 30px;
+    background: var(--light);
+    border-radius: 12px;
+    width: 23%;
+    height: auto;
+    text-align: center;
+}
+
+.contentboxtwo-middle {
+    display: flex;
+}
+
+.halfround-image {
+    width: 50%;
+}
+
+.halfround-image img {
+    width: 85%;
+}
+
+.secondcontent-middle {
     width: 100%;
     display: flex;
     justify-content: space-between;
 
 }
 
-.contentbox-middle img {
-    width: 100%;
+.content-middle {
+    width: 50%;
+    margin-left: 30px;
+    margin-right: 60px;
+
+}
+
+.pointcontent1 {
+    display: flex;
 }
