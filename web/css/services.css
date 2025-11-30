@@ -139,6 +139,11 @@ p {
     margin-top: 20px;
 }
 
+.section3 {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
 .section3content h3 {
     color: var(--primary-red);
 }
