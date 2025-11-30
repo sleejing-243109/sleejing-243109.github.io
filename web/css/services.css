@@ -148,7 +148,7 @@ p {
     border: 2px var(--primary-red);
     border-radius: 20px;
     width: 100%;
-    min-height: 250px;
+    height: 200%;
     text-align: center;
 }
 
@@ -163,4 +163,12 @@ p {
 
 .boxs p {
     color: var(--light);
+}
+
+.section3box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 }
