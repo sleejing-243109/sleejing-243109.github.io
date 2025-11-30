@@ -80,6 +80,7 @@ p {
 
 .box {
     position: relative;
+    margin-bottom: 40px;
 }
 
 .btn-light {
