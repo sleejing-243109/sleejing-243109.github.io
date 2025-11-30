@@ -118,3 +118,7 @@ p {
     margin-right: 60px;
 
 }
+
+.pointcontent1 {
+    display: flex;
+}
