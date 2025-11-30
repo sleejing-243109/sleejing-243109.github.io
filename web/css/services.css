@@ -163,7 +163,6 @@ p {
 }
 
 .boxs h3 {
-    border-bottom: 2px solid var(--light);
     color: var(--light);
     padding-bottom: 20px;
     margin-bottom: 10px;
@@ -171,8 +170,7 @@ p {
     width: 90%;
 }
 
-.boxs p,
-.boxe2 p {
+.boxs p {
     color: var(--light);
     margin-bottom: 60px;
 }
@@ -187,4 +185,19 @@ p {
 
 .boxs.btn-light {
     position: absolute;
+}
+
+.underline {
+    color: var(--light);
+    border-bottom: 2px solid;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.boxs .underline {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    width: calc(100% - 60px);
+    border-bottom: 2px solid var(--light);
 }
