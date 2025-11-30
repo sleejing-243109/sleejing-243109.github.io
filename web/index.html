@@ -252,7 +252,65 @@
             <p>© 2025 Bagaimana Music. All rights reserved.</p>
         </div>
     </div>
+    <div class="mobile-footer">
+        <img class="logo" src="image/logo.png" alt="logo">
+        <h3>Pushing Music,Beyond Boundaries</h3>
+        <div class="mobile-footer-menu">
+            <div class="mobile-menu"><a href="#">ABOUT</a>
+                <div class="mobile-sub">
+                    <a href="#">OUR COMPANY</a>
+                    <a href="#">OUR TEAM</a>
+                </div>
+            </div>
+            <div class="mobile-menu"><a href="#">SERVICES</a>
+                <div class="mobile-sub">
+                    <a href="#">PORTFOLIO</a>
+                    <a href="#">SINGLE PROJECT</a>
+                </div>
+            </div>
+            <div class="mobile-menu"><a href="#">ARTIST</a>
+                <div class="mobile-sub">
+                    <a href="#">JAY CHOU</a>
+                    <a href="#">TYLER,THE CREATOR</a>
+                </div>
+            </div>
+            <div class="mobile-menu"><a href="#">BLOG</a>
+                <div class="mobile-sub">
+                    <a href="#">NEWS</a>
+                </div>
+            </div>
+            <div class="mobile-menu"><a href="#">STORE</a>
+                <div class="mobile-sub">
+                    <a href="#">SHOPPING CART</a>
+                    <a href="#">CATALOG</a>
+                </div>
+            </div>
+            <div class="mobile-menu"><a href="#">CONTACT</a></div>
+        </div>
+        <div class="mobile-footer-socialmedia"><img src="image/socialmedia.png" alt=""></div>
+        <div>
+            <p>© 2025 Bagaimana Music. All rights reserved.</p>
+        </div>
 
+    </div>
+    <script>
+        const toggleButton = document.getElementById("menu-toggle");
+        const menu = document.getElementById("menu");
+
+        toggleButton.addEventListener("click", () => {
+            menu.classList.toggle("active");
+
+            // Change icon
+            if (menu.classList.contains("active")) {
+                toggleButton.innerHTML = "&times;";
+                document.body.style.overflow = 'hidden';
+            } else {
+                toggleButton.innerHTML = "&#9776;";
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+    </script>
 
 
 </body>

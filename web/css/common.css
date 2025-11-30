@@ -396,6 +396,7 @@ body a {
 
     .footer {
         display: none;
+        margin: 0px;
     }
 
     .mobile-footer {
