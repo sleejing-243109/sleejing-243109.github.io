@@ -116,7 +116,7 @@ p {
     width: 100%;
     display: flex;
     justify-content: space-between;
-
+    margin-top: 20px;
 }
 
 .content-middle {
@@ -124,6 +124,14 @@ p {
     margin-left: 30px;
     margin-right: 60px;
 
+}
+
+.content-middle h2 {
+    margin-bottom: 15px;
+}
+
+.content-middle h1 {
+    margin-top: 0;
 }
 
 .pointcontent1 {
