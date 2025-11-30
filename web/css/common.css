@@ -43,66 +43,67 @@ p {
 
 /* --- media query --- */
 @media (max-width: 1180px) {
-
     h1 {
         font-size: 44px;
+        font-weight: bold;
     }
 
     h2 {
         font-size: 34px;
+        font-weight: bold;
     }
 
     h3 {
         font-size: 28px;
+        font-weight: bold;
     }
 
     p {
         font-size: 22px;
+        font-weight: 400;
     }
 
-    .desc {
+    .desc p {
         font-size: 20px;
     }
 
     .artist-name {
-        font-size: 16px;
-    }
-
-    .btn {
-        font-size: 14px;
-        height: 55px;
+        font-size: 40px;
+        font-style: italic;
+        font-weight: bold;
     }
 }
 
+/* Mobile */
 @media (max-width: 768px) {
-
     h1 {
-        font-size: 38px;
+        font-size: 30px;
+        font-weight: bold;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 28px;
+        font-weight: bold;
     }
 
     h3 {
         font-size: 24px;
+        font-weight: bold;
     }
 
     p {
         font-size: 20px;
+        font-weight: 400;
     }
 
-    .desc {
+    .desc p {
         font-size: 18px;
     }
 
     .artist-name {
-        font-size: 15px;
-    }
-
-    .btn {
-        font-size: 13px;
-        height: 50px;
+        font-size: 35px;
+        font-style: italic;
+        font-weight: bold;
     }
 }
 
