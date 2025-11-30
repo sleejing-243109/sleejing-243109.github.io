@@ -22,7 +22,6 @@
 
 .error404 p {
     margin: 0px;
-    font-size: 25px;
 }
 
 .searchbar {
@@ -30,22 +29,13 @@
     margin: 80px auto;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-}
-
-.searchbar a {
-    border: 1px solid #000000;
-    background-color: #000000;
-    color: white;
-    font-size: 20px;
-    border-radius: 20px;
-    padding: 10px 30px;
+    gap: 10px;
 }
 
 input[type=text] {
-    border: 1px solid #000000;
+    border: 1px solid;
     border-radius: 20px;
-    padding: 10px 30px;
+    padding: 12px 30px;
     width: 400px;
     font-size: 20px;
 }
@@ -56,7 +46,7 @@ input[type=text] {
 
 .bestofmonth h1 {
     text-align: center;
-    color: #B30E16;
+    color: var(--primary-red);
 }
 
 .albumvinyl {
@@ -67,6 +57,10 @@ input[type=text] {
 
 .album {
     text-align: center;
+}
+
+.details {
+    margin: 20px auto;
 }
 
 .details p {
@@ -81,13 +75,13 @@ input[type=text] {
 
 .listen a {
     border-radius: 20px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--dark);
+    color: var(--light);
     padding: 10px 30px;
 }
 
 .listen {
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .popular {
@@ -95,7 +89,7 @@ input[type=text] {
 }
 
 .popular h1 {
-    color: #B30E16;
+    color: var(--primary-red);
     font-size: 52px;
     text-align: center;
 }
@@ -121,11 +115,23 @@ input[type=text] {
     align-self: baseline;
 }
 
+.artistsingles {
+    margin: 0px;
+}
+
+.artistsingles h3 {
+    margin: 0px;
+}
+
+.artistsingles p {
+    margin: 0px;
+}
+
 .tracks1 {
     display: flex;
     border-radius: 20px;
-    color: #ffffff;
-    background-color: #000000;
+    color: var(--light);
+    background-color: var(--dark);
     padding: 20px;
     gap: 20px;
     align-items: end;
@@ -135,8 +141,8 @@ input[type=text] {
 .tracks2 {
     display: flex;
     border-radius: 20px;
-    color: #ffffff;
-    background-color: #B30E16;
+    color: var(--light);
+    background-color: var(--primary-red);
     padding: 20px;
     gap: 20px;
     align-items: end;
@@ -150,8 +156,8 @@ input[type=text] {
 }
 
 .backhome a {
-    background-color: #000000;
-    color: white;
+    background-color: var(--dark);
+    color: var(--light);
     font-size: 20px;
     border-radius: 20px;
     padding: 10px 30px;
