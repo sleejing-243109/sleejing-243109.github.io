@@ -96,3 +96,16 @@ p {
 .contentboxtwo-middle {
     display: flex;
 }
+
+.halfround-image {
+    width: 40%;
+}
+
+.secondcontent-middle {
+    width: 100%;
+    display: flex;
+}
+
+.secondcontent {
+    width: 60%;
+}
