@@ -90,7 +90,7 @@ p {
 .btn-light {
     position: absolute;
     bottom: 40px;
-    left: 30px;
+    right: 30px;
 
 }
 
@@ -182,6 +182,11 @@ p {
     justify-content: space-between;
     justify-content: center;
     gap: 30px;
+}
 
-
+.boxs.btn-light {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: auto;
 }
