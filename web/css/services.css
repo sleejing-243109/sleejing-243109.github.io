@@ -98,14 +98,23 @@ p {
 }
 
 .halfround-image {
-    width: 40%;
+    width: 50%;
+}
+
+.halfround-image img {
+    width: 85%;
 }
 
 .secondcontent-middle {
     width: 100%;
     display: flex;
+    justify-content: space-between;
+
 }
 
-.secondcontent {
-    width: 60%;
+.content-middle {
+    width: 50%;
+    margin-left: 30px;
+    margin-right: 60px;
+
 }
