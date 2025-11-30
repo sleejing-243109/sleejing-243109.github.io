@@ -112,6 +112,10 @@ p {
     width: 85%;
 }
 
+.round-image {
+    display: none;
+}
+
 .section2 {
     width: 100%;
     display: flex;
@@ -295,5 +299,13 @@ p {
 
     .section3box p {
         margin-top: 80px;
+    }
+
+    .round-image {
+        display: block;
+    }
+
+    .halfround-image {
+        display: none;
     }
 }
