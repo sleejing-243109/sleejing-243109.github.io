@@ -303,6 +303,13 @@ p {
 
     .round-image {
         display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .round-image img {
+        width: 80%;
+
     }
 
     .halfround-image {
