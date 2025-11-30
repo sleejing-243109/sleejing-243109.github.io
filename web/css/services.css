@@ -171,7 +171,8 @@ p {
     width: 90%;
 }
 
-.boxs p {
+.boxs p,
+.boxe2 p {
     color: var(--light);
     margin-bottom: 60px;
 }
