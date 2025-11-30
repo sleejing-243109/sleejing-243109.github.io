@@ -41,8 +41,8 @@ p {
     font-weight: bold;
 }
 
-/* --- 电话的size--- */
-@media (max-width: 1024px) {
+/* --- media query --- */
+@media (max-width: 1180px) {
 
     h1 {
         font-size: 44px;
