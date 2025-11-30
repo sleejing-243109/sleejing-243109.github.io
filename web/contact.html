@@ -100,6 +100,61 @@
             display: flex;
             gap: 40px;
         }
+
+        .dropemail h1,
+        .dropemail p {
+            margin: 0px;
+            color: #f5f6f6;
+        }
+
+        .dropemail p {
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+
+
+        .section2 {
+            background-color: #251e1e;
+            padding: 30px 40px;
+            border-radius: 16px;
+            width: 70%;
+            margin: auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .top {
+            display: flex;
+            gap: 10px;
+        }
+
+        .last {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .submit {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .submit input {
+            width: 150px;
+        }
+
+        input,
+        .last textarea {
+            border: #f5f6f6;
+            background-color: #f5f6f6;
+            border-radius: 16px;
+            padding: 10px 15px;
+            font-family: "Oxygen", sans-serif;
+        }
     </style>
 </head>
 
@@ -200,7 +255,31 @@
                 </div>
             </div>
         </div>
-        <div class="section2"></div>
+        <div class="section2">
+            <div class="dropemail">
+                <h1>DROP US EMAIL</h1>
+                <p>Your email address will not be published. Required fields are marked*</p>
+            </div>
+            <form action="contactform">
+                <div class="top">
+                    <div class="firstname">
+                        <input type="text" id="fname" name="fname" required placeholder="First Name">
+                    </div>
+                    <div class="lastname">
+                        <input type="text" id="lname" name="lname" required placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="email">
+                        <input type="email" id="email" name="email" required placeholder="Email">
+                    </div>
+                </div>
+                <div class="last">
+                    <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Your Message....."></textarea><br>
+                </div>
+                <div class="submit"><input type="submit" value="Submit"></div>
+            </form>
+        </div>
     </div>
     <div class="footer">
         <div class="footer-top">
