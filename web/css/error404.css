@@ -1,3 +1,4 @@
+/* Error404 */
 .error404 {
     margin-top: 30px;
     margin-bottom: 80px;
@@ -24,6 +25,7 @@
     margin: 0px;
 }
 
+/* Search Bar */
 .searchbar {
     display: flex;
     margin: 80px auto;
@@ -40,6 +42,7 @@ input[type=text] {
     font-size: 20px;
 }
 
+/* Best Of The Month */
 .bestofmonth {
     margin: 80px auto;
 }
@@ -84,6 +87,7 @@ input[type=text] {
     margin: 30px auto;
 }
 
+/* Popular Tracks */
 .popular {
     margin: 80px auto;
 }
@@ -149,6 +153,7 @@ input[type=text] {
     width: 100%;
 }
 
+/* Homepage Button */
 .backhome {
     justify-content: space-around;
     text-align: center;
@@ -161,4 +166,130 @@ input[type=text] {
     font-size: 20px;
     border-radius: 20px;
     padding: 10px 30px;
+}
+
+/* Mobile Display */
+@media (max-width: 648px) {
+
+    /* Font Size */
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /* Error404 */
+    .error404 {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .error404 img {
+        width: 80%;
+    }
+
+    /* Search Bar */
+    .searchbar {
+        margin: 60px auto;
+        gap: 10px;
+    }
+
+    input[type=text] {
+        border: 1px solid;
+        border-radius: 20px;
+        padding: 12px 20px;
+        width: 100px;
+        font-size: 18px;
+    }
+
+    /* Best of The MOnth */
+    .bestofmonth {
+        margin: 40px auto;
+    }
+
+    .bestofmonth h1 {
+        margin: 0px auto;
+    }
+
+    .albumvinyl {
+        display: block;
+        margin: auto 60px;
+        justify-content: space-between;
+    }
+
+    .album {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .album img {
+        width: 80%;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .details {
+        margin: 10px auto;
+    }
+
+    .details p {
+        font-size: 18px;
+    }
+
+    .listen {
+        margin: 15px auto;
+    }
+
+    /* Popular Tracks */
+    .popular {
+        margin: 20px auto;
+    }
+
+    .popular h1 {
+        font-size: 30px;
+    }
+
+    .singles {
+        margin: auto 60px;
+    }
+
+    .row {
+        display: none;
+    }
+
+    .column {
+        display: block;
+    }
+
+    .tracks1 {
+        display: flex;
+        border-radius: 20px;
+        color: var(--light);
+        background-color: var(--dark);
+        padding: 20px;
+        gap: 20px;
+        align-items: end;
+        width: 100%;
+    }
+
+    .tracks2 {
+        display: flex;
+        border-radius: 20px;
+        color: var(--light);
+        background-color: var(--primary-red);
+        padding: 20px;
+        gap: 20px;
+        align-items: end;
+        width: 100%;
+    }
 }
