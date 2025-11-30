@@ -339,7 +339,7 @@ body a {
 }
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1180px) {
 
     .menu-toggle {
         display: block;
@@ -396,6 +396,7 @@ body a {
 
     .footer {
         display: none;
+        margin: 0px;
     }
 
     .mobile-footer {
