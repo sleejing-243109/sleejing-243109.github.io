@@ -12,6 +12,10 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/common.css">
     <style>
+        h3 {
+            color: #B30E16;
+        }
+
         .banner img {
             width: 100%;
             height: auto;
@@ -38,6 +42,118 @@
         .banner h1 {
             color: #F8F6F6;
             z-index: 1003;
+        }
+
+        .section1 {
+            margin: 0px;
+            margin-top: 73px;
+            margin-bottom: 73px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contact-left {
+            width: 60%;
+        }
+
+        .contact-left img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .section1 h2,
+        h3 {
+            margin: 0px;
+            padding-top: 10px;
+        }
+
+
+        .right-middle {
+            margin-top: 54px;
+        }
+
+        .contact-right {
+            padding-left: 120px;
+        }
+
+
+        .social {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 38px;
+        }
+
+        .social img {
+            display: flex;
+            width: 50px;
+        }
+
+        .message p {
+            margin: 0px;
+            font-size: 20px;
+        }
+
+        .right-bottom {
+            display: flex;
+            gap: 40px;
+        }
+
+        .dropemail h1,
+        .dropemail p {
+            margin: 0px;
+            color: #f5f6f6;
+        }
+
+        .dropemail p {
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+
+
+        .section2 {
+            background-color: #251e1e;
+            padding: 30px 40px;
+            border-radius: 16px;
+            width: 70%;
+            margin: auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .top {
+            display: flex;
+            gap: 10px;
+        }
+
+        .last {
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .submit {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .submit input {
+            width: 150px;
+        }
+
+        input,
+        .last textarea {
+            border: #f5f6f6;
+            background-color: #f5f6f6;
+            border-radius: 16px;
+            padding: 10px 15px;
+            font-family: "Oxygen", sans-serif;
         }
     </style>
 </head>
@@ -102,8 +218,68 @@
                 <h1>CONTACT</h1>
             </div>
         </div>
-        <div class="section1"></div>
-        <div class="section2"></div>
+        <div class="section1">
+            <div class="contact-left"><img src="image/contactpicture.png" alt="image"></div>
+            <div class="contact-right">
+                <div class="right-first">
+                    <h3>Contact Us</h3>
+                    <h2>Get in Touch</h2>
+                    <p>Get in touch with Bagaimana Music to talk about your music projects today. Give us a call, send
+                        us an email, or fill out the contact form and we'll get back to you soon.</p>
+                </div>
+                <div class="right-middle">
+                    <div class="social"><img src="image/sociallocation.png" alt="icon">
+                        <div class="message">
+                            <p>VISIT US</p>
+                            <p>No. 1, Jalan SS 12/1A, Ss 12, 47500 Subang Jaya, Selangor</p>
+                        </div>
+                    </div>
+                    <div class="social"><img src="image/socialphone.png" alt="icon" height="">
+                        <div class="message">
+                            <p>CALL US</p>
+                            <p>+60 12345678</p>
+                        </div>
+                    </div>
+                    <div class="social"><img src="image/socialemail.png" alt="icon">
+                        <div class="message">
+                            <p>EMAIL US</p>
+                            <p>bagai-manamusic@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-bottom">
+                    <img src="image/facebook.png" alt="facebook">
+                    <img src="image/x.png" alt="facebook">
+                    <img src="image/ig.png" alt="facebook">
+                    <img src="image/tiktok.png" alt="facebook">
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="dropemail">
+                <h1>DROP US EMAIL</h1>
+                <p>Your email address will not be published. Required fields are marked*</p>
+            </div>
+            <form action="contactform">
+                <div class="top">
+                    <div class="firstname">
+                        <input type="text" id="fname" name="fname" required placeholder="First Name">
+                    </div>
+                    <div class="lastname">
+                        <input type="text" id="lname" name="lname" required placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="email">
+                        <input type="email" id="email" name="email" required placeholder="Email">
+                    </div>
+                </div>
+                <div class="last">
+                    <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Your Message....."></textarea><br>
+                </div>
+                <div class="submit"><input type="submit" value="Submit"></div>
+            </form>
+        </div>
     </div>
     <div class="footer">
         <div class="footer-top">

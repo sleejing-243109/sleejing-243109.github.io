@@ -41,25 +41,69 @@ p {
     font-weight: bold;
 }
 
-/* --- 电话的size--- */
-@media (max-width: 768px) {
+/* --- media query --- */
+@media (max-width: 1180px) {
     h1 {
-        font-size: 43px;
-        font-weight: 900;
+        font-size: 44px;
+        font-weight: bold;
     }
 
     h2 {
-        font-size: 36px;
-        font-weight: 700;
+        font-size: 34px;
+        font-weight: bold;
     }
 
     h3 {
-        font-size: 25px;
-        font-weight: 500;
+        font-size: 28px;
+        font-weight: bold;
     }
 
     p {
-        font-size: 16px;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .desc p {
+        font-size: 20px;
+    }
+
+    .artist-name {
+        font-size: 40px;
+        font-style: italic;
+        font-weight: bold;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .desc p {
+        font-size: 18px;
+    }
+
+    .artist-name {
+        font-size: 35px;
+        font-style: italic;
+        font-weight: bold;
     }
 }
 
@@ -339,7 +383,7 @@ body a {
 }
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1180px) {
 
     .menu-toggle {
         display: block;
@@ -396,6 +440,7 @@ body a {
 
     .footer {
         display: none;
+        margin: 0px;
     }
 
     .mobile-footer {
