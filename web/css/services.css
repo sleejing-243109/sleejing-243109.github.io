@@ -264,4 +264,20 @@ p {
         align-items: center;
     }
 
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-middle {
+        text-align: center;
+    }
+
+    .pointcontent1,
+    .pointcontent2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
 }
