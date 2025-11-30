@@ -82,15 +82,11 @@ p {
     position: relative;
 }
 
-
-.btn {
-    bottom: 80px;
+.btn-light {
+    position: absolute;
+    bottom: 40px;
     left: 30px;
-    background: var(--light);
-    border-radius: 12px;
-    width: 23%;
-    height: auto;
-    text-align: center;
+
 }
 
 .contentboxtwo-middle {
