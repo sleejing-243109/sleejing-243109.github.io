@@ -274,9 +274,7 @@ p {
         align-items: center;
     }
 
-    .content-middle {
-        text-align: center;
-    }
+
 
     .firstcontent-middle {
         text-align: center;
@@ -292,6 +290,24 @@ p {
 
     .firstcontent-middle p {
         font-size: 16px;
+    }
+
+    .content-middle {
+        text-align: center;
+    }
+
+    .content-middle h2 {
+        font-size: 36px;
+    }
+
+    .content-middle h3 {
+        font-size: 25px;
+    }
+
+    .pointcontent1,
+    .pointcontent2 {
+        font-size: 16px;
+        align-items: center;
     }
 
     .pointcontent1,
