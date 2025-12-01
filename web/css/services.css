@@ -340,7 +340,7 @@ p {
         font-size: 25px;
     }
 
-    .box,
+    .boxs p,
     .boxs2 p {
         font-size: 16px;
     }
@@ -350,6 +350,8 @@ p {
         flex-direction: column;
         width: 80%;
     }
+
+
 
     .section3box p {
         margin-top: 80px;
