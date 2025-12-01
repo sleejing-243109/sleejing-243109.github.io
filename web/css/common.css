@@ -262,7 +262,7 @@ body a {
 .footer {
     padding: 15px 30px;
     background-color: #f5f6f6;
-
+    padding-top: 35px;
 }
 
 .footer-left {
@@ -337,7 +337,7 @@ body a {
 }
 
 .mobile-footer {
-    padding-top: 10px;
+    padding-top: 50px;
     display: none;
     text-align: center;
     background-color: #f5f6f6;
