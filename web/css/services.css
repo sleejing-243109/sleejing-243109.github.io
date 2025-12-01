@@ -323,6 +323,28 @@ p {
         text-align: center;
     }
 
+    .section3content h2 {
+        font-size: 36px
+    }
+
+    .section3content h3 {
+        font-size: 25px;
+    }
+
+    .section3content p {
+        font-size: 16px;
+    }
+
+    .box,
+    .boxs h3 {
+        font-size: 25px;
+    }
+
+    .box,
+    .boxs2 p {
+        font-size: 16px;
+    }
+
     .section3box {
         display: flex;
         flex-direction: column;
