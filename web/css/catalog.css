@@ -22,7 +22,6 @@ main {
 #singles h2 {
     color: var(--primary-red);
     text-transform: uppercase;
-    font-size: 32px;
     font-weight: 800;
     margin-bottom: 40px;
     text-align: left;
@@ -72,7 +71,6 @@ main {
 
 .product-card h3 {
     margin: 10px 0 5px 0;
-    font-size: 24px;
     color: var(--dark);
 }
 
@@ -177,7 +175,6 @@ main {
 }
 
 .single-wide-card h3 {
-    font-size: 28px;
     margin-bottom: 10px;
 }
 
@@ -203,8 +200,6 @@ main {
     margin: 0 auto 30px auto;
     color: var(--primary-red);
     text-transform: uppercase;
-    font-size: 32px;
-    font-weight: 800;
     text-align: left;
 }
 
@@ -212,12 +207,9 @@ main {
     background-color: var(--primary-red);
     width: 100%;
     padding: 80px 4%;
-
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-
     box-sizing: border-box;
     justify-items: center;
 }
@@ -261,15 +253,12 @@ main {
 
 .merch-card h3 {
     color: var(--light);
-    font-size: 22px;
-    font-weight: 800;
     text-transform: uppercase;
     margin: 0 0 10px 0;
 }
 
 .merch-card p {
     color: var(--light);
-    font-size: 18px;
     margin: 0;
 }
 
@@ -300,7 +289,6 @@ main {
 
 .merch-card h3 {
     margin: 10px 0;
-    font-size: 22px;
 }
 
 .merch-card p {
