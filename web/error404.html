@@ -72,6 +72,7 @@
 
     <!-- Content -->
     <div class="content">
+        <!-- Error404 -->
         <div class="error404">
             <div>
                 <h1>Oops!</h1>
@@ -83,13 +84,21 @@
             </div>
         </div>
 
+        <!-- Search Bar-->
         <div class="searchbar">
             <button class="btn btn-dark">Search</button>
-            <form>
+            <!-- Desktop Vers. -->
+            <form class="desk">
                 <input type="text" id="search" placeholder="any likey albums? singles? or artist?">
+            </form>
+
+            <!-- Mobile Vers. -->
+            <form class="mob">
+                <input type="text" id="searchmob" placeholder="what do you keen for?">
             </form>
         </div>
 
+        <!-- Best of The Months -->
         <div class="bestofmonth">
             <h1>TOP 3 OF NOVEMBER</h1>
             <div class="albumvinyl">
@@ -131,9 +140,11 @@
             </div>
         </div>
 
+        <!-- Popular Tracks -->
         <div class="popular">
             <h1>POPULAR TRACKS</h1>
             <div class="singles">
+                <!-- Desktop Vers. -->
                 <div class="row">
                     <div class="tracks1">
                         <div class="cover">
@@ -199,139 +210,202 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Mobile Vers. -->
+                <div class="column">
+                    <div class="mtracks1">
+                        <div class="mcover">
+                            <img src="image/ptracks1.jpg" width="100%">
+                        </div>
+                        <div class="martistsingles">
+                            <h3>I Barely Know Her</h3>
+                            <p>SOMBR</p>
+                        </div>
+                    </div>
+
+                    <div class="mtracks2">
+                        <div class="mcover">
+                            <img src="image/ptracks2.jpg">
+                        </div>
+                        <div class="martistsingles">
+                            <h3>Hit Me Hard And Soft</h3>
+                            <p>Billie Elish</p>
+                        </div>
+                    </div>
+
+                    <div class="mtracks1">
+                        <div class="mcover">
+                            <img src="image/ptracks3.jpg">
+                        </div>
+                        <div class="martistsingles">
+                            <h3>Thank u, Next</h3>
+                            <p>Ariana Grande</p>
+                        </div>
+                    </div>
+
+                    <div class="mtracks2">
+                        <div class="mcover">
+                            <img src="image/ptracks4.jpg">
+                        </div>
+                        <div class="martistsingles">
+                            <h3>Emergency Contact</h3>
+                            <p>Gareth.T</p>
+                        </div>
+                    </div>
+
+                    <div class="mtracks1">
+                        <div class="mcover">
+                            <img src="image/ptracks5.jpg">
+                        </div>
+                        <div class="martistsingles">
+                            <h3>Kid Krow</h3>
+                            <p>Conan Gray</p>
+                        </div>
+                    </div>
+
+                    <div class="mtracks2">
+                        <div class="mcover">
+                            <img src="image/ptracks6.jpg">
+                        </div>
+                        <div class="martistsingles">
+                            <h3>Bewitched</h3>
+                            <p>Laufey</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="backhome">
-        <button class="btn btn-dark">Back To Homepage</button>
-    </div>
+        <!-- Homepage Button -->
+        <div class="backhome">
+            <button class="btn btn-dark">Back To Homepage</button>
+        </div>
 
-    <!-- Footer -->
-    <div class="footer">
-        <div class="footer-top">
-            <div class="logo">
-                <img class="logo" src="image/logo.png" alt="logo">
+        <!--Desktop Footer -->
+        <div class="footer">
+            <div class="footer-top">
+                <div class="logo">
+                    <img class="logo" src="image/logo.png" alt="logo">
+                </div>
+                <h3>Pushing Music,Beyond Boundaries</h3>
             </div>
+            <div class="footer-middle">
+                <div class="footer-left">
+                    <div class="map-address"><img class="map" src="image/Rectangle 3.png" alt="map">
+                        <div class="address"><img src="image/location.png" alt="location">
+                            <p>No. 1, Jalan SS 12/1A, Ss 12, 47500 Subang Jaya, Selangor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-menu">
+                        <div class="about">
+                            <a href="#">ABOUT</a>
+                            <div class="footer-sub">
+                                <a href="#">OUR COMPANY</a>
+                                <a href="#">OUR TEAM</a>
+                            </div>
+                        </div>
+                        <div class="services">
+                            <a href="#">SERVICES</a>
+                            <div class="footer-sub">
+                                <a href="#">PORTFOLIO</a>
+                                <a href="#">SINGLE PROJECT</a>
+                            </div>
+                        </div>
+                        <div class="artist">
+                            <a href="#">ARTIST</a>
+                            <div class="footer-sub">
+                                <a href="#">JAY CHOU</a>
+                                <a href="#">TYLER,THE CREATOR</a>
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <a href="#">BLOG</a>
+                            <div class="footer-sub">
+                                <a href="#">NEWS</a>
+                            </div>
+                        </div>
+                        <div class="store">
+                            <a href="#">STORE</a>
+                            <div class="footer-sub">
+                                <a href="#">SHOPPING CART</a>
+                                <a href="#">CATALOG</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-menu-bottom">
+                        <div class="contact">
+                            <a href="#">CONTACT</a>
+                        </div>
+                    </div>
+                    <div><img class="socialmedia" src="image/socialmedia.png" alt=""></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Bagaimana Music. All rights reserved.</p>
+            </div>
+        </div>
+
+        <!-- Mobile Footer -->
+        <div class="mobile-footer">
+            <img class="logo" src="image/logo.png" alt="logo">
             <h3>Pushing Music,Beyond Boundaries</h3>
-        </div>
-        <div class="footer-middle">
-            <div class="footer-left">
-                <div class="map-address"><img class="map" src="image/Rectangle 3.png" alt="map">
-                    <div class="address"><img src="image/location.png" alt="location">
-                        <p>No. 1, Jalan SS 12/1A, Ss 12, 47500 Subang Jaya, Selangor</p>
+            <div class="mobile-footer-menu">
+                <div class="mobile-menu"><a href="#">ABOUT</a>
+                    <div class="mobile-sub">
+                        <a href="#">OUR COMPANY</a>
+                        <a href="#">OUR TEAM</a>
                     </div>
                 </div>
+                <div class="mobile-menu"><a href="#">SERVICES</a>
+                    <div class="mobile-sub">
+                        <a href="#">PORTFOLIO</a>
+                        <a href="#">SINGLE PROJECT</a>
+                    </div>
+                </div>
+                <div class="mobile-menu"><a href="#">ARTIST</a>
+                    <div class="mobile-sub">
+                        <a href="#">JAY CHOU</a>
+                        <a href="#">TYLER,THE CREATOR</a>
+                    </div>
+                </div>
+                <div class="mobile-menu"><a href="#">BLOG</a>
+                    <div class="mobile-sub">
+                        <a href="#">NEWS</a>
+                    </div>
+                </div>
+                <div class="mobile-menu"><a href="#">STORE</a>
+                    <div class="mobile-sub">
+                        <a href="#">SHOPPING CART</a>
+                        <a href="#">CATALOG</a>
+                    </div>
+                </div>
+                <div class="mobile-menu"><a href="#">CONTACT</a></div>
             </div>
-            <div class="footer-right">
-                <div class="footer-menu">
-                    <div class="about">
-                        <a href="#">ABOUT</a>
-                        <div class="footer-sub">
-                            <a href="#">OUR COMPANY</a>
-                            <a href="#">OUR TEAM</a>
-                        </div>
-                    </div>
-                    <div class="services">
-                        <a href="#">SERVICES</a>
-                        <div class="footer-sub">
-                            <a href="#">PORTFOLIO</a>
-                            <a href="#">SINGLE PROJECT</a>
-                        </div>
-                    </div>
-                    <div class="artist">
-                        <a href="#">ARTIST</a>
-                        <div class="footer-sub">
-                            <a href="#">JAY CHOU</a>
-                            <a href="#">TYLER,THE CREATOR</a>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <a href="#">BLOG</a>
-                        <div class="footer-sub">
-                            <a href="#">NEWS</a>
-                        </div>
-                    </div>
-                    <div class="store">
-                        <a href="#">STORE</a>
-                        <div class="footer-sub">
-                            <a href="#">SHOPPING CART</a>
-                            <a href="#">CATALOG</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-menu-bottom">
-                    <div class="contact">
-                        <a href="#">CONTACT</a>
-                    </div>
-                </div>
-                <div><img class="socialmedia" src="image/socialmedia.png" alt=""></div>
+            <div class="mobile-footer-socialmedia"><img src="image/socialmedia.png" alt=""></div>
+            <div>
+                <p>© 2025 Bagaimana Music. All rights reserved.</p>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>© 2025 Bagaimana Music. All rights reserved.</p>
-        </div>
-    </div>
 
-    <!-- Mobile Footer -->
-    <div class="mobile-footer">
-        <img class="logo" src="image/logo.png" alt="logo">
-        <h3>Pushing Music,Beyond Boundaries</h3>
-        <div class="mobile-footer-menu">
-            <div class="mobile-menu"><a href="#">ABOUT</a>
-                <div class="mobile-sub">
-                    <a href="#">OUR COMPANY</a>
-                    <a href="#">OUR TEAM</a>
-                </div>
-            </div>
-            <div class="mobile-menu"><a href="#">SERVICES</a>
-                <div class="mobile-sub">
-                    <a href="#">PORTFOLIO</a>
-                    <a href="#">SINGLE PROJECT</a>
-                </div>
-            </div>
-            <div class="mobile-menu"><a href="#">ARTIST</a>
-                <div class="mobile-sub">
-                    <a href="#">JAY CHOU</a>
-                    <a href="#">TYLER,THE CREATOR</a>
-                </div>
-            </div>
-            <div class="mobile-menu"><a href="#">BLOG</a>
-                <div class="mobile-sub">
-                    <a href="#">NEWS</a>
-                </div>
-            </div>
-            <div class="mobile-menu"><a href="#">STORE</a>
-                <div class="mobile-sub">
-                    <a href="#">SHOPPING CART</a>
-                    <a href="#">CATALOG</a>
-                </div>
-            </div>
-            <div class="mobile-menu"><a href="#">CONTACT</a></div>
-        </div>
-        <div class="mobile-footer-socialmedia"><img src="image/socialmedia.png" alt=""></div>
-        <div>
-            <p>© 2025 Bagaimana Music. All rights reserved.</p>
-        </div>
-    </div>
+        <script>
+            const toggleButton = document.getElementById("menu-toggle");
+            const menu = document.getElementById("menu");
 
-    <script>
-        const toggleButton = document.getElementById("menu-toggle");
-        const menu = document.getElementById("menu");
+            toggleButton.addEventListener("click", () => {
+                menu.classList.toggle("active");
 
-        toggleButton.addEventListener("click", () => {
-            menu.classList.toggle("active");
-
-            // Change icon
-            if (menu.classList.contains("active")) {
-                toggleButton.innerHTML = "&times;";
-                document.body.style.overflow = 'hidden';
-            } else {
-                toggleButton.innerHTML = "&#9776;";
-                document.body.style.overflow = 'auto';
-            }
-        });
-    </script>
+                // Change icon
+                if (menu.classList.contains("active")) {
+                    toggleButton.innerHTML = "&times;";
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    toggleButton.innerHTML = "&#9776;";
+                    document.body.style.overflow = 'auto';
+                }
+            });
+        </script>
 </body>
 
 </html>

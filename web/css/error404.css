@@ -1,3 +1,4 @@
+/* Error404 */
 .error404 {
     margin-top: 30px;
     margin-bottom: 80px;
@@ -24,6 +25,11 @@
     margin: 0px;
 }
 
+/* Search Bar */
+.mob {
+    display: none;
+}
+
 .searchbar {
     display: flex;
     margin: 80px auto;
@@ -36,10 +42,11 @@ input[type=text] {
     border: 1px solid;
     border-radius: 20px;
     padding: 12px 30px;
-    width: 400px;
+    width: 500px;
     font-size: 20px;
 }
 
+/* Best Of The Month */
 .bestofmonth {
     margin: 80px auto;
 }
@@ -84,6 +91,7 @@ input[type=text] {
     margin: 30px auto;
 }
 
+/* Popular Tracks */
 .popular {
     margin: 80px auto;
 }
@@ -96,6 +104,10 @@ input[type=text] {
 
 .singles {
     margin: auto 60px;
+}
+
+.column {
+    display: none;
 }
 
 .row {
@@ -149,6 +161,7 @@ input[type=text] {
     width: 100%;
 }
 
+/* Homepage Button */
 .backhome {
     justify-content: space-around;
     text-align: center;
@@ -161,4 +174,160 @@ input[type=text] {
     font-size: 20px;
     border-radius: 20px;
     padding: 10px 30px;
+}
+
+/* Mobile Display */
+@media (max-width: 648px) {
+
+    /* Font Size */
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    /* Error404 */
+    .error404 {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .error404 img {
+        width: 80%;
+    }
+
+    /* Search Bar */
+    .desk {
+        display: none;
+    }
+
+    .mob {
+        display: flex;
+    }
+
+    .searchbar {
+        margin: 60px 30px;
+        gap: 10px;
+    }
+
+    input[type=text] {
+        border: 1px solid;
+        border-radius: 20px;
+        padding: 12px 20px;
+        width: 200px;
+        font-size: 18px;
+    }
+
+    /* Best of The MOnth */
+    .bestofmonth {
+        margin: 60px auto;
+    }
+
+    .bestofmonth h1 {
+        margin: 0px auto;
+    }
+
+    .albumvinyl {
+        display: block;
+        margin: auto 60px;
+        justify-content: space-between;
+    }
+
+    .album {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .album img {
+        width: 80%;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .details {
+        margin: 10px auto;
+    }
+
+    .details p {
+        font-size: 18px;
+    }
+
+    .listen {
+        margin: 15px auto;
+    }
+
+    /* Popular Tracks */
+    .popular {
+        margin: 60px auto;
+    }
+
+    .popular h1 {
+        font-size: 30px;
+        margin: 30px auto;
+    }
+
+    .singles {
+        margin: auto 30px;
+    }
+
+    .row {
+        display: none;
+    }
+
+    .column {
+        display: grid;
+        gap: 20px;
+    }
+
+    .column img {
+        border-radius: 20px;
+        width: 80px;
+    }
+
+    .mtracks1 {
+        display: flex;
+        color: var(--light);
+        background-color: var(--dark);
+        border-radius: 20px;
+        padding: 15px;
+        gap: 15px;
+        align-items: end;
+    }
+
+    .mtracks2 {
+        display: flex;
+        color: var(--light);
+        background-color: var(--primary-red);
+        border-radius: 20px;
+        padding: 15px;
+        gap: 15px;
+        align-items: end;
+    }
+
+    .martistsingles h3 {
+        margin: 0px;
+    }
+
+    .martistsingles p {
+        margin: 0px;
+    }
+
+    /* Homepage Button */
+    .backhome {
+        margin: 60px auto;
+    }
+
+    .backhome a {
+        font-size: 18px;
+    }
 }
