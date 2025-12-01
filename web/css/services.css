@@ -298,34 +298,12 @@ p {
         align-items: center;
     }
 
-
-
     .firstcontent-middle {
         text-align: center;
     }
 
-    .firstcontent-middle h3 {
-        font-size: 25px;
-    }
-
-    .firstcontent-middle h2 {
-        font-size: 36px;
-    }
-
-    .firstcontent-middle p {
-        font-size: 16px;
-    }
-
     .content-middle {
         text-align: center;
-    }
-
-    .content-middle h2 {
-        font-size: 36px;
-    }
-
-    .content-middle h3 {
-        font-size: 25px;
     }
 
     .pointcontent1,
@@ -345,35 +323,6 @@ p {
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
-
-    .section3content h2 {
-        font-size: 36px
-    }
-
-    .section3content h3 {
-        font-size: 25px;
-    }
-
-    .section3content p {
-        font-size: 16px;
-    }
-
-    .box h3,
-    .boxs2 h3,
-    .boxs3 h3 {
-        font-size: 25px;
-    }
-
-    .boxs p,
-    .boxs2 p,
-    .boxs3 p {
-        font-size: 16px;
-    }
-
-    .boxs2 h3 {
-        margin-bottom: 10px;
-
     }
 
     .boxs2 p {
@@ -403,5 +352,11 @@ p {
 
     .halfround-image {
         display: none;
+    }
+
+    @media (max-width: 990px) {
+        .boxs p {
+            margin-top: 70px;
+        }
     }
 }
