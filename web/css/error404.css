@@ -26,6 +26,10 @@
 }
 
 /* Search Bar */
+.mob {
+    display: none;
+}
+
 .searchbar {
     display: flex;
     margin: 80px auto;
@@ -38,7 +42,7 @@ input[type=text] {
     border: 1px solid;
     border-radius: 20px;
     padding: 12px 30px;
-    width: 400px;
+    width: 500px;
     font-size: 20px;
 }
 
@@ -100,6 +104,10 @@ input[type=text] {
 
 .singles {
     margin: auto 60px;
+}
+
+.column {
+    display: none;
 }
 
 .row {
@@ -198,8 +206,16 @@ input[type=text] {
     }
 
     /* Search Bar */
+    .desk {
+        display: none;
+    }
+
+    .mob {
+        display: flex;
+    }
+
     .searchbar {
-        margin: 60px auto;
+        margin: 60px 30px;
         gap: 10px;
     }
 
@@ -207,13 +223,13 @@ input[type=text] {
         border: 1px solid;
         border-radius: 20px;
         padding: 12px 20px;
-        width: 100px;
+        width: 200px;
         font-size: 18px;
     }
 
     /* Best of The MOnth */
     .bestofmonth {
-        margin: 40px auto;
+        margin: 60px auto;
     }
 
     .bestofmonth h1 {
@@ -252,15 +268,16 @@ input[type=text] {
 
     /* Popular Tracks */
     .popular {
-        margin: 20px auto;
+        margin: 60px auto;
     }
 
     .popular h1 {
         font-size: 30px;
+        margin: 30px auto;
     }
 
     .singles {
-        margin: auto 60px;
+        margin: auto 30px;
     }
 
     .row {
@@ -268,28 +285,49 @@ input[type=text] {
     }
 
     .column {
-        display: block;
+        display: grid;
+        gap: 20px;
     }
 
-    .tracks1 {
-        display: flex;
+    .column img {
         border-radius: 20px;
+        width: 80px;
+    }
+
+    .mtracks1 {
+        display: flex;
         color: var(--light);
         background-color: var(--dark);
-        padding: 20px;
-        gap: 20px;
+        border-radius: 20px;
+        padding: 15px;
+        gap: 15px;
         align-items: end;
-        width: 100%;
     }
 
-    .tracks2 {
+    .mtracks2 {
         display: flex;
-        border-radius: 20px;
         color: var(--light);
         background-color: var(--primary-red);
-        padding: 20px;
-        gap: 20px;
+        border-radius: 20px;
+        padding: 15px;
+        gap: 15px;
         align-items: end;
-        width: 100%;
+    }
+
+    .martistsingles h3 {
+        margin: 0px;
+    }
+
+    .martistsingles p {
+        margin: 0px;
+    }
+
+    /* Homepage Button */
+    .backhome {
+        margin: 60px auto;
+    }
+
+    .backhome a {
+        font-size: 18px;
     }
 }
