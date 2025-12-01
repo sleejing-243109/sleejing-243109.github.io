@@ -112,6 +112,10 @@ p {
     width: 85%;
 }
 
+.round-image {
+    display: none;
+}
+
 .section2 {
     width: 100%;
     display: flex;
@@ -187,7 +191,8 @@ p {
 }
 
 .boxs h3,
-.boxs2 h3 {
+.boxs2 h3,
+.boxs3 h3 {
     color: var(--light);
     padding-bottom: 20px;
     margin-bottom: 10px;
@@ -199,10 +204,19 @@ p {
     margin-bottom: 55px;
 }
 
+.boxs3 h3 {
+    margin-bottom: 11px;
+}
+
 .boxs p,
-.boxs2 p {
+.boxs2 p,
+.boxs3 p {
     color: var(--light);
     margin-bottom: 60px;
+}
+
+.boxs p {
+    margin-top: 40px;
 }
 
 .section3box {
@@ -226,7 +240,7 @@ p {
 }
 
 .boxs .underline,
-.boxs2.underline {
+.boxs2.underline.boxs3.underline {
     position: absolute;
     top: 170px;
     left: 30px;
@@ -238,6 +252,20 @@ p {
 .boxs2 {
     background-color: var(--dark);
     border: 2px var(--dark);
+    text-align: left;
+    position: relative;
+    padding: 20px 30px;
+    height: 550px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.boxs3 {
+    background-color: var(--primary-red);
+    border: 2px var(--primary-red);
     text-align: left;
     position: relative;
     padding: 20px 30px;
@@ -270,8 +298,40 @@ p {
         align-items: center;
     }
 
+
+
+    .firstcontent-middle {
+        text-align: center;
+    }
+
+    .firstcontent-middle h3 {
+        font-size: 25px;
+    }
+
+    .firstcontent-middle h2 {
+        font-size: 36px;
+    }
+
+    .firstcontent-middle p {
+        font-size: 16px;
+    }
+
     .content-middle {
         text-align: center;
+    }
+
+    .content-middle h2 {
+        font-size: 36px;
+    }
+
+    .content-middle h3 {
+        font-size: 25px;
+    }
+
+    .pointcontent1,
+    .pointcontent2 {
+        font-size: 16px;
+        align-items: center;
     }
 
     .pointcontent1,
@@ -287,6 +347,39 @@ p {
         text-align: center;
     }
 
+    .section3content h2 {
+        font-size: 36px
+    }
+
+    .section3content h3 {
+        font-size: 25px;
+    }
+
+    .section3content p {
+        font-size: 16px;
+    }
+
+    .box h3,
+    .boxs2 h3,
+    .boxs3 h3 {
+        font-size: 25px;
+    }
+
+    .boxs p,
+    .boxs2 p,
+    .boxs3 p {
+        font-size: 16px;
+    }
+
+    .boxs2 h3 {
+        margin-bottom: 10px;
+
+    }
+
+    .boxs2 p {
+        margin-top: 70px;
+    }
+
     .section3box {
         display: flex;
         flex-direction: column;
@@ -295,5 +388,20 @@ p {
 
     .section3box p {
         margin-top: 80px;
+    }
+
+    .round-image {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .round-image img {
+        width: 80%;
+
+    }
+
+    .halfround-image {
+        display: none;
     }
 }

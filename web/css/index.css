@@ -12,8 +12,6 @@
     .hero-banner h1 {
         position: absolute;
         color: var(--light);
-        font-size: 52px;
-        font-weight: 900;
         width: 35%;
         text-align: center;
     }
@@ -35,7 +33,7 @@
 
     .rightside {
         position: relative;
-        width: 30%;
+        width: 40%;
         display: flex;
         justify-content: flex-end;
     }
@@ -103,10 +101,19 @@
         color: var(--primary-red);
     }
 
-    .fullwidth-box1,
-    .fullwidth-box2 {
+    .fullwidth-box1 {
         display: flex;
         background-color: var(--primary-red);
+        border-radius: 20px;
+        padding: 30px;
+        align-items: center;
+        gap: 40px;
+        margin: 30px 0px;
+    }
+
+    .fullwidth-box2 {
+        display: flex;
+        background-color: var(--dark);
         border-radius: 20px;
         padding: 30px;
         align-items: center;
@@ -119,9 +126,17 @@
         margin-top: 0px;
     }
 
-    .fullwidth-box1 img,
-    .fullwidth-box2 img {
-        width: 35%;
+    .leftimg {
+        width: 40%;
+    }
+
+    .right {
+        width: 60%
+    }
+
+    .leftimg img,
+    .leftimg img {
+        width: 100%;
         border-radius: 20px;
     }
 
@@ -136,16 +151,6 @@
         color: var(--light);
     }
 
-    .fullwidth-box2 {
-        display: flex;
-        background-color: var(--dark);
-        border-radius: 20px;
-        padding: 30px;
-        align-items: center;
-        gap: 40px;
-        margin: 30px 0px;
-    }
-
     .button2 .btn-light:hover {
         background: var(--primary-red);
         color: var(--light);
@@ -153,51 +158,181 @@
 
     @media (max-width: 1180px) {
 
-        /* --- Hero Banner --- */
         .hero-banner h1 {
-            font-size: 40px;
-            padding: 0 20px;
-            text-align: center;
+            font-size: 44px;
+            width: 50%;
         }
 
-        /* --- Content 1 --- */
-        .content1 {
-            flex-direction: column;
-            text-align: center;
-            padding: 50px 40px;
-            gap: 30px;
+        .leftside {
+            width: 70%;
+        }
+
+        .leftside h3 {
+            font-size: 28px;
+        }
+
+        .leftside p {
+            font-size: 22px;
         }
 
         .rightside {
-            width: 70%;
-            margin-top: 20px;
+            width: 30%;
+            justify-content: flex-end;
         }
 
-        /* --- Artist Section 3 columns → 2 columns --- */
+        .rightside .back img {
+            width: 65%;
+        }
+
+        .rightside .front img {
+            width: 65%;
+            left: 60px;
+            bottom: -50px;
+        }
+
         .artist-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 35px;
+            gap: 30px;
+        }
+
+        .box {
+            width: 30%;
+            padding: 20px;
         }
 
         .box img {
             width: 100%;
-            height: auto;
         }
 
-        /* --- Content 3 (News) --- */
+        .artist-name h3 {
+            font-size: 35px;
+        }
+
+        .desc p {
+            font-size: 20px;
+        }
+
         .fullwidth-box1,
         .fullwidth-box2 {
-            display: flex;
-            flex-direction: column;
-            padding: 30px;
             gap: 20px;
+            padding: 15px;
+            align-items: flex-start;
+        }
+
+        .button1,
+        .button2 {
+            margin-top: 10px;
+        }
+
+        .news h3 {
+            font-size: 24px;
+        }
+
+        .desc p {
+            font-size: 18px;
+        }
+
+    }
+
+    @media (max-width: 990px) {
+
+        .content1 {
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .leftside {
+            width: 100%;
+        }
+
+        .rightside {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .rightside .back img {
+            width: 100%;
+        }
+
+        .rightside .front img {
+            width: 100%;
+            bottom: -10px;
+        }
+
+        .artist-container {
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .box {
+            width: 90%;
+            padding: 30px;
+        }
+
+        .fullwidth-box1,
+        .fullwidth-box2 {
+            flex-direction: column;
+            gap: 15px;
+            padding: 30px;
             text-align: center;
         }
 
-        .fullwidth-box1 img,
-        .fullwidth-box2 img {
+        .leftimg {
             width: 100%;
-            height: auto;
+        }
+
+        .right {
+            width: 100%;
+        }
+
+        .button1,
+        .button2 {
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 768px) {
+
+        .content1,
+        .content2,
+        .content3 {
+            padding: 20px 30px;
+        }
+
+        .hero-banner h1 {
+            font-size: 30px;
+            width: 80%;
+        }
+
+        .leftside h3 {
+            font-size: 24px;
+        }
+
+        .leftside p {
+            font-size: 20px;
+        }
+
+        .rightside {
+            width: 50%;
+        }
+
+        .rightside .back img {
+            width: 100%;
+        }
+
+        .rightside .front img {
+            width: 100%;
+        }
+
+        .box {
+            width: 85%;
+        }
+
+        .artist-name h3 {
+            font-size: 35px;
+        }
+
+        .desc p {
+            font-size: 18px;
         }
     }
