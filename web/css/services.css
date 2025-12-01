@@ -278,6 +278,22 @@ p {
         text-align: center;
     }
 
+    .firstcontent-middle {
+        text-align: center;
+    }
+
+    .firstcontent-middle h3 {
+        font-size: 25px;
+    }
+
+    .firstcontent-middle h2 {
+        font-size: 36px;
+    }
+
+    .firstcontent-middle p {
+        font-size: 16px;
+    }
+
     .pointcontent1,
     .pointcontent2 {
         display: flex;
