@@ -42,7 +42,7 @@
         }
 
         /*section1*/
-        .mobile-left {
+        .mobile-image {
             display: none;
         }
 
@@ -165,15 +165,16 @@
 
         @media screen and (max-width: 1180px) {
             .section1 {
-                margin-top: 0px;
-                margin-bottom: 0px;
+                display: flex;
+                flex-direction: column;
             }
 
-            .mobile-left {
-                display: none;
+            .mobile-image {
+                display: flex;
+
             }
 
-            .mobile-left img {
+            .mobile-image img {
                 width: 50%;
             }
 
@@ -188,7 +189,7 @@
 
             .contact-right {
                 padding-left: 0px;
-                margin: 10%;
+                margin: 5%;
             }
 
             .social img {
@@ -200,7 +201,8 @@
                 width: 40px;
             }
 
-            .right-bottom {
+            .right-bottom,
+            .mobile-image {
                 justify-content: center;
             }
 
@@ -276,6 +278,7 @@
         </div>
         <div class="section1">
             <div class="contact-left"><img src="image/contactpicture.png" alt="image"></div>
+            <div class="mobile-image"><img src="image/mobilecontact.png" alt="image"></div>
             <div class="contact-right">
                 <div class="right-first">
                     <h3>Contact Us</h3>
@@ -283,7 +286,7 @@
                     <p>Get in touch with Bagaimana Music to talk about your music projects today. Give us a call, send
                         us an email, or fill out the contact form and we'll get back to you soon.</p>
                 </div>
-                <div class="mobile-left"><img src="image/contactpicture.png" alt="image"></div>
+
                 <div class="right-middle">
                     <div class="social"><img src="image/sociallocation.png" alt="icon">
                         <div class="message">
