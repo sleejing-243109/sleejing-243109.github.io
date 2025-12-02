@@ -14,6 +14,7 @@
         color: var(--light);
         width: 35%;
         text-align: center;
+        width: fit-content;
     }
 
     .content1 {
@@ -160,19 +161,11 @@
 
         .hero-banner h1 {
             font-size: 44px;
-            width: 50%;
+            width: fit-content;
         }
 
         .leftside {
             width: 70%;
-        }
-
-        .leftside h3 {
-            font-size: 28px;
-        }
-
-        .leftside p {
-            font-size: 22px;
         }
 
         .rightside {
@@ -203,14 +196,6 @@
             width: 100%;
         }
 
-        .artist-name h3 {
-            font-size: 35px;
-        }
-
-        .desc p {
-            font-size: 20px;
-        }
-
         .fullwidth-box1,
         .fullwidth-box2 {
             gap: 20px;
@@ -221,14 +206,6 @@
         .button1,
         .button2 {
             margin-top: 10px;
-        }
-
-        .news h3 {
-            font-size: 24px;
-        }
-
-        .desc p {
-            font-size: 18px;
         }
 
     }
@@ -293,24 +270,17 @@
 
     @media (max-width: 768px) {
 
+        .hero-banner h1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
         .content1,
         .content2,
         .content3 {
             padding: 20px 30px;
         }
 
-        .hero-banner h1 {
-            font-size: 30px;
-            width: 80%;
-        }
-
-        .leftside h3 {
-            font-size: 24px;
-        }
-
-        .leftside p {
-            font-size: 20px;
-        }
 
         .rightside {
             width: 50%;
@@ -328,11 +298,4 @@
             width: 85%;
         }
 
-        .artist-name h3 {
-            font-size: 35px;
-        }
-
-        .desc p {
-            font-size: 18px;
-        }
     }

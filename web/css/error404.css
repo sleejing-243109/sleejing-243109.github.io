@@ -176,8 +176,52 @@ input[type=text] {
     padding: 10px 30px;
 }
 
+/* Small Desktop Display */
+@media (max-width: 1180px) {
+
+    /* Font Size */
+    h1 {
+        font-size: 44px;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    /* Best of The Month */
+    .album img {
+        width: 300px;
+    }
+}
+
+/* Tablet Display */
+@media (max-width: 920px) {
+
+    /* Error404 */
+    .error404 img {
+        width: 80%;
+    }
+
+    /* Best of The Month */
+    .album img {
+        width: 200px;
+    }
+}
+
 /* Mobile Display */
-@media (max-width: 648px) {
+@media (max-width: 768px) {
 
     /* Font Size */
     h1 {
@@ -272,7 +316,6 @@ input[type=text] {
     }
 
     .popular h1 {
-        font-size: 30px;
         margin: 30px auto;
     }
 
