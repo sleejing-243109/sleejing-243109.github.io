@@ -11,109 +11,30 @@ body {
     --primary-red: #B30E16;
     --dark: #251E1E;
     --light: #F8F6F6;
-
 }
-
 
 /* --- 字体的size --- */
 h1 {
     font-size: 52px;
-    font-weight: bold;
 }
 
 h2 {
     font-size: 40px;
-    font-weight: bold;
 }
 
 h3 {
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 28px;
 }
 
 p {
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 18px;
 }
 
 .desc p {
-    font-size: 20px;
+    font-size: 14px;
 }
 
-.artist-name {
-    font-size: 52px;
-    font-style: italic;
-    font-weight: bold;
-}
-
-/* --- media query --- */
-@media (max-width: 1180px) {
-    h1 {
-        font-size: 44px;
-        font-weight: bold;
-    }
-
-    h2 {
-        font-size: 34px;
-        font-weight: bold;
-    }
-
-    h3 {
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    p {
-        font-size: 22px;
-        font-weight: 400;
-    }
-
-    .desc p {
-        font-size: 20px;
-    }
-
-    .artist-name {
-        font-size: 35px;
-        font-style: italic;
-        font-weight: bold;
-    }
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-    h2 {
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    h3 {
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-    p {
-        font-size: 20px;
-        font-weight: 400;
-    }
-
-    .desc p {
-        font-size: 18px;
-    }
-
-    .artist-name {
-        font-size: 35px;
-        font-style: italic;
-        font-weight: bold;
-    }
-}
-
-/* --- 按钮 --- */
-
+/* 按钮 */
 .btn {
     display: inline-flex;
     align-items: center;
@@ -123,9 +44,9 @@ p {
     border: none;
     border-radius: 20px;
     font-size: 15px;
-    font-family: "Inter", sans-serif;
     font-weight: 500;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .btn-dark {
@@ -157,12 +78,110 @@ p {
     color: var(--light);
 }
 
+/* banner */
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    min-height: 350px;
+}
 
+/* boxpadding */
+.content1 {
+    gap: 30px;
+}
 
+.box {
+    width: 25%;
+    padding: 35px;
+}
+
+/* 横的box */
+.fullwidth-box .-red {
+    gap: 20px;
+    padding: 15px;
+    align-items: flex-start;
+    background-color: var(--primary-red);
+}
+
+.fullwidth-box .-dark {
+    gap: 20px;
+    padding: 15px;
+    align-items: flex-start;
+    background-color: var(--dark);
+}
+
+/* --- media query --- */
+@media (max-width: 1180px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .desc p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 990px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .desc p {
+        font-size: 14px;
+    }
+
+}
 
 /* header and footer */
-
-
 a {
     text-decoration: none;
     color: #251E1E;
@@ -370,7 +389,7 @@ a {
 
 }
 
-/*header*/
+/**header**/
 @media screen and (max-width: 1180px) {
 
     .menu-toggle {
