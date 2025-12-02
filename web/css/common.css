@@ -1,6 +1,10 @@
 /* 字体 */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+body {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
 
 /* --- 颜色 --- */
 :root {
@@ -156,17 +160,10 @@ p {
 
 
 
-
-
-
-
 /* header and footer */
-body {
-    margin: 0px;
-    font-family: "Inter", sans-serif;
-}
 
-body a {
+
+a {
     text-decoration: none;
     color: #251E1E;
 }
@@ -202,10 +199,6 @@ body a {
     gap: 2px;
     display: flex;
     position: relative;
-}
-
-.logo {
-    width: 200px;
 }
 
 .submenu {
@@ -259,6 +252,11 @@ body a {
     z-index: 1001;
 }
 
+
+.logo-img {
+    width: 200px;
+}
+
 .footer {
     padding: 15px 30px;
     background-color: #f5f6f6;
@@ -294,7 +292,7 @@ body a {
 
 .footer-middle {
     display: flex;
-    gap: 70px;
+    gap: 10%;
 }
 
 .footer-menu {
@@ -318,73 +316,61 @@ body a {
     margin: 0px;
 }
 
-.footer-menu .about,
-.footer-menu .services,
-.footer-menu .artist,
-.footer-menu .blog,
-.footer-menu .store,
-.footer-menu-bottom .contact {
-    flex-direction: column;
+
+/*footer*/
+@media screen and (max-width: 1180px) {
+    .footer-sub {
+        display: none;
+    }
+
+    .footer-menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 50px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .footer-left {
+        display: none;
+    }
+
+    .footer-middle {
+        justify-content: center;
+    }
+
+    .footer-top,
+    .footer-menu-bottom {
+        text-align: center;
+    }
+
+    .socialmedia {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer-right {
+        gap: 40px;
+    }
+
 }
 
-.footer-menu .about>a,
-.footer-menu .services>a,
-.footer-menu .artist>a,
-.footer-menu .blog>a,
-.footer-menu .store>a,
-.footer-menu-bottom .contact>a {
-    font-weight: bolder;
-}
-
-.mobile-footer {
-    padding-top: 50px;
-    display: none;
-    text-align: center;
-    background-color: #f5f6f6;
-}
-
-.mobile-menu {
-    position: relative;
-    width: 100%;
-}
-
-
-.mobile-footer-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 100%;
-}
-
-.mobile-sub {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    background-color: #251E1E;
-    padding: 10px 0px;
-    z-index: 999;
-    margin-top: 0;
-}
-
-.mobile-sub a {
-    color: #f5f6f6;
-}
-
-.mobile-sub a:hover {
-    background-color: #f5f6f6;
-    display: block;
-    color: #251E1E;
-    padding: 5px;
-    border-radius: 20px;
-}
-
-
+/*header*/
 @media screen and (max-width: 1180px) {
 
     .menu-toggle {
@@ -440,16 +426,4 @@ body a {
         border-radius: 20px;
     }
 
-    .footer {
-        display: none;
-        margin: 0px;
-    }
-
-    .mobile-footer {
-        display: block;
-    }
-
-    .mobile-menu:hover .mobile-sub {
-        display: flex;
-    }
 }
