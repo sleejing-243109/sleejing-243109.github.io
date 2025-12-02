@@ -87,9 +87,21 @@ p {
     min-height: 350px;
 }
 
+/*banner*/
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/contactbanner.png);
+    background-size: cover;
+    min-height: 350px;
+    color: var(--light);
+}
+
 /* boxpadding */
-.content1 {
+.content {
     gap: 30px;
+    padding: 10px 60px;
 }
 
 .box {

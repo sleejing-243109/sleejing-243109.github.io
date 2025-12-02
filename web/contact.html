@@ -8,28 +8,8 @@
     <link rel="stylesheet" href="css/common.css">
     <style>
         /*banner*/
-        .banner img {
-            width: 100%;
-            height: auto;
-            display: block;
-            object-fit: contain;
-        }
-
         .banner {
-            position: relative;
-        }
-
-        .banner h1 {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #F8F6F6;
-            z-index: 1003;
+            background-image: url(image/contactbanner.png);
         }
 
         /*section1*/
@@ -258,12 +238,10 @@
             <div class="menu-toggle" id="menu-toggle">&#9776;</div>
         </div>
     </div>
+    <div class="banner">
+        <h1>CONTACT</h1>
+    </div>
     <div class="content">
-        <div class="banner">
-            <div class="bannerimage"><img src="image/contactbanner.png" alt="banner">
-                <h1>CONTACT</h1>
-            </div>
-        </div>
         <div class="section1">
             <div class="contact-left"><img src="image/contactpicture.png" alt="image"></div>
             <div class="mobile-image"><img src="image/mobilecontact.png" alt="image"></div>
@@ -303,31 +281,31 @@
                 </div>
             </div>
         </div>
-        <div class="section2">
-            <div class="dropemail">
-                <h1>DROP US EMAIL</h1>
-                <p>Your email address will not be published. Required fields are marked*</p>
-            </div>
-            <form action="contactform">
-                <div class="top">
-                    <div class="firstname">
-                        <input type="text" id="fname" name="fname" required placeholder="First Name">
-                    </div>
-                    <div class="lastname">
-                        <input type="text" id="lname" name="lname" required placeholder="Last Name">
-                    </div>
-                </div>
-                <div class="middle">
-                    <div class="email">
-                        <input type="email" id="email" name="email" required placeholder="Email">
-                    </div>
-                </div>
-                <div class="last">
-                    <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Your Message....."></textarea><br>
-                </div>
-                <div class="submit"><input type="submit" value="Submit"></div>
-            </form>
+    </div>
+    <div class="section2">
+        <div class="dropemail">
+            <h1>DROP US EMAIL</h1>
+            <p>Your email address will not be published. Required fields are marked*</p>
         </div>
+        <form action="contactform">
+            <div class="top">
+                <div class="firstname">
+                    <input type="text" id="fname" name="fname" required placeholder="First Name">
+                </div>
+                <div class="lastname">
+                    <input type="text" id="lname" name="lname" required placeholder="Last Name">
+                </div>
+            </div>
+            <div class="middle">
+                <div class="email">
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                </div>
+            </div>
+            <div class="last">
+                <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Your Message....."></textarea><br>
+            </div>
+            <div class="submit"><input type="submit" value="Submit"></div>
+        </form>
     </div>
     <div class="footer">
         <div class="footer-top">
