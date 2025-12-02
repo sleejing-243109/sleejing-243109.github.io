@@ -78,21 +78,11 @@ p {
     color: var(--light);
 }
 
-/* banner */
-.banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    min-height: 350px;
-}
-
 /*banner*/
 .banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(image/contactbanner.png);
     background-size: cover;
     min-height: 350px;
     color: var(--light);
