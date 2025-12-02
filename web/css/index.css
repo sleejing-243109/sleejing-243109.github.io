@@ -1,5 +1,4 @@
     .hero-banner {
-        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -10,9 +9,7 @@
     }
 
     .hero-banner h1 {
-        position: absolute;
         color: var(--light);
-        text-align: center;
         width: fit-content;
     }
 
