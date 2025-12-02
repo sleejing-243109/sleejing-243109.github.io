@@ -12,7 +12,6 @@
     .hero-banner h1 {
         position: absolute;
         color: var(--light);
-        width: 35%;
         text-align: center;
         width: fit-content;
     }
@@ -22,6 +21,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 70px 60px;
+        gap: 10px;
     }
 
     .leftside {
@@ -42,6 +42,7 @@
     .rightside .back img {
         position: relative;
         top: -20px;
+        left: 30px;
         width: 60%;
         border-radius: 20px;
     }
@@ -51,7 +52,7 @@
         width: 65%;
         border-radius: 20px;
         bottom: -20px;
-        left: 120px;
+        left: 150px;
     }
 
     .content2 {
