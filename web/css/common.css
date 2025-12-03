@@ -87,11 +87,16 @@ p {
     text-align: center;
 }
 
-/* boxpadding */
+/* content的距离 */
 .content {
     padding: 40px 60px;
 }
 
+.content>div {
+    margin-bottom: 60px;
+}
+
+/* boxpadding */
 .box {
     width: 25%;
     padding: 35px;
