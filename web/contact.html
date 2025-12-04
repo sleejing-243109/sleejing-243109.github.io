@@ -12,6 +12,10 @@
             background-image: url(image/contactbanner.jpg);
         }
 
+        .content {
+            padding: 0px 0px;
+        }
+
         /*section1*/
         .mobile-image {
             display: none;
@@ -23,7 +27,7 @@
             margin-bottom: 73px;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: center
         }
 
         .right-first h3 {
@@ -31,7 +35,7 @@
         }
 
         .contact-left {
-            width: 60%;
+            width: 50%;
         }
 
         .contact-left img {
@@ -65,7 +69,7 @@
 
         .social img {
             display: flex;
-            width: 50px;
+            width: 40px;
         }
 
         .message p {
@@ -102,12 +106,33 @@
         form {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 25px;
         }
 
         .top {
             display: flex;
-            gap: 10px;
+            width: 100%;
+            gap: 5%;
+        }
+
+        .middle {
+            width: 100%;
+        }
+
+        .firstname,
+        .lastname {
+            width: 46.3%;
+        }
+
+        .email {
+            width: 97.5%;
+        }
+
+
+        .firstname input,
+        .lastname input,
+        .email input {
+            width: 100%;
         }
 
         .last {
@@ -123,39 +148,10 @@
 
         .submit input {
             width: 150px;
-        }
-
-        input,
-        .last textarea {
-            border: #f5f6f6;
-            background-color: #f5f6f6;
-            border-radius: 16px;
-            padding: 10px 15px;
-            font-family: "Oxygen", sans-serif;
+            height: 50px;
         }
 
         @media screen and (max-width: 1180px) {
-            .section1 {
-                display: flex;
-                flex-direction: column;
-            }
-
-            .mobile-image {
-                display: none;
-            }
-
-            .mobile-image img {
-                width: 50%;
-            }
-
-            .contact-left {
-                display: none;
-            }
-
-            .right-first,
-            .dropemail {
-                text-align: center;
-            }
 
             .contact-right {
                 padding-left: 0px;
@@ -176,12 +172,50 @@
                 justify-content: center;
             }
 
-            .top {
+            form {
                 display: flex;
+                flex-direction: column;
                 gap: 20px;
-                flex-wrap: wrap;
             }
 
+            .top {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .firstname,
+            .lastname {
+                width: 93%;
+            }
+
+            .email {
+                width: 93%;
+            }
+        }
+
+        @media screen and (max-width: 990px) {
+            .section1 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .right-first,
+            .dropemail {
+                text-align: center;
+            }
+
+            .mobile-image {
+                display: flex;
+            }
+
+            .mobile-image img {
+                width: 60%;
+            }
+
+            .contact-left {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -302,7 +336,7 @@
                 </div>
             </div>
             <div class="last">
-                <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Your Message....."></textarea><br>
+                <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Your Message....."></textarea>
             </div>
             <div class="submit"><input type="submit" value="Submit"></div>
         </form>
