@@ -20,6 +20,7 @@ p {
 
 .contentbox-middle {
     display: flex;
+
 }
 
 .contentboxtwo-middle {
@@ -35,23 +36,6 @@ p {
 .content-middle h2 {
     color: var(--primary-red);
 }
-
-.box img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.box h3 {
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    padding: 5px 10px;
-    color: var(--light);
-    z-index: 1006;
-    width: 55%;
-}
-
 
 
 .halfround-image {
@@ -106,25 +90,30 @@ p {
 
 
 
-.boxs2 h3 {
-    margin-bottom: 55px;
+.section3 {
+    justify-content: space-between;
+    margin-top: 30px;
 }
-
 
 .section3box {
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
 }
 
 .box {
     background-color: var(--primary-red);
     text-align: center;
     height: 400px;
+    text-align: left;
 }
 
+.box.dark {
+    background-color: var(--dark);
+    color: var(--light);
+}
 
-
+.box.dark p {
+    color: var(--light);
+}
 
 .button2 .btn-light:hover {
     background: var(--dark);
