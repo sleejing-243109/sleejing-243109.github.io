@@ -101,6 +101,13 @@ p {
 
 }
 
+.box h3 {
+    border-bottom: 2px solid var(--light);
+    width: 100%;
+    padding-bottom: 23px;
+
+}
+
 .box {
     background-color: var(--primary-red);
     text-align: center;
@@ -118,7 +125,7 @@ p {
     color: var(--light);
 }
 
-.button2 .btn-light:hover {
+.section3box.button2 .btn-light:hover {
     background: var(--dark);
     color: var(--light);
 }
