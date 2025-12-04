@@ -101,11 +101,22 @@ p {
 
 }
 
-.box h3 {
-    border-bottom: 2px solid var(--light);
+.box.dark h3 {
+    border-bottom: 3px solid var(--light);
+    width: 100%;
+    padding-bottom: 55px;
+
+}
+
+.box.red h3 {
+    color: var(--light);
+    border-bottom: 3px solid var(--light);
     width: 100%;
     padding-bottom: 23px;
+}
 
+.box.box.red p {
+    color: var(--light);
 }
 
 .box {
@@ -115,6 +126,8 @@ p {
     text-align: left;
 
 }
+
+
 
 .box.dark {
     background-color: var(--dark);
