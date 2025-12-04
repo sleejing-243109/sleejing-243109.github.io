@@ -97,6 +97,8 @@ p {
 
 .section3box {
     display: flex;
+    gap: 40px;
+
 }
 
 .box {
@@ -104,6 +106,7 @@ p {
     text-align: center;
     height: 400px;
     text-align: left;
+
 }
 
 .box.dark {
