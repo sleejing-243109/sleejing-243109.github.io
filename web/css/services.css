@@ -115,9 +115,6 @@ p {
     padding-bottom: 23px;
 }
 
-.box.box.red p {
-    color: var(--light);
-}
 
 .box {
     background-color: var(--primary-red);
@@ -127,11 +124,14 @@ p {
 
 }
 
-
-
 .box.dark {
     background-color: var(--dark);
     color: var(--light);
+}
+
+.box.red p {
+    color: var(--light);
+    padding-bottom: 20px;
 }
 
 .box.dark p {
