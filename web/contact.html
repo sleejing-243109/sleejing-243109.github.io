@@ -6,184 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="css/common.css">
-    <style>
-        /*banner*/
-        .banner {
-            background-image: url(image/contactbanner.jpg);
-        }
-
-        /*section1*/
-        .mobile-image {
-            display: none;
-        }
-
-        .section1 {
-            margin: 0px;
-            margin-top: 73px;
-            margin-bottom: 73px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .right-first h3 {
-            color: #B30E16;
-        }
-
-        .contact-left {
-            width: 60%;
-        }
-
-        .contact-left img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-        }
-
-        .section1 h2,
-        .section1 h3 {
-            margin: 0px;
-            padding-top: 10px;
-        }
-
-
-        .right-middle {
-            margin-top: 54px;
-        }
-
-        .contact-right {
-            padding-left: 120px;
-        }
-
-
-        .social {
-            display: flex;
-            align-items: center;
-            gap: 50px;
-            margin-bottom: 38px;
-        }
-
-        .social img {
-            display: flex;
-            width: 50px;
-        }
-
-        .message p {
-            margin: 0px;
-            font-size: 20px;
-        }
-
-        .right-bottom {
-            display: flex;
-            gap: 40px;
-        }
-
-        /*section2*/
-        .section2 {
-            background-color: #251e1e;
-            padding: 30px 40px;
-            border-radius: 16px;
-            width: 70%;
-            margin: auto;
-            margin-bottom: 60px;
-        }
-
-        .dropemail h1,
-        .dropemail p {
-            margin: 0px;
-            color: #f5f6f6;
-        }
-
-        .dropemail p {
-            margin-top: 5px;
-            margin-bottom: 30px;
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .top {
-            display: flex;
-            gap: 10px;
-        }
-
-        .last {
-            display: flex;
-            flex-direction: column;
-
-        }
-
-        .submit {
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .submit input {
-            width: 150px;
-        }
-
-        input,
-        .last textarea {
-            border: #f5f6f6;
-            background-color: #f5f6f6;
-            border-radius: 16px;
-            padding: 10px 15px;
-            font-family: "Oxygen", sans-serif;
-        }
-
-        @media screen and (max-width: 1180px) {
-            .section1 {
-                display: flex;
-                flex-direction: column;
-            }
-
-            .mobile-image {
-                display: none;
-            }
-
-            .mobile-image img {
-                width: 50%;
-            }
-
-            .contact-left {
-                display: none;
-            }
-
-            .right-first,
-            .dropemail {
-                text-align: center;
-            }
-
-            .contact-right {
-                padding-left: 0px;
-                margin: 5%;
-            }
-
-            .social img {
-                display: flex;
-                width: 35px;
-            }
-
-            .right-bottom img {
-                width: 40px;
-            }
-
-            .right-bottom,
-            .mobile-image {
-                justify-content: center;
-            }
-
-            .top {
-                display: flex;
-                gap: 20px;
-                flex-wrap: wrap;
-            }
-
-        }
-    </style>
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -252,7 +75,6 @@
                     <p>Get in touch with Bagaimana Music to talk about your music projects today. Give us a call, send
                         us an email, or fill out the contact form and we'll get back to you soon.</p>
                 </div>
-
                 <div class="right-middle">
                     <div class="social"><img src="image/sociallocation.png" alt="icon">
                         <div class="message">
@@ -302,7 +124,7 @@
                 </div>
             </div>
             <div class="last">
-                <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Your Message....."></textarea><br>
+                <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Your Message....."></textarea>
             </div>
             <div class="submit"><input type="submit" value="Submit"></div>
         </form>
