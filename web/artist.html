@@ -5,13 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artist</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/artist.css">
+    <style>
+        /*content*/
+        .content {
+            padding: 0px 0px;
+        }
 
+        /*section1*/
+        .mobile-image {
+            display: none;
+        }
+
+        .section1 {
+            margin: 0px;
+            margin-top: 73px;
+            margin-bottom: 73px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+
+        .right-first h3,
+        .bio,
+        .small {
+            color: #B30E16;
+        }
+
+        .contact-left {
+            width: 50%;
+        }
+
+        .section1 h1 {
+            margin: 0px;
+            padding-top: 10px;
+        }
+
+        .section1 h2,
+        .section1 h3 {
+            margin: 0px;
+            padding-top: 10px;
+        }
+
+        .contact-right {
+            padding-left: 120px;
+        }
+
+        /*section1 message*/
+        .right-middle {
+            margin-top: 50px;
+        }
+
+        .message {
+            display: flex;
+        }
+
+        .message p {
+            margin: 0px;
+            padding: 5px 0px;
+        }
+
+
+
+
+
+
+        @media screen and (max-width: 1180px) {
+            .mobile-image {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -66,7 +131,37 @@
             <div class="menu-toggle" id="menu-toggle">&#9776;</div>
         </div>
     </div>
-    <div class="content"></div>
+    <div class="banner">
+        <h1>JAY CHOU</h1>
+    </div>
+    <div class="content">
+        <div class="section1">
+            <div class="contact-left"><img src="image/artistjay1.png" alt="image"></div>
+            <div class="mobile-image"><img src="image/artistjay.png" alt="image"></div>
+            <div class="contact-right">
+                <div class="right-first">
+                    <h3>ABOUT THE ARTIST</h3>
+                    <h1>JAY CHOU</h1>
+                    <h3 class="bio">BIO</h3>
+                    <p>Jay Chou (b. Jan 18, 1979) is a Taiwanese singer, songwriter, producer, actor, and director.
+                        Debuting in 2000, he became a major figure in Mandopop, known for his unique style and
+                        songwriting. Often called the “King of Asian Pop,” he has been recognized by TIME and CNN for
+                        his influence in Asia.</p>
+                </div>
+                <div class="right-middle">
+                    <div class="message">
+                        <p class="small">Vocals:</p>
+                        <p> Mandarin Pop, R&B, Hip-Hop</p>
+                    </div>
+                    <div class="message">
+                        <p class="small">Skills:</p>
+                        <p>Songwriting, Composing, Arranging, Producing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <div class="footer">
         <div class="footer-top">
