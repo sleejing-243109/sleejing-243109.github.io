@@ -119,7 +119,7 @@ p {
 .box {
     background-color: var(--primary-red);
     text-align: center;
-    height: 400px;
+    height: 450px;
     text-align: left;
 
 }
@@ -131,11 +131,12 @@ p {
 
 .box.red p {
     color: var(--light);
-    padding-bottom: 20px;
+    padding-bottom: 80px;
 }
 
 .box.dark p {
     color: var(--light);
+    padding-bottom: 55px;
 }
 
 .section3box.button2 .btn-light:hover {
