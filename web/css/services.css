@@ -7,19 +7,10 @@ body {
     background-image: url(../image/services.jpg);
 }
 
-.allcontent {
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 70px;
-}
 
 .firstcontent-middle h3 {
     color: var(--primary-red);
     margin-bottom: 15px;
-}
-
-.firstcontent-middle h2 {
-    margin-top: 0;
 }
 
 .firstcontent-middle h2,
@@ -27,23 +18,18 @@ p {
     color: var(--dark);
 }
 
-.contentbox-middle,
-.contentboxtwo-middle {
+.contentbox-middle {
     display: flex;
-    gap: 10px;
-    justify-content: space-between;
 }
 
-.contentbox-middle div,
-.contentboxtwo-middle div {
-    position: relative;
-
+.contentboxtwo-middle {
+    display: flex;
 }
 
 .contentbox-middle img,
 .contentboxtwo-middle img {
     width: 100%;
-    display: block;
+
 }
 
 .content-middle h2 {
@@ -67,16 +53,6 @@ p {
 }
 
 
-.btn-light {
-    position: absolute;
-    bottom: 40px;
-    right: 30px;
-
-}
-
-.contentboxtwo-middle {
-    display: flex;
-}
 
 .halfround-image {
     width: 50%;
@@ -96,19 +72,13 @@ p {
 
 }
 
-.content-middle {
+.content-middle .box {
+    display: flex;
     width: 50%;
     margin-left: 30px;
     margin-right: 60px;
 }
 
-.content-middle h2 {
-    margin-bottom: 15px;
-}
-
-.content-middle h1 {
-    margin-top: 0;
-}
 
 .pointcontent1 {
     width: 100%;
@@ -136,7 +106,6 @@ p {
 
 
 
-
 .boxs2 h3 {
     margin-bottom: 55px;
 }
@@ -144,8 +113,15 @@ p {
 
 .section3box {
     display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
+.box {
+    background-color: var(--primary-red);
+    text-align: center;
+    height: 400px;
+}
 
 
 
