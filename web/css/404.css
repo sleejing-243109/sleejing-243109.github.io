@@ -1,3 +1,7 @@
+.content {
+    padding: 0px;
+}
+
 /* Error404 */
 .error404 {
     margin-top: 30px;
@@ -30,20 +34,21 @@
     display: none;
 }
 
-.searchbar {
-    display: flex;
-    margin: 80px auto;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
 input[type=text] {
     border: 1px solid;
     border-radius: 20px;
     padding: 12px 30px;
     width: 500px;
     font-size: 20px;
+    background-color: #ffffff;
+}
+
+.searchbar {
+    display: flex;
+    margin: 80px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 /* Best Of The Month */
@@ -64,6 +69,10 @@ input[type=text] {
 
 .album {
     text-align: center;
+}
+
+.album img {
+    width: 100%;
 }
 
 .details {
@@ -179,65 +188,27 @@ input[type=text] {
 /* Small Desktop Display */
 @media (max-width: 1180px) {
 
-    /* Font Size */
-    h1 {
-        font-size: 44px;
-        font-weight: bold;
-    }
-
-    h2 {
-        font-size: 34px;
-        font-weight: bold;
-    }
-
-    h3 {
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    p {
-        font-size: 22px;
-        font-weight: 400;
-    }
-
     /* Best of The Month */
     .album img {
-        width: 300px;
+        width: 100%;
+    }
+
+    .albumvinyl {
+        gap: 40px;
     }
 }
 
 /* Tablet Display */
-@media (max-width: 920px) {
+@media (max-width: 990px) {
 
     /* Error404 */
     .error404 img {
         width: 80%;
     }
-
-    /* Best of The Month */
-    .album img {
-        width: 200px;
-    }
 }
 
 /* Mobile Display */
 @media (max-width: 768px) {
-
-    /* Font Size */
-    h1 {
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-    h2 {
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    h3 {
-        font-size: 24px;
-        font-weight: bold;
-    }
 
     /* Error404 */
     .error404 {
