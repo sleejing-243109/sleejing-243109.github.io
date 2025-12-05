@@ -1,0 +1,215 @@
+     /*banner*/
+     .banner {
+         background-image: url(../image/contactbanner.jpg);
+     }
+
+     /*content*/
+     .content {
+         padding: 0px 0px;
+     }
+
+     /*section1*/
+     .mobile-image {
+         display: none;
+     }
+
+     .section1 {
+         margin: 0px;
+         margin-top: 73px;
+         margin-bottom: 73px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center
+     }
+
+     .right-first h3 {
+         color: #B30E16;
+     }
+
+     .contact-left {
+         width: 50%;
+     }
+
+     .contact-left img {
+         width: 100%;
+         height: auto;
+         object-fit: cover;
+     }
+
+     .section1 h2,
+     .section1 h3 {
+         margin: 0px;
+         padding-top: 10px;
+     }
+
+
+     .right-middle {
+         margin-top: 54px;
+     }
+
+     .contact-right {
+         padding-left: 120px;
+     }
+
+     .social {
+         display: flex;
+         align-items: center;
+         gap: 50px;
+         margin-bottom: 38px;
+     }
+
+     .social img {
+         display: flex;
+         width: 40px;
+     }
+
+     .message p {
+         margin: 0px;
+         font-size: 20px;
+     }
+
+     .right-bottom {
+         display: flex;
+         gap: 40px;
+     }
+
+     /*section2*/
+     .section2 {
+         background-color: #251e1e;
+         padding: 30px 40px;
+         border-radius: 16px;
+         width: 70%;
+         margin: auto;
+         margin-bottom: 60px;
+     }
+
+     .dropemail h1,
+     .dropemail p {
+         margin: 0px;
+         color: #f5f6f6;
+     }
+
+     .dropemail p {
+         margin-top: 5px;
+         margin-bottom: 30px;
+     }
+
+     form {
+         display: flex;
+         flex-direction: column;
+         gap: 25px;
+     }
+
+     .top {
+         display: flex;
+         width: 100%;
+         gap: 5%;
+     }
+
+     .middle {
+         width: 100%;
+     }
+
+     .firstname,
+     .lastname {
+         width: 46.3%;
+     }
+
+     .email {
+         width: 97.5%;
+     }
+
+
+     .firstname input,
+     .lastname input,
+     .email input {
+         width: 100%;
+     }
+
+     .last {
+         display: flex;
+         flex-direction: column;
+
+     }
+
+     .submit {
+         display: flex;
+         justify-content: flex-end;
+     }
+
+     .submit input {
+         width: 150px;
+         height: 50px;
+     }
+
+     @media screen and (max-width: 1180px) {
+
+         /*section1*/
+         .contact-right {
+             padding-left: 0px;
+             margin: 5%;
+         }
+
+         .social img {
+             display: flex;
+             width: 35px;
+         }
+
+         .right-bottom img {
+             width: 40px;
+         }
+
+         .right-bottom,
+         .mobile-image {
+             justify-content: center;
+         }
+
+         /*section2*/
+
+         form {
+             display: flex;
+             flex-direction: column;
+             gap: 20px;
+         }
+
+         .top {
+             display: flex;
+             flex-direction: column;
+             gap: 20px;
+         }
+
+         .firstname,
+         .lastname {
+             width: 93%;
+         }
+
+         .email {
+             width: 93%;
+         }
+     }
+
+     @media screen and (max-width: 990px) {
+
+         /*section1*/
+         .section1 {
+             display: flex;
+             flex-direction: column;
+         }
+
+         .right-first,
+         .dropemail {
+             text-align: center;
+         }
+
+         .mobile-image {
+             display: flex;
+         }
+
+         .mobile-image img {
+             width: 60%;
+         }
+
+         .contact-left {
+             display: none;
+         }
+     }
