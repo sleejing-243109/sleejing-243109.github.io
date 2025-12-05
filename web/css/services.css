@@ -84,6 +84,7 @@ p {
 
 .content-middle {
     width: 60%;
+    padding-right: 60px;
 }
 
 .content-middle h2 {
