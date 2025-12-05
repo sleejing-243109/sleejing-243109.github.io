@@ -21,6 +21,7 @@ p {
 .contentbox-middle {
     display: flex;
     gap: 30px;
+    margin-bottom: 30px;
 
 }
 
