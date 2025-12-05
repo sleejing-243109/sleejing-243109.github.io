@@ -22,7 +22,6 @@ p {
     display: flex;
     gap: 30px;
 
-
 }
 
 .contentboxtwo-middle {
@@ -32,18 +31,34 @@ p {
 
 .musicproduction {
     background-image: url(../image/musicproduction.png);
-
-
 }
 
 .recordingmix {
     background-image: url(../image/recordingmix.png);
+}
 
+.musicvideoproduction {
+    background-image: url(../image/musicpro.png);
+}
 
+.artistdevo {
+    background-image: url(../image/artistdevo.png);
+}
+
+.songwrite {
+    background-image: url(../image/songwrite.png);
+}
+
+.livesession {
+    background-image: url(../image/livesession.png);
 }
 
 .musicproduction,
-.recordingmix {
+.recordingmix,
+.musicvideoproduction,
+.artistdevo,
+.songwrite,
+.livesession {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,8 +71,11 @@ p {
 }
 
 .musicproduction h3,
-.recordingmix h3 {
-
+.recordingmix h3,
+.musicvideoproduction h3,
+.artistdevo h3,
+.songwrite h3,
+.livesession h3 {
     color: var(--light);
     width: 100%;
 
