@@ -4,77 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>catalog | bagaimana </title>
+    <title>Catalog | BAGAIMANA MUSIC</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/catalog.css">
-
 </head>
 
 <body>
+
+    <!-- HEADER -->
     <div class="header">
-        <div class="header-left"><img class="logo" src="image/logo.png" alt=""></div>
+        <div class="header-left">
+            <img class="logo-img" src="image/logo.png" alt="logo">
+        </div>
+
         <div class="header-middle">
             <div class="menu" id="menu">
+
+                <!-- ABOUT -->
                 <div class="about">
                     <a href="index.html">ABOUT</a>
                     <div><img src="image/polygon 4.png" alt="polygon"></div>
+
                     <div class="submenu">
                         <a href="#">OUR COMPANY</a>
                         <a href="#">OUR TEAM</a>
                     </div>
                 </div>
+
+                <!-- SERVICES -->
                 <div class="services">
                     <a href="services.html">SERVICES</a>
-                    <div><img src="image/polygon 4.png" alt="polygon"></div>
+                    <div><img src="image/polygon 4.png" alt=""></div>
+
                     <div class="submenu">
                         <a href="#">PORTFOLIO</a>
                         <a href="#">SINGLE PROJECT</a>
                     </div>
                 </div>
+
+                <!-- ARTIST -->
                 <div class="artist">
                     <a href="#">ARTIST</a>
-                    <div><img src="image/polygon 4.png" alt="polygon"></div>
+                    <div><img src="image/polygon 4.png" alt=""></div>
+
                     <div class="submenu">
                         <a href="#">JAY CHOU</a>
                         <a href="#">TYLER,THE CREATOR</a>
                     </div>
                 </div>
+
+                <!-- BLOG -->
                 <div class="blog">
                     <a href="#">BLOG</a>
-                    <div><img src="image/polygon 4.png" alt="polygon"></div>
+                    <div><img src="image/polygon 4.png" alt=""></div>
+
                     <div class="submenu">
                         <a href="news.html">NEWS</a>
                     </div>
                 </div>
+
+                <!-- STORE -->
                 <div class="store">
                     <a href="#">STORE</a>
-                    <div><img src="image/polygon 4.png" alt="polygon"></div>
+                    <div><img src="image/polygon 4.png" alt=""></div>
+
                     <div class="submenu">
                         <a href="#">SHOPPING CART</a>
                         <a href="catalog.html">CATALOG</a>
                     </div>
                 </div>
+
+                <!-- CONTACT -->
                 <div class="contact">
                     <a href="contact.html">CONTACT</a>
                 </div>
+
+                <!-- BUTTON -->
                 <div class="contact-us">
-                    <a href="###">CONTACT US</a>
+                    <a href="#">CONTACT US</a>
                 </div>
             </div>
+
+            <!-- Mobile Toggle -->
             <div class="menu-toggle" id="menu-toggle">&#9776;</div>
         </div>
     </div>
-    <!-- 内容 -->
-    <div class="content"></div>
-    <main>
-        <div id="hero">
-            <img src="image/banner.png" alt="catalog banner">
-        </div>
-        <!-- album -->
-        <section id="album">
+
+    <!-- HERO BANNER -->
+    <div id="banner">
+        <h1>Catalog</h1>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+
+        <!-- ALBUM SECTION -->
+        <section id="box">
             <h2>ALBUM</h2>
 
             <div class="album-grid">
+
+                <!-- album -->
                 <div class="product-card">
                     <img src="image/jay.png" alt="Jay">
                     <h3>Jay</h3>
@@ -137,8 +167,10 @@
                     <p>RM 140.00</p>
                     <button class="btn btn-dark">Add to Cart</button>
                 </div>
+
             </div>
         </section>
+
         <!-- 单曲 -->
         <section id="singles">
             <h2>SINGLE RELEASES</h2>
@@ -165,8 +197,10 @@
                     <p>RM 160.00</p>
                 </div>
             </div>
+
             <div class="singles-bottom-wrapper">
                 <div class="singles-bottom">
+
                     <div class="single-wide-card">
                         <img src="image/silence.png" alt="Silence">
                         <div class="info">
@@ -184,14 +218,17 @@
                             <button class="btn btn-light">Add to Cart</button>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
+
         <!-- 周边 -->
         <section id="merchandise">
             <h2>MERCHANDISE</h2>
 
             <div class="merch-grid bg-red">
+
                 <div class="merch-card">
                     <img src="image/jay member tee.png" alt="JAYMS MEMBER TEE">
                     <button class="btn btn-light">Add to Cart</button>
@@ -212,15 +249,15 @@
                     <h3>GARDEN LINEN BUTTON UP</h3>
                     <p>RM 655.00</p>
                 </div>
+
             </div>
         </section>
     </main>
 
-    <!-- 电脑的footer -->
     <div class="footer">
         <div class="footer-top">
             <div class="logo">
-                <img class="logo" src="image/logo.png" alt="logo">
+                <a href="index.html"><img class="logo-img" src="image/logo.png" alt="logo"></a>
             </div>
             <h3>Pushing Music,Beyond Boundaries</h3>
         </div>
@@ -234,38 +271,38 @@
             </div>
             <div class="footer-right">
                 <div class="footer-menu">
-                    <div class="about">
+                    <div class="menu-item">
                         <a href="index.html">ABOUT</a>
                         <div class="footer-sub">
                             <a href="#">OUR COMPANY</a>
                             <a href="#">OUR TEAM</a>
                         </div>
                     </div>
-                    <div class="services">
+                    <div class="menu-item">
                         <a href="services.html">SERVICES</a>
                         <div class="footer-sub">
                             <a href="#">PORTFOLIO</a>
                             <a href="#">SINGLE PROJECT</a>
                         </div>
                     </div>
-                    <div class="artist">
+                    <div class="menu-item">
                         <a href="#">ARTIST</a>
                         <div class="footer-sub">
                             <a href="#">JAY CHOU</a>
                             <a href="#">TYLER,THE CREATOR</a>
                         </div>
                     </div>
-                    <div class="blog">
+                    <div class="menu-item">
                         <a href="#">BLOG</a>
                         <div class="footer-sub">
                             <a href="#">NEWS</a>
                         </div>
                     </div>
-                    <div class="store">
-                        <a href="#">STORE</a>
+                    <div class="menu-item">
+                        <a href="catalog.html">STORE</a>
                         <div class="footer-sub">
                             <a href="#">SHOPPING CART</a>
-                            <a href="catalog.html">CATALOG</a>
+                            <a href="#">CATALOG</a>
                         </div>
                     </div>
                 </div>
@@ -274,54 +311,12 @@
                         <a href="contact.html">CONTACT</a>
                     </div>
                 </div>
-                <div><img class="socialmedia" src="image/socialmedia.png" alt=""></div>
+                <div class="socialmedia"><img src="image/socialmedia.png" alt="icon"></div>
             </div>
         </div>
         <div class="footer-bottom">
             <p>© 2025 Bagaimana Music. All rights reserved.</p>
         </div>
-    </div>
-    <!-- 手机footer -->
-    <div class="mobile-footer">
-        <img class="logo" src="image/logo.png" alt="logo">
-        <h3>Pushing Music,Beyond Boundaries</h3>
-        <div class="mobile-footer-menu">
-            <div class="mobile-menu"><a href="index.html">ABOUT</a>
-                <div class="mobile-sub">
-                    <a href="#">OUR COMPANY</a>
-                    <a href="#">OUR TEAM</a>
-                </div>
-            </div>
-            <div class="mobile-menu"><a href="services.html">SERVICES</a>
-                <div class="mobile-sub">
-                    <a href="#">PORTFOLIO</a>
-                    <a href="#">SINGLE PROJECT</a>
-                </div>
-            </div>
-            <div class="mobile-menu"><a href="#">ARTIST</a>
-                <div class="mobile-sub">
-                    <a href="#">JAY CHOU</a>
-                    <a href="#">TYLER,THE CREATOR</a>
-                </div>
-            </div>
-            <div class="mobile-menu"><a href="#">BLOG</a>
-                <div class="mobile-sub">
-                    <a href="#">NEWS</a>
-                </div>
-            </div>
-            <div class="mobile-menu"><a href="#">STORE</a>
-                <div class="mobile-sub">
-                    <a href="#">SHOPPING CART</a>
-                    <a href="catalog.html">CATALOG</a>
-                </div>
-            </div>
-            <div class="mobile-menu"><a href="contact.html">CONTACT</a></div>
-        </div>
-        <div class="mobile-footer-socialmedia"><img src="image/socialmedia.png" alt=""></div>
-        <div>
-            <p>© 2025 Bagaimana Music. All rights reserved.</p>
-        </div>
-
     </div>
     <script>
         const toggleButton = document.getElementById("menu-toggle");
