@@ -59,8 +59,6 @@ p {
 .content-middle .box {
     display: flex;
     width: 50%;
-    margin-left: 30px;
-    margin-right: 60px;
 }
 
 
