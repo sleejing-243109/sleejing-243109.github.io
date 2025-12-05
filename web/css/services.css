@@ -20,17 +20,51 @@ p {
 
 .contentbox-middle {
     display: flex;
+    gap: 30px;
+
 
 }
 
 .contentboxtwo-middle {
     display: flex;
+    gap: 30px;
 }
 
-.contentbox-middle img,
-.contentboxtwo-middle img {
+.musicproduction {
+    background-image: url(../image/musicproduction.png);
+
+
+}
+
+.recordingmix {
+    background-image: url(../image/recordingmix.png);
+
+
+}
+
+.musicproduction,
+.recordingmix {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.musicproduction h3,
+.recordingmix h3 {
+
+    color: var(--light);
     width: 100%;
 
+}
+
+.button {
+    padding: 0;
 }
 
 .content-middle h2 {
@@ -56,10 +90,10 @@ p {
 
 }
 
-.content-middle .box {
-    display: flex;
-    width: 50%;
+.content-middle {
+    width: 100%;
 }
+
 
 
 .pointcontent1 {
