@@ -1,0 +1,281 @@
+#banner {
+    background-image: url("../image/catalog banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+}
+
+.content {
+    padding: 40px 60px;
+}
+
+section h2 {
+    color: var(--primary-red);
+    margin-bottom: 30px;
+}
+
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 40px;
+}
+
+.product-card {
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    margin: 8px 0 5px;
+}
+
+.product-card p {
+    margin-bottom: 15px;
+}
+
+
+
+/* btn-dark */
+.btn-dark {
+    background: var(--dark);
+    color: white;
+    border-color: var(--dark);
+}
+
+.btn-light {
+    background: white;
+    color: var(--dark);
+}
+
+
+
+.bg-red .btn:hover,
+.bg-red .btn-dark:hover,
+.bg-red .btn-light:hover {
+    background: var(--dark);
+    color: #fff;
+
+}
+
+.bg-black .btn:hover,
+.bg-black .btn-dark:hover,
+.bg-black .btn-light:hover {
+    background: #fff;
+    color: var(--dark);
+}
+
+
+
+/* --------------------------------------
+   SINGLE RELEASES
+-------------------------------------- */
+#singles {
+    margin-top: 80px;
+}
+
+.singles-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.single-card {
+    text-align: center;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.single-card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bg-red {
+    background-color: var(--primary-red);
+    color: var(--light);
+}
+
+
+.card-middle,
+.bg-black {
+    background: var(--dark);
+    color: var(--light);
+}
+
+
+.singles-bottom-wrapper {
+    background-color: var(--dark);
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.singles-bottom {
+    display: flex;
+    gap: 40px;
+}
+
+.single-wide-card {
+    display: flex;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 25px;
+    flex: 1;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+}
+
+.single-wide-card img {
+    width: 40%;
+}
+
+.single-wide-card.bg-red {
+    background: var(--primary-red);
+    border-radius: 20px;
+}
+
+
+
+/* --------------------------------------
+   MERCHANDISE
+-------------------------------------- */
+
+
+.merch-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+    gap: 40px;
+    background: var(--primary-red);
+    align-items: start;
+    border-radius: 20px;
+}
+
+.merch-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.merch-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 20px;
+}
+
+.merch-card h3 {
+    margin: 10px 0;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.merch-card p {
+    margin: 10px 0;
+}
+
+.merch-card button {
+    margin-top: 10px;
+}
+
+/* --------------------------------------
+   RESPONSIVE
+/* 电脑 */
+@media (max-width: 1180px) {
+    .content {
+        padding: 60px 40px;
+    }
+
+    .album-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .merch-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* 平板 */
+@media (max-width: 990px) {
+
+    .content {
+        padding: 40px 30px;
+    }
+
+    .album-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .singles-top {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+
+    .singles-bottom {
+        flex-direction: column;
+        max-width: 450px;
+        margin: 0 auto;
+
+    }
+
+    .singles-bottom-wrapper {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .single-wide-card {
+        flex-direction: column;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .single-wide-card img {
+        width: 100%;
+    }
+
+    .merch-grid {
+        grid-template-columns: 1fr;
+        max-width: 450px;
+        margin: 0 auto;
+
+    }
+
+}
+
+
+/* 手机 */
+@media (max-width: 768px) {
+
+    #banner {
+        height: 250px;
+    }
+
+    #banner h1 {
+        font-size: 36px;
+    }
+
+    .album-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .content {
+        padding: 30px 20px;
+    }
+}
