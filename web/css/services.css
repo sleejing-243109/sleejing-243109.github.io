@@ -31,27 +31,27 @@ p {
 }
 
 .musicproduction {
-    background-image: url(../image/musicproduction.png);
+    background-image: url(../image/musicproduction.jpg);
 }
 
 .recordingmix {
-    background-image: url(../image/recordingmix.png);
+    background-image: url(../image/recording.jpg);
 }
 
 .musicvideoproduction {
-    background-image: url(../image/musicpro.png);
+    background-image: url(../image/musicvideo.jpg);
 }
 
 .artistdevo {
-    background-image: url(../image/artistdevo.png);
+    background-image: url(../image/artistdeve.jpg);
 }
 
 .songwrite {
-    background-image: url(../image/songwrite.png);
+    background-image: url(../image/songwriting.jpg);
 }
 
 .livesession {
-    background-image: url(../image/livesession.png);
+    background-image: url(../image/livesessionrecording.jpg);
 }
 
 .musicproduction,
@@ -226,15 +226,18 @@ p {
 
     .pointcontent1,
     .pointcontent2 {
-
+        justify-content: center;
         align-items: center;
         width: 100%;
+        gap: 0;
     }
 
     .pointcontent1 li,
     .pointcontent2 li {
-        width: 60%;
-        margin-top: 20px;
+        width: auto;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         font-size: 20px;
     }
 
