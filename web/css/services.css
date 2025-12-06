@@ -210,12 +210,18 @@ p {
         flex-direction: column;
         width: 100%;
         text-align: center;
+
     }
 
     .content-middle {
         width: 100%;
         padding-right: 0;
         text-align: center;
+    }
+
+    .content-middle p {
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     .pointcontent1,
@@ -230,7 +236,6 @@ p {
         width: 60%;
         margin-top: 20px;
         font-size: 20px;
-
     }
 
     .round-image {
