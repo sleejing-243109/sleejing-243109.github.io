@@ -22,13 +22,13 @@ p {
     display: flex;
     gap: 30px;
     margin-bottom: 30px;
-
 }
 
 .contentboxtwo-middle {
     display: flex;
     gap: 30px;
 }
+
 
 .musicproduction {
     background-image: url(../image/musicproduction.jpg);
@@ -78,7 +78,7 @@ p {
 .songwrite h3,
 .livesession h3 {
     color: var(--light);
-    width: 100%;
+    width: 75%;
 
 }
 
@@ -201,8 +201,27 @@ p {
     .contentboxtwo-middle {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+
+    .musicproduction,
+    .recordingmix,
+    .musicvideoproduction,
+    .artistdevo,
+    .songwrite,
+    .livesession {
+        width: 80%;
+    }
+
+    .musicproduction h3,
+    .recordingmix h3,
+    .musicvideoproduction h3,
+    .artistdevo h3,
+    .songwrite h3,
+    .livesession h3 {
+        text-align: center;
         width: 100%;
-        align-items: center;
+        margin: 0;
     }
 
     .section2 {
@@ -279,8 +298,15 @@ p {
     }
 
     @media (max-width: 990px) {
-        .boxs p {
-            margin-top: 70px;
+
+        .contentbox-middle,
+        .contentboxtwo-middle {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            align-items: center;
         }
+
     }
 }
