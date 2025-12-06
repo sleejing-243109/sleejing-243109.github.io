@@ -224,21 +224,24 @@ p {
         padding-right: 60px;
     }
 
+    .pointcontent {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
     .pointcontent1,
     .pointcontent2 {
-        justify-content: center;
         align-items: center;
         width: 100%;
-        gap: 0;
+        display: flex;
+        flex-direction: column;
     }
 
     .pointcontent1 li,
     .pointcontent2 li {
         width: auto;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .round-image {
@@ -268,10 +271,12 @@ p {
     }
 
     .section3 .box {
-        width: 100%;
+        width: 80%;
     }
 
-
+    .section3content {
+        text-align: center;
+    }
 
     @media (max-width: 990px) {
         .boxs p {
