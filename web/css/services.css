@@ -309,4 +309,30 @@ p {
         }
 
     }
+
+    @media (max-width: 768px) {
+        .firstcontent-middle {
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .contentbox-middle,
+        .contentboxtwo-middle {
+            width: 100%;
+            height: 900px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .musicproduction,
+        .recordingmix,
+        .musicvideoproduction,
+        .artistdevo,
+        .songwrite,
+        .livesession {
+            width: 80%;
+        }
+    }
 }
