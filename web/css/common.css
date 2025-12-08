@@ -132,6 +132,33 @@ input {
     background-color: #f5f6f6;
 }
 
+/* Vinyls column */
+.albumvinyl {
+    display: flex;
+    margin: auto 60px;
+    justify-content: space-between;
+}
+
+.album {
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
+}
+
+.details {
+    margin: 20px auto;
+}
+
+.details p {
+    margin: 0px;
+}
+
+.details h3 {
+    margin: 0px;
+}
+
 /* --- media query --- */
 @media (max-width: 1180px) {
     h1 {

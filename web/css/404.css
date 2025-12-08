@@ -61,45 +61,6 @@ input[type=text] {
     color: var(--primary-red);
 }
 
-.albumvinyl {
-    display: flex;
-    margin: auto 60px;
-    justify-content: space-between;
-}
-
-.album {
-    text-align: center;
-}
-
-.album img {
-    width: 100%;
-}
-
-.details {
-    margin: 20px auto;
-}
-
-.details p {
-    font-size: 20px;
-    margin: 0px;
-}
-
-.details h3 {
-    font-size: 35px;
-    margin: 0px;
-}
-
-.listen a {
-    border-radius: 20px;
-    background-color: var(--dark);
-    color: var(--light);
-    padding: 10px 30px;
-}
-
-.listen {
-    margin: 30px auto;
-}
-
 /* Popular Tracks */
 .popular {
     margin: 80px auto;
@@ -271,14 +232,6 @@ input[type=text] {
 
     .details {
         margin: 10px auto;
-    }
-
-    .details p {
-        font-size: 18px;
-    }
-
-    .listen {
-        margin: 15px auto;
     }
 
     /* Popular Tracks */
