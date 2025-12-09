@@ -20,15 +20,11 @@ p {
 
 .contentbox-middle {
     display: flex;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap: 25px;
     margin-bottom: 30px;
+    justify-content: space-between;
 }
-
-.contentboxtwo-middle {
-    display: flex;
-    gap: 30px;
-}
-
 
 .musicproduction {
     background-image: url(../image/musicproduction.jpg);
@@ -63,8 +59,9 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 30px;
-    width: 100%;
+    width: 27%;
     height: 300px;
     background-size: cover;
     background-position: center;
@@ -200,7 +197,7 @@ p {
     .contentbox-middle,
     .contentboxtwo-middle {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
@@ -210,7 +207,7 @@ p {
     .artistdevo,
     .songwrite,
     .livesession {
-        width: 80%;
+        width: 40%;
     }
 
     .musicproduction h3,
@@ -296,17 +293,42 @@ p {
     .section3content {
         text-align: center;
     }
+}
 
-    @media (max-width: 990px) {
+@media (max-width: 990px) {
 
-        .contentbox-middle,
-        .contentboxtwo-middle {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: auto;
-            align-items: center;
-        }
+    .contentbox-middle,
+    .contentboxtwo-middle {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
 
+}
+
+@media (max-width: 768px) {
+    .firstcontent-middle {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contentbox-middle {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .musicproduction,
+    .recordingmix,
+    .musicvideoproduction,
+    .artistdevo,
+    .songwrite,
+    .livesession {
+        width: 80%;
     }
 }

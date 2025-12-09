@@ -133,6 +133,141 @@ input {
     background-color: #f5f6f6;
 }
 
+/* Vinyls column */
+.albumvinyl {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.album {
+    display: table-cell;
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.details {
+    margin: 20px auto;
+}
+
+.details p {
+    margin: 0px;
+}
+
+.details h3 {
+    margin: 10px auto;
+}
+
+/* --- media query --- */
+@media (max-width: 1180px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .desc p {
+        font-size: 14px;
+    }
+
+    /* vinyl column */
+    .album img {
+        width: 100%;
+    }
+
+    .albumvinyl {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 990px) {
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .desc p {
+        font-size: 14px;
+    }
+
+    /* vinyl column */
+    .albumvinyl {
+        display: block;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .album {
+        margin-top: 60px;
+        display: block;
+        text-align: center;
+    }
+
+    .album img {
+        width: 100%;
+    }
+
+    .details {
+        margin: 20px auto;
+    }
+
+    .details p {
+        margin: 0px;
+    }
+
+    .details h3 {
+        margin: 10px auto;
+    }
+
+}
 
 /* header and footer */
 a {

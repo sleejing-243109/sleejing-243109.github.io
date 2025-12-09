@@ -30,20 +30,21 @@
     display: none;
 }
 
-.searchbar {
-    display: flex;
-    margin: 80px auto;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
 input[type=text] {
     border: 1px solid;
     border-radius: 20px;
     padding: 12px 30px;
     width: 500px;
     font-size: 20px;
+    background-color: #ffffff;
+}
+
+.searchbar {
+    display: flex;
+    margin: 80px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 /* Best Of The Month */
@@ -56,41 +57,6 @@ input[type=text] {
     color: var(--primary-red);
 }
 
-.albumvinyl {
-    display: flex;
-    margin: auto 60px;
-    justify-content: space-between;
-}
-
-.album {
-    text-align: center;
-}
-
-.details {
-    margin: 20px auto;
-}
-
-.details p {
-    font-size: 20px;
-    margin: 0px;
-}
-
-.details h3 {
-    font-size: 35px;
-    margin: 0px;
-}
-
-.listen a {
-    border-radius: 20px;
-    background-color: var(--dark);
-    color: var(--light);
-    padding: 10px 30px;
-}
-
-.listen {
-    margin: 30px auto;
-}
-
 /* Popular Tracks */
 .popular {
     margin: 80px auto;
@@ -100,10 +66,6 @@ input[type=text] {
     color: var(--primary-red);
     font-size: 52px;
     text-align: center;
-}
-
-.singles {
-    margin: auto 60px;
 }
 
 .column {
@@ -179,65 +141,27 @@ input[type=text] {
 /* Small Desktop Display */
 @media (max-width: 1180px) {
 
-    /* Font Size */
-    h1 {
-        font-size: 44px;
-        font-weight: bold;
-    }
-
-    h2 {
-        font-size: 34px;
-        font-weight: bold;
-    }
-
-    h3 {
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    p {
-        font-size: 22px;
-        font-weight: 400;
-    }
-
     /* Best of The Month */
-    .album img {
-        width: 300px;
+    /* .album img {
+        width: 100%;
     }
+
+    .albumvinyl {
+        gap: 40px;
+    } */
 }
 
 /* Tablet Display */
-@media (max-width: 920px) {
+@media (max-width: 990px) {
 
     /* Error404 */
     .error404 img {
         width: 80%;
     }
-
-    /* Best of The Month */
-    .album img {
-        width: 200px;
-    }
 }
 
 /* Mobile Display */
 @media (max-width: 768px) {
-
-    /* Font Size */
-    h1 {
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-    h2 {
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    h3 {
-        font-size: 24px;
-        font-weight: bold;
-    }
 
     /* Error404 */
     .error404 {
@@ -272,7 +196,7 @@ input[type=text] {
     }
 
     /* Best of The MOnth */
-    .bestofmonth {
+    /* .bestofmonth {
         margin: 60px auto;
     }
 
@@ -300,15 +224,7 @@ input[type=text] {
 
     .details {
         margin: 10px auto;
-    }
-
-    .details p {
-        font-size: 18px;
-    }
-
-    .listen {
-        margin: 15px auto;
-    }
+    } */
 
     /* Popular Tracks */
     .popular {
@@ -317,10 +233,6 @@ input[type=text] {
 
     .popular h1 {
         margin: 30px auto;
-    }
-
-    .singles {
-        margin: auto 30px;
     }
 
     .row {
