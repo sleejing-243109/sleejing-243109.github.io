@@ -494,33 +494,33 @@ a {
     .desc p {
         font-size: 14px;
     }
-}
 
-/* vinyl column */
-.albumvinyl {
-    display: block;
-    width: 100%;
-    justify-content: space-between;
-}
+    /* vinyl column */
+    .albumvinyl {
+        display: block;
+        width: 100%;
+        justify-content: space-between;
+    }
 
-.album {
-    margin-top: 60px;
-    display: block;
-    text-align: center;
-}
+    .album {
+        margin-top: 60px;
+        display: block;
+        text-align: center;
+    }
 
-.album img {
-    width: 100%;
-}
+    .album img {
+        width: 100%;
+    }
 
-.details {
-    margin: 20px auto;
-}
+    .details {
+        margin: 20px auto;
+    }
 
-.details p {
-    margin: 0px;
-}
+    .details p {
+        margin: 0px;
+    }
 
-.details h3 {
-    margin: 10px auto;
+    .details h3 {
+        margin: 10px auto;
+    }
 }
