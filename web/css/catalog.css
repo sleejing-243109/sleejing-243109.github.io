@@ -209,9 +209,48 @@ section h2 {
     }
 }
 
+@media (max-width: 990px) {
+
+    .content {
+        padding: 40px 30px;
+    }
+
+    .album-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .singles-top {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        font-size: 15px;
+
+    }
+
+
+    .singles-bottom-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+
+    .single-wide-card {
+        flex-direction: column;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+
+    .single-wide-card img {
+        width: 100%;
+    }
+
+    .merch-grid {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+}
 
 /* 平板 */
-@media (max-width: 990px) {
+@media (max-width: 768px) {
 
     .content {
         padding: 40px 30px;
@@ -237,7 +276,7 @@ section h2 {
 
     .singles-bottom-wrapper {
         max-width: 450px;
-        margin: 0 auto;
+        margin: 40px auto 0;
     }
 
     .single-wide-card {
@@ -261,7 +300,7 @@ section h2 {
 
 
 /* 手机 */
-@media (max-width: 768px) {
+@media (max-width: 550px) {
 
     #banner {
         height: 250px;
@@ -271,11 +310,73 @@ section h2 {
         font-size: 36px;
     }
 
-    .album-grid {
-        grid-template-columns: 1fr;
-    }
 
     .content {
         padding: 30px 20px;
+    }
+
+
+    .album-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+
+    .product-card {
+        max-width: 380px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .product-card img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+        border-radius: 12px;
+    }
+
+
+    .singles-top {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+
+    .singles-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .single-wide-card {
+        flex-direction: column;
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .single-wide-card img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .merch-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .merch-card {
+        max-width: 420px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .merch-card img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+        border-radius: 12px;
     }
 }
