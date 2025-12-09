@@ -313,6 +313,12 @@ a {
 .footer-bottom {
     display: flex;
     justify-content: right;
+
+}
+
+.socialmedia {
+    display: flex;
+    gap: 20px;
 }
 
 .footer-bottom p {
