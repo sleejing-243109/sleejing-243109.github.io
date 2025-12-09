@@ -15,7 +15,7 @@
         <div class="header-left"><a href="index.html"><img class="logo-img" src="image/logo.png" alt="logo"></a></div>
         <div class="header-middle">
             <div class="menu" id="menu">
-                <div class="about">
+                <div class="about header-menu">
                     <a href="index.html">ABOUT</a>
                     <div><img src="image/polygon 4.png" alt="polygon"></div>
                     <div class="submenu">
@@ -23,7 +23,7 @@
                         <a href="#">OUR TEAM</a>
                     </div>
                 </div>
-                <div class="services">
+                <div class="services header-menu">
                     <a href="services.html">SERVICES</a>
                     <div><img src="image/polygon 4.png" alt="polygon"></div>
                     <div class="submenu">
@@ -31,7 +31,7 @@
                         <a href="#">SINGLE PROJECT</a>
                     </div>
                 </div>
-                <div class="artist">
+                <div class="artist header-menu">
                     <a href="artist.html">ARTIST</a>
                     <div><img src="image/polygon 4.png" alt="polygon"></div>
                     <div class="submenu">
@@ -39,14 +39,14 @@
                         <a href="#">TYLER,THE CREATOR</a>
                     </div>
                 </div>
-                <div class="blog">
-                    <a href="#">BLOG</a>
+                <div class="blog header-menu">
+                    <a href="#">NEWS</a>
                     <div><img src="image/polygon 4.png" alt="polygon"></div>
                     <div class="submenu">
-                        <a href="#">NEWS</a>
+                        <a href="#">BLOG</a>
                     </div>
                 </div>
-                <div class="store">
+                <div class="store header-menu">
                     <a href="catalog.html">STORE</a>
                     <div><img src="image/polygon 4.png" alt="polygon"></div>
                     <div class="submenu">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
 
-                <div class="contact-us">
+                <div class="contact-us header-menu">
                     <a href="contact.html">CONTACT US</a>
                 </div>
             </div>
@@ -287,7 +287,9 @@
             <div class="footer-left">
                 <div class="map-address"><img class="map" src="image/Rectangle 3.png" alt="map">
                     <div class="address"><img src="image/location.png" alt="location">
-                        <p>No. 1, Jalan SS 12/1A, Ss 12, 47500 Subang Jaya, Selangor</p>
+                        <div class="desc">
+                            <p>No. 1, Jalan SS 12/1A, Ss 12, 47500 Subang Jaya, Selangor</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -315,9 +317,9 @@
                         </div>
                     </div>
                     <div class="menu-item">
-                        <a href="#">BLOG</a>
+                        <a href="#">NEWS</a>
                         <div class="footer-sub">
-                            <a href="#">NEWS</a>
+                            <a href="#">BLOG</a>
                         </div>
                     </div>
                     <div class="menu-item">
@@ -337,10 +339,11 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2025 Bagaimana Music. All rights reserved.</p>
+            <div class="desc">
+                <p>© 2025 Bagaimana Music. All rights reserved.</p>
+            </div>
         </div>
     </div>
-
     <script>
         const toggleButton = document.getElementById("menu-toggle");
         const menu = document.getElementById("menu");
