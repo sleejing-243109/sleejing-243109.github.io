@@ -29,3 +29,58 @@
   .rightside .btn {
     align-self: flex-end;
   }
+
+  .content2 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .leftside2 {
+    width: 50%;
+  }
+
+  .leftside2 h3 {
+    color: var(--primary-red);
+    margin: 0px;
+  }
+
+  .leftside2 h2 {
+    margin-top: 0px;
+  }
+
+  .leftside2 p {
+    margin-bottom: 0px;
+  }
+
+  .rightside2 {
+    width: 50%;
+    display: flex;
+    gap: 30px;
+  }
+
+  .box {
+    color: var(--light);
+    width: 100%;
+    text-align: center;
+  }
+
+  .box h3 {
+    margin: 0px;
+  }
+
+  .box p {
+    margin-bottom: 0px;
+  }
+
+  .box.dark {
+    background-color: var(--dark);
+  }
+
+  .box.red {
+    background-color: var(--primary-red);
+  }
+
+  .desc p {
+    text-align: left;
+  }
