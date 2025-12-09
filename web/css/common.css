@@ -79,7 +79,7 @@ p {
     color: var(--light);
 }
 
-/*banner*/
+/* --- banner --- */
 .banner {
     display: flex;
     justify-content: center;
@@ -123,12 +123,12 @@ p {
     background-color: var(--dark);
 }
 
-/*text area and input*/
+/* text area and input */
 textarea,
 input {
     font-family: "Oxygen", sans-serif;
     padding: 15px 15px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: #f5f6f6;
     background-color: #f5f6f6;
 }
@@ -160,113 +160,6 @@ input {
 
 .details h3 {
     margin: 10px auto;
-}
-
-/* --- media query --- */
-@media (max-width: 1180px) {
-    h1 {
-        font-size: 48px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 25px;
-    }
-
-    p {
-        font-size: 17px;
-        font-weight: 400;
-    }
-
-    .desc p {
-        font-size: 14px;
-    }
-
-    /* vinyl column */
-    .album img {
-        width: 100%;
-    }
-
-    .albumvinyl {
-        gap: 40px;
-    }
-}
-
-@media (max-width: 990px) {
-    h1 {
-        font-size: 42px;
-    }
-
-    h2 {
-        font-size: 28px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 16px;
-        font-weight: 400;
-    }
-
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 36px;
-    }
-
-    h2 {
-        font-size: 28px;
-    }
-
-    h3 {
-        font-size: 18px;
-        font-weight: bold;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    .desc p {
-        font-size: 14px;
-    }
-
-    /* vinyl column */
-    .albumvinyl {
-        display: block;
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    .album {
-        margin-top: 60px;
-        display: block;
-        text-align: center;
-    }
-
-    .album img {
-        width: 100%;
-    }
-
-    .details {
-        margin: 20px auto;
-    }
-
-    .details p {
-        margin: 0px;
-    }
-
-    .details h3 {
-        margin: 10px auto;
-    }
-
 }
 
 /* header and footer */
@@ -423,9 +316,39 @@ a {
     margin: 0px;
 }
 
-@media screen and (max-width: 1180px) {
-    /**header**/
+/* --- media query --- */
+@media (max-width: 1180px) {
+    h1 {
+        font-size: 48px;
+    }
 
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .desc p {
+        font-size: 14px;
+    }
+
+    /* vinyl column */
+    .album img {
+        width: 100%;
+    }
+
+    .albumvinyl {
+        gap: 40px;
+    }
+
+    /* Header */
     .menu-toggle {
         display: block;
         z-index: 1001;
@@ -598,5 +521,32 @@ a {
         font-size: 14px;
     }
 
+    /* vinyl column */
+    .albumvinyl {
+        display: block;
+        width: 100%;
+        justify-content: space-between;
+    }
 
+    .album {
+        margin-top: 60px;
+        display: block;
+        text-align: center;
+    }
+
+    .album img {
+        width: 100%;
+    }
+
+    .details {
+        margin: 20px auto;
+    }
+
+    .details p {
+        margin: 0px;
+    }
+
+    .details h3 {
+        margin: 10px auto;
+    }
 }

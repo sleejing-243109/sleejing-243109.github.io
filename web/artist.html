@@ -34,7 +34,11 @@
         }
 
         .contact-left {
-            width: 50%;
+            width: 90%;
+        }
+
+        .contact-left img {
+            width: 100%;
         }
 
         .section1 h1 {
@@ -72,9 +76,45 @@
 
 
         @media screen and (max-width: 1180px) {
+
+            /*section1*/
             .mobile-image {
                 display: none;
             }
+
+            .contact-right {
+                padding-left: 0px;
+                margin: 5%;
+            }
+
+            .right-bottom,
+            .mobile-image {
+                justify-content: center;
+            }
+
+            /*section2*/
+        }
+
+        @media screen and (max-width: 990px) {
+
+            /*section1*/
+            .section1 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .contact-left {
+                display: none;
+            }
+
+            .mobile-image {
+                display: flex;
+            }
+
+            .mobile-image img {
+                width: 70%;
+            }
+
         }
     </style>
 </head>
@@ -136,8 +176,8 @@
     </div>
     <div class="content">
         <div class="section1">
-            <div class="contact-left"><img src="image/artistjay1.png" alt="image"></div>
-            <div class="mobile-image"><img src="image/artistjay.png" alt="image"></div>
+            <div class="contact-left"><img src="image/jayprofile.png" alt="image"></div>
+            <div class="mobile-image"><img src="image/jaymobile.png" alt="image"></div>
             <div class="contact-right">
                 <div class="right-first">
                     <h3>ABOUT THE ARTIST</h3>
@@ -150,9 +190,7 @@
                 </div>
                 <div class="right-middle">
                     <div class="message">
-                        <div class="desc">
-                            <p class="small">Vocals:</p>
-                        </div>
+                        <p class="small">Vocals:</p>
                         <p> Mandarin Pop, R&B, Hip-Hop</p>
                     </div>
                     <div class="message">

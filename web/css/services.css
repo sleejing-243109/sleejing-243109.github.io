@@ -7,6 +7,9 @@ body {
     background-image: url(../image/services.jpg);
 }
 
+.firstcontent-middle {
+    width: 100%;
+}
 
 .firstcontent-middle h3 {
     color: var(--primary-red);
@@ -23,7 +26,8 @@ p {
     flex-wrap: wrap;
     gap: 25px;
     margin-bottom: 30px;
-    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
 }
 
 .musicproduction {
@@ -192,13 +196,18 @@ p {
     justify-content: flex-end;
 }
 
+.button-dark .btn-light:hover {
+    background: var(--dark);
+    color: var(--light);
+}
+
 @media screen and (max-width: 1180px) {
 
-    .contentbox-middle,
-    .contentboxtwo-middle {
+    .contentbox-middle {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
 
     .musicproduction,
