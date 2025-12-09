@@ -128,7 +128,7 @@ textarea,
 input {
     font-family: "Oxygen", sans-serif;
     padding: 15px 15px;
-    border-radius: 15px;
+    border-radius: 20px;
     border: #f5f6f6;
     background-color: #f5f6f6;
 }
