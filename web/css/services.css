@@ -7,6 +7,9 @@ body {
     background-image: url(../image/services.jpg);
 }
 
+.firstcontent-middle {
+    width: 100%;
+}
 
 .firstcontent-middle h3 {
     color: var(--primary-red);
@@ -24,6 +27,7 @@ p {
     gap: 25px;
     margin-bottom: 30px;
     justify-content: space-between;
+    width: 100%;
 }
 
 .musicproduction {
@@ -194,11 +198,11 @@ p {
 
 @media screen and (max-width: 1180px) {
 
-    .contentbox-middle,
-    .contentboxtwo-middle {
+    .contentbox-middle {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
 
     .musicproduction,
