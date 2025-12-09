@@ -19,7 +19,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 h3 {
@@ -34,6 +34,7 @@ p {
     font-size: 14px;
 }
 
+
 /* 按钮 */
 .btn {
     display: inline-flex;
@@ -46,6 +47,7 @@ p {
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    font-family: "Inter";
 }
 
 .btn-dark {
@@ -130,6 +132,35 @@ input {
     background-color: #f5f6f6;
 }
 
+/* Vinyls column */
+.albumvinyl {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.album {
+    display: table-cell;
+    text-align: center;
+}
+
+.album img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.details {
+    margin: 20px auto;
+}
+
+.details p {
+    margin: 0px;
+}
+
+.details h3 {
+    margin: 10px auto;
+}
+
 /* --- media query --- */
 @media (max-width: 1180px) {
     h1 {
@@ -137,11 +168,11 @@ input {
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 25px;
     }
 
     p {
@@ -152,6 +183,15 @@ input {
     .desc p {
         font-size: 14px;
     }
+
+    /* vinyl column */
+    .album img {
+        width: 100%;
+    }
+
+    .albumvinyl {
+        gap: 40px;
+    }
 }
 
 @media (max-width: 990px) {
@@ -160,11 +200,11 @@ input {
     }
 
     h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     p {
@@ -185,7 +225,7 @@ input {
     }
 
     h3 {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: bold;
     }
 
@@ -195,6 +235,35 @@ input {
 
     .desc p {
         font-size: 14px;
+    }
+
+    /* vinyl column */
+    .albumvinyl {
+        display: block;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .album {
+        margin-top: 60px;
+        display: block;
+        text-align: center;
+    }
+
+    .album img {
+        width: 100%;
+    }
+
+    .details {
+        margin: 20px auto;
+    }
+
+    .details p {
+        margin: 0px;
+    }
+
+    .details h3 {
+        margin: 10px auto;
     }
 
 }
