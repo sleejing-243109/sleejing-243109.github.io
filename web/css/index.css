@@ -52,7 +52,6 @@
     .box {
         background-color: var(--dark);
         text-align: center;
-
     }
 
     .box img {
@@ -205,7 +204,7 @@
         }
 
         .box {
-            width: 40%;
+            width: 39%;
         }
 
         .box:nth-child(3) {
@@ -237,29 +236,17 @@
         }
     }
 
-    @media (max-width: 956px) {
-        .box {
-            width: 39%;
-        }
-    }
-
     @media (max-width: 768px) {
         .rightside {
             width: 50%;
         }
 
-        .artist-container {
-            flex-direction: column;
-            align-items: center;
+        .fullwidth-box.artist {
+            display: none;
         }
 
         .box {
-            width: 90%;
-            padding: 30px;
-        }
-
-        .fullwidth-box.artist {
-            display: none;
+            width: 100%;
         }
 
         .box:nth-child(3) {
