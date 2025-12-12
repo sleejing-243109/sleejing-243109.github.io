@@ -15,15 +15,15 @@ body {
 
 /* --- 字体的size --- */
 h1 {
-    font-size: 52px;
+    font-size: 50px;
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 26px;
 }
 
 p {
@@ -327,7 +327,21 @@ a {
 
 /* --- media query --- */
 @media (max-width: 1180px) {
+    h1 {
+        font-size: 45px;
+    }
 
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 17px;
+    }
 
     /* vinyl column */
     .album img {
@@ -356,7 +370,7 @@ a {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     h3 {
@@ -477,20 +491,19 @@ a {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     h3 {
         font-size: 18px;
-        font-weight: bold;
     }
 
     p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .desc p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     /* vinyl column */
