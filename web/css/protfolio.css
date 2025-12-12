@@ -1,3 +1,7 @@
 .banner {
     background-image: url(../image/protfoliobanner.jpg);
 }
+
+.section1 h3 {
+    color: var(--primary-red);
+}
