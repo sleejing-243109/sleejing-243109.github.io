@@ -1,3 +1,48 @@
 .banner {
     background-image: url(../image/protfoliobanner.jpg);
 }
+
+.section1 h3 {
+    color: var(--primary-red);
+}
+
+.artistdiscription {
+    width: 100%;
+    gap: 35px;
+}
+
+.artistcontent {
+    margin-top: 10px;
+    width: 70%;
+}
+
+.leehomimg {
+    width: 30%;
+}
+
+.leehomimg img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.artistdiscription {
+    display: flex;
+}
+
+.artistname h3,
+.artistelement h3,
+.artistelement li,
+.artistelement p,
+.artistcontent h3 {
+    color: var(--light);
+
+}
+
+.artistname h3 {
+    font-style: italic;
+}
+
+.button-red {
+    display: flex;
+    justify-content: end;
+}
