@@ -72,6 +72,10 @@
         margin-top: 30px;
     }
 
+    .fullwidth-box.artist {
+        display: none;
+    }
+
     .content3 {
         margin-bottom: 0px;
     }
@@ -145,7 +149,7 @@
         }
 
         .artist-container {
-            gap: 30px;
+            gap: 20px;
         }
 
         .box {
@@ -195,19 +199,62 @@
         }
 
         .artist-container {
-            flex-direction: column;
-            gap: 25px;
-            align-items: center;
+            flex-wrap: wrap;
+            gap: 50px;
         }
 
         .box {
-            width: 90%;
-            padding: 30px;
+            width: 39%;
+        }
+
+        .box:nth-child(3) {
+            display: none;
+        }
+
+        .fullwidth-box.artist {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 40px;
+            background-color: var(--dark);
+            text-align: left;
+        }
+
+        .left-img {
+            width: 70%;
+        }
+
+        .left-img img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        .right-artist {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .rightside {
+            width: 50%;
+        }
+
+        .fullwidth-box.artist {
+            display: none;
+        }
+
+        .box {
+            width: 100%;
+        }
+
+        .box:nth-child(3) {
+            display: block;
         }
 
         .fullwidth-box {
             flex-direction: column;
-            align-items: center;
             text-align: center;
             gap: 20px;
         }
@@ -220,11 +267,5 @@
         .button1,
         .button2 {
             justify-content: center;
-        }
-    }
-
-    @media (max-width: 990px) {
-        .rightside {
-            width: 50%;
         }
     }

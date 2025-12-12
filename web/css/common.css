@@ -101,7 +101,7 @@ p {
 /* boxpadding */
 .box {
     width: 25%;
-    padding: 35px;
+    padding: 30px;
     border-radius: 20px;
 }
 
@@ -327,26 +327,7 @@ a {
 
 /* --- media query --- */
 @media (max-width: 1180px) {
-    h1 {
-        font-size: 48px;
-    }
 
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 25px;
-    }
-
-    p {
-        font-size: 17px;
-        font-weight: 400;
-    }
-
-    .desc p {
-        font-size: 14px;
-    }
 
     /* vinyl column */
     .album img {
@@ -355,29 +336,6 @@ a {
 
     .albumvinyl {
         gap: 40px;
-    }
-
-
-    /* fontsize */
-    h1 {
-        font-size: 48px;
-    }
-
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 25px;
-    }
-
-    p {
-        font-size: 17px;
-        font-weight: 400;
-    }
-
-    .desc p {
-        font-size: 14px;
     }
 
     /*header*/
@@ -391,7 +349,7 @@ a {
 
 }
 
-/* 平板 */
+/* tablet */
 @media (max-width: 990px) {
     h1 {
         font-size: 42px;
