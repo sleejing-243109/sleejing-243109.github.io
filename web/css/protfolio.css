@@ -46,3 +46,7 @@
     display: flex;
     justify-content: end;
 }
+
+.section2 h3 {
+    color: var(--primary-red);
+}
