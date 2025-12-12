@@ -141,6 +141,11 @@
          height: 50px;
      }
 
+     .button {
+         display: flex;
+         justify-content: flex-end;
+     }
+
      @media screen and (max-width: 1180px) {
 
          /*section1*/
@@ -175,11 +180,20 @@
 
          .firstname,
          .lastname {
-             width: 93%;
+             width: 96%;
          }
 
          .email {
-             width: 93%;
+             width: 96%;
+         }
+     }
+
+     @media screen and (max-width: 990px) {
+
+         .firstname,
+         .lastname,
+         .email {
+             width: 95.7%;
          }
      }
 
@@ -217,5 +231,11 @@
          .right-bottom {
              display: flex;
              justify-content: center;
+         }
+
+         .firstname,
+         .lastname,
+         .email {
+             width: 94%;
          }
      }
