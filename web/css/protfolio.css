@@ -85,3 +85,31 @@
 .section3 h3 {
     color: var(--primary-red);
 }
+
+
+
+.songs-img img {
+    border-radius: 20px;
+}
+
+.songs-img {
+    margin-bottom: 15px;
+}
+
+.box.dark {
+    background-color: var(--dark);
+}
+
+.songs-name h3 {
+    margin: 0px;
+}
+
+.songs-name p {
+    font-style: italic;
+    color: var(--light);
+}
+
+.songs-name h3,
+.song-type p {
+    color: var(--light);
+}
