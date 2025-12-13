@@ -86,10 +86,15 @@
     color: var(--primary-red);
 }
 
+.trendingworksbox {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 .songs-img img {
     border-radius: 20px;
+    width: 100%;
 }
 
 .songs-img {
