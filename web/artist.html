@@ -27,9 +27,7 @@
             align-items: center
         }
 
-        .right-first h3,
-        .bio,
-        .small {
+        .red {
             color: #B30E16;
         }
 
@@ -70,6 +68,18 @@
             padding: 5px 0px;
         }
 
+        /*section2*/
+        .section2 {
+            padding: 40px 60px;
+        }
+
+        .albumcontainer {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 100px;
+
+        }
+
 
 
 
@@ -78,10 +88,6 @@
         @media screen and (max-width: 1180px) {
 
             /*section1*/
-            .mobile-image {
-                display: none;
-            }
-
             .contact-right {
                 padding-left: 0px;
                 margin: 5%;
@@ -91,16 +97,29 @@
             .mobile-image {
                 justify-content: center;
             }
-
-            /*section2*/
         }
 
-        @media screen and (max-width: 990px) {
+        /*section2*/
+
+
+        @media screen and (max-width: 990px) {}
+
+        @media screen and (max-width: 768px) {
 
             /*section1*/
             .section1 {
                 display: flex;
                 flex-direction: column;
+            }
+
+            .contact-right {
+                padding-left: 0px;
+                margin: 5%;
+            }
+
+            .right-first,
+            .dropemail {
+                text-align: center;
             }
 
             .contact-left {
@@ -109,12 +128,16 @@
 
             .mobile-image {
                 display: flex;
+                justify-content: center;
             }
 
             .mobile-image img {
                 width: 70%;
             }
 
+            .right-middle {
+                margin-top: 30px;
+            }
         }
     </style>
 </head>
@@ -180,9 +203,9 @@
             <div class="mobile-image"><img src="image/jaymobile.png" alt="image"></div>
             <div class="contact-right">
                 <div class="right-first">
-                    <h3>ABOUT THE ARTIST</h3>
+                    <h3 class="red">ABOUT THE ARTIST</h3>
                     <h1>JAY CHOU</h1>
-                    <h3 class="bio">BIO</h3>
+                    <h3 class="red">BIO</h3>
                     <p>Jay Chou (b. Jan 18, 1979) is a Taiwanese singer, songwriter, producer, actor, and director.
                         Debuting in 2000, he became a major figure in Mandopop, known for his unique style and
                         songwriting. Often called the “King of Asian Pop,” he has been recognized by TIME and CNN for
@@ -190,17 +213,39 @@
                 </div>
                 <div class="right-middle">
                     <div class="message">
-                        <p class="small">Vocals:</p>
+                        <p class="red">Vocals:</p>
                         <p> Mandarin Pop, R&B, Hip-Hop</p>
                     </div>
                     <div class="message">
-                        <p class="small">Skills:</p>
+                        <p class="red">Skills:</p>
                         <p>Songwriting, Composing, Arranging, Producing</p>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="section2">
+            <h2 class="section2-header red">ALBUM</h2>
+            <div class="albumcontainer">
+                <div class="circle">
+                    <img src="image/artistcircle1.png" alt="album">
+                </div>
+                <div class="circle">
+                    <img src="image/artistcircle2.png" alt="album">
+                </div>
+                <div class="circle">
+                    <img src="image/artistcircle3.png" alt="album">
+                </div>
+                <div class="circle">
+                    <img src="image/artistcircle4.png" alt="album">
+                </div>
+                <div class="circle">
+                    <img src="image/artistcircle5.png" alt="album">
+                </div>
+                <div class="circle">
+                    <img src="image/artistcircle6.png" alt="album">
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="footer">
