@@ -81,3 +81,7 @@
 .categorycontent li {
     color: var(--light);
 }
+
+.section3 h3 {
+    color: var(--primary-red);
+}
