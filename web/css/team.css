@@ -29,3 +29,30 @@
   .rightside h2 {
       margin-top: 0px;
   }
+
+  .content2 h3 {
+      color: #b30e16;
+  }
+
+  .vinyls {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      gap: 40px;
+  }
+
+  .genre {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+  }
+
+  .vinyl {
+      display: flex;
+      justify-content: center;
+  }
+
+  .vinyl img {
+      width: 80%;
+  }
