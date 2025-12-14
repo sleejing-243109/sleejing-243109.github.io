@@ -200,4 +200,16 @@
     .button-red {
         justify-content: center;
     }
+
+    .fullwidth-box.dark {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .categorydiscription {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
 }
