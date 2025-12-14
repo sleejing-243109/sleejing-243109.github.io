@@ -21,7 +21,6 @@
         .section1 {
             margin: 0px;
             margin-top: 73px;
-            margin-bottom: 73px;
             display: flex;
             justify-content: space-between;
             align-items: center
@@ -61,6 +60,11 @@
 
         .message {
             display: flex;
+
+        }
+
+        .bold {
+            font-weight: 700;
         }
 
         .message p {
@@ -75,9 +79,17 @@
 
         .albumcontainer {
             display: flex;
-            flex-wrap: wrap;
-            gap: 100px;
+            width: 100%;
+            justify-content: space-between;
+            gap: 5%;
+        }
 
+        .sec2margin {
+            margin-bottom: 5%;
+        }
+
+        .circle img {
+            width: 100%;
         }
 
 
@@ -118,7 +130,7 @@
             }
 
             .right-first,
-            .dropemail {
+            .section2-header {
                 text-align: center;
             }
 
@@ -137,6 +149,18 @@
 
             .right-middle {
                 margin-top: 30px;
+            }
+
+            /*section2*/
+
+
+        }
+
+        @media screen and (max-width: 650px) {
+            .albumcontainer {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
             }
         }
     </style>
@@ -213,11 +237,11 @@
                 </div>
                 <div class="right-middle">
                     <div class="message">
-                        <p class="red">Vocals:</p>
+                        <p class="red bold">Vocals:</p>
                         <p> Mandarin Pop, R&B, Hip-Hop</p>
                     </div>
                     <div class="message">
-                        <p class="red">Skills:</p>
+                        <p class="red bold">Skills:</p>
                         <p>Songwriting, Composing, Arranging, Producing</p>
                     </div>
                 </div>
@@ -225,7 +249,7 @@
         </div>
         <div class="section2">
             <h2 class="section2-header red">ALBUM</h2>
-            <div class="albumcontainer">
+            <div class="albumcontainer sec2margin">
                 <div class="circle">
                     <img src="image/artistcircle1.png" alt="album">
                 </div>
@@ -235,6 +259,8 @@
                 <div class="circle">
                     <img src="image/artistcircle3.png" alt="album">
                 </div>
+            </div>
+            <div class="albumcontainer">
                 <div class="circle">
                     <img src="image/artistcircle4.png" alt="album">
                 </div>
