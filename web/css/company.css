@@ -260,3 +260,29 @@
       width: 100%;
     }
   }
+
+  @media (max-width: 768px) {
+
+    .leftside img {
+      width: 70%;
+    }
+
+    .team1,
+    .team2 {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 60px;
+      width: 100%;
+    }
+
+    .team1 {
+      margin-bottom: 60px;
+    }
+
+    .content4 {
+      flex-direction: column;
+    }
+
+    .left img {
+      display: none;
+    }
+  }
