@@ -9,6 +9,7 @@
 .artistdiscription {
     width: 100%;
     gap: 35px;
+    display: flex;
 }
 
 .artistcontent {
@@ -25,9 +26,6 @@
     border-radius: 20px;
 }
 
-.artistdiscription {
-    display: flex;
-}
 
 .artistname h3,
 .artistelement h3,
@@ -147,7 +145,6 @@
     color: var(--primary-red);
 }
 
-
 .clientimg {
     width: 15%;
 }
@@ -180,4 +177,49 @@
 
 .fullwidth-box.dark {
     margin-bottom: 30px;
+}
+
+@media (max-width: 1180px) {}
+
+@media (max-width: 990px) {
+    .artistdiscription {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .leehomimg {
+        width: 100%;
+    }
+
+    .artistcontent {
+        width: 100%;
+    }
+
+    .button-red {
+        justify-content: center;
+    }
+
+    .fullwidth-box.dark {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .categorydiscription {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+
+    .categoryimg {
+        width: 100%;
+    }
+
+    .categorycontent {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
