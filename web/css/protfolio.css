@@ -9,6 +9,7 @@
 .artistdiscription {
     width: 100%;
     gap: 35px;
+    display: flex;
 }
 
 .artistcontent {
@@ -25,9 +26,6 @@
     border-radius: 20px;
 }
 
-.artistdiscription {
-    display: flex;
-}
 
 .artistname h3,
 .artistelement h3,
@@ -181,3 +179,5 @@
 .fullwidth-box.dark {
     margin-bottom: 30px;
 }
+
+@media (max-width: 1180px) {}
