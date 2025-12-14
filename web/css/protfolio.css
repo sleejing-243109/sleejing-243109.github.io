@@ -140,3 +140,31 @@
 .box.red {
     background-color: var(--primary-red);
 }
+
+.clienttestimonials h2 {
+    color: var(--primary-red);
+}
+
+
+.clientimg {
+    width: 15%;
+}
+
+.clientimg img {
+    width: 60%;
+}
+
+.clientcontent {
+    width: 70%;
+}
+
+.clientname h3,
+.clientname h2,
+.clientname p {
+    color: var(--light);
+    margin: 3px;
+}
+
+.clientname p {
+    font-style: bold;
+}
