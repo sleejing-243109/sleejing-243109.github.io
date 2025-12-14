@@ -22,6 +22,10 @@
             padding: 0px 0px;
         }
 
+        .content-padding {
+            padding: 0px 60px;
+        }
+
         /*section1*/
         .mobile-image {
             display: none;
@@ -80,10 +84,6 @@
         }
 
         /*section2*/
-        .content-padding {
-            padding: 40px 60px;
-        }
-
         .albumcontainer {
             display: flex;
             width: 100%;
@@ -100,10 +100,10 @@
         }
 
         /*section3*/
-        .section3 {
+        .hitsong-container {
             display: flex;
             justify-content: space-between;
-            gap: 20px;
+            gap: 30px;
         }
 
         .box {
@@ -122,6 +122,10 @@
 
         .hitsong img {
             width: 100%;
+        }
+
+        .margin-bottom {
+            margin-bottom: 0px;
         }
 
 
@@ -147,7 +151,19 @@
         /*section2*/
 
 
-        @media screen and (max-width: 990px) {}
+        @media screen and (max-width: 990px) {
+
+            /*section2*/
+            .hitsong-container {
+                display: flex;
+                gap: 30px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+
+
+        }
 
         @media screen and (max-width: 768px) {
 
@@ -186,6 +202,13 @@
 
             /*section2*/
 
+            /*section3*/
+            .box {
+                width: 35.4%;
+
+            }
+
+
 
         }
 
@@ -195,6 +218,21 @@
                 flex-direction: column;
                 gap: 30px;
             }
+
+            /*section3*/
+            .hitsong-container {
+                display: flex;
+                gap: 30px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .box {
+                width: 100%;
+
+            }
+
+
         }
     </style>
 </head>
@@ -281,7 +319,7 @@
             </div>
         </div>
         <div class="section2 content-padding">
-            <h2 class="section2-header red">ALBUM</h2>
+            <h2 class="red">ALBUM</h2>
             <div class="albumcontainer sec2margin">
                 <div class="circle">
                     <img src="image/artistcircle1.png" alt="album">
@@ -306,29 +344,32 @@
             </div>
         </div>
         <div class="section3 content-padding">
-            <div class="hitsong box">
-                <img src="image/hitsong1.png" alt="hitsong">
-                <h3 class="white">Silence-(2001)</h3>
-                <p class="white">A soft and introspective song reflecting quiet emotions and subtle feelings.</p>
-                <div class="button-dark">
-                    <button class="btn btn-light">More Info</button>
+            <h2 class="red">HIT SONG</h2>
+            <div class="hitsong-container">
+                <div class="hitsong box">
+                    <img src="image/hitsong1.png" alt="hitsong">
+                    <h3 class="white margin-bottom">Silence-(2001)</h3>
+                    <p class="white">A soft and introspective song reflecting quiet emotions and subtle feelings.</p>
+                    <div class="button-dark">
+                        <button class="btn btn-light">More Info</button>
+                    </div>
                 </div>
-            </div>
-            <div class="hitsong box">
-                <img src="image/hitsong2.png" alt="hitsong">
-                <h3 class="white padding-bottom">Nocturne-(2005)</h3>
-                <p class="white padding-bottom">A melancholic and poetic song portraying nocturnal sorrow, loss, and
-                    love.</p>
-                <div class="button-dark">
-                    <button class="btn btn-light">More Info</button>
+                <div class="hitsong box">
+                    <img src="image/hitsong2.png" alt="hitsong">
+                    <h3 class="white margin-bottom">Nocturne-(2005)</h3>
+                    <p class="white">A melancholic and poetic song portraying nocturnal sorrow, loss, and
+                        love.</p>
+                    <div class="button-dark">
+                        <button class="btn btn-light">More Info</button>
+                    </div>
                 </div>
-            </div>
-            <div class="hitsong box">
-                <img src="image/hitsong3.png" alt="hitsong">
-                <h3 class="white padding-bottom">Flora Sea-(2006)</h3>
-                <p class="white">A romantic ballad with gentle piano and poetic lyrics about love and longing.</p>
-                <div class="button-dark">
-                    <button class="btn btn-light">More Info</button>
+                <div class="hitsong box">
+                    <img src="image/hitsong3.png" alt="hitsong">
+                    <h3 class="white margin-bottom">Flora Sea-(2006)</h3>
+                    <p class="white">A romantic ballad with gentle piano and poetic lyrics about love and longing.</p>
+                    <div class="button-dark">
+                        <button class="btn btn-light">More Info</button>
+                    </div>
                 </div>
             </div>
         </div>
