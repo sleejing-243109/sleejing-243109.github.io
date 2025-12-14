@@ -1,0 +1,39 @@
+/* Banner */
+.banner {
+    background-image: url("../image/news-banner.jpg");
+}
+
+/* Content */
+.latest {
+    margin: 60px auto;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobvinyl {
+    display: none;
+}
+
+.rayevinyl img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.rayes-news {
+    margin: 0px 80px;
+}
+
+.rayes-news h2 {
+    margin: 0px;
+    color: var(--primary-red);
+}
+
+.rayes-news h1 {
+    margin: 30px auto;
+}
+
+.rayes-news p {
+    margin-bottom: 80px;
+}
