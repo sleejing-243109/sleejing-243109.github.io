@@ -56,3 +56,21 @@
   .vinyl img {
       width: 80%;
   }
+
+  .content3>h3 {
+      color: var(--primary-red);
+  }
+
+  .boxes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+  }
+
+  .expertise-card {
+      background: var(--dark);
+      border-radius: 20px;
+      padding: 30px;
+      color: #fff;
+      text-align: center;
+  }
