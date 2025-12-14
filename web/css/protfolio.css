@@ -145,7 +145,6 @@
     color: var(--primary-red);
 }
 
-
 .clientimg {
     width: 15%;
 }
@@ -181,3 +180,24 @@
 }
 
 @media (max-width: 1180px) {}
+
+@media (max-width: 990px) {
+    .artistdiscription {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .leehomimg {
+        width: 100%;
+    }
+
+    .artistcontent {
+        width: 100%;
+    }
+
+    .button-red {
+        justify-content: center;
+    }
+}
