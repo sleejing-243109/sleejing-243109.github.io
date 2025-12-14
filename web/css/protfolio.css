@@ -9,6 +9,7 @@
 .artistdiscription {
     width: 100%;
     gap: 35px;
+    display: flex;
 }
 
 .artistcontent {
@@ -25,9 +26,6 @@
     border-radius: 20px;
 }
 
-.artistdiscription {
-    display: flex;
-}
 
 .artistname h3,
 .artistelement h3,
@@ -45,4 +43,161 @@
 .button-red {
     display: flex;
     justify-content: end;
+}
+
+.section2 h3 {
+    color: var(--primary-red);
+}
+
+.categorydiscription {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.categorycontent {
+    width: 60%;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.categoryimg {
+    width: 40%;
+    align-items: end;
+}
+
+.categoryimg img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.categorycontent h2 {
+    color: var(--primary-red);
+}
+
+.categorycontent h3,
+.categorycontent li {
+    color: var(--light);
+}
+
+.section3 h3 {
+    color: var(--primary-red);
+}
+
+.trendingworksbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.songs-img img {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.songs-img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.box.dark {
+    background-color: var(--dark);
+}
+
+.songs-name h3 {
+    margin: 0px;
+}
+
+.songs-name p {
+    font-style: italic;
+    color: var(--light);
+}
+
+.songs-name h3,
+.song-type p {
+    color: var(--light);
+}
+
+.box.dark {
+    background-color: var(--dark);
+}
+
+.songs-name h3 {
+    margin: 0px;
+}
+
+.songs-name p {
+    font-style: italic;
+    color: var(--light);
+}
+
+.songs-name h3,
+.song-type p {
+    color: var(--light);
+}
+
+.box.red {
+    background-color: var(--primary-red);
+}
+
+.clienttestimonials h3 {
+    color: var(--primary-red);
+}
+
+.clientimg {
+    width: 15%;
+}
+
+.clientimg img {
+    width: 60%;
+}
+
+.clientcontent {
+    width: 70%;
+}
+
+.clientname h3,
+.clientname h2,
+.clientname p {
+    color: var(--light);
+    margin: 3px;
+}
+
+.clientname p {
+    font-style: bold;
+}
+
+.clientdetails {
+    display: flex;
+    width: 100%;
+    gap: 0px;
+    align-items: center;
+}
+
+.fullwidth-box.dark {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1180px) {}
+
+@media (max-width: 990px) {
+    .artistdiscription {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .leehomimg {
+        width: 100%;
+    }
+
+    .artistcontent {
+        width: 100%;
+    }
+
+    .button-red {
+        justify-content: center;
+    }
 }
