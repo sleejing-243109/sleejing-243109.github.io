@@ -168,3 +168,10 @@
 .clientname p {
     font-style: bold;
 }
+
+.clientdetails {
+    display: flex;
+    width: 100%;
+    gap: 0px;
+    align-items: center;
+}
