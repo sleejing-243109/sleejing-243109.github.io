@@ -175,8 +175,9 @@
     align-items: center;
 }
 
-.fullwidth-box.dark {
+.fullwidth-box {
     margin-bottom: 30px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1180px) {
@@ -194,6 +195,7 @@
 
     .fullwidth-box {
         width: 80%;
+        margin-bottom: 20px;
     }
 
     .leehomimg {
@@ -206,6 +208,19 @@
 
     .artistcontent {
         width: 50%;
+    }
+
+    .clientdetails {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .clientimg {
+        width: 50%;
+        margin-bottom: 10px;
     }
 
 }
@@ -233,6 +248,7 @@
     .fullwidth-box {
         width: 70%;
         justify-content: center;
+        margin-bottom: 20px;
     }
 
     .categorydiscription {
@@ -256,11 +272,15 @@
         width: 100%;
         flex-wrap: wrap;
         gap: 20px;
+        justify-content: center;
     }
 
     .box {
         width: 35%;
+        margin: 0 auto;
     }
+
+
 
 }
 
