@@ -87,6 +87,7 @@
 }
 
 .trendingworksbox {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -98,6 +99,7 @@
 }
 
 .songs-img {
+    width: 100%;
     margin-bottom: 15px;
 }
 
