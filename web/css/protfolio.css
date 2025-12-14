@@ -141,7 +141,7 @@
     background-color: var(--primary-red);
 }
 
-.clienttestimonials h2 {
+.clienttestimonials h3 {
     color: var(--primary-red);
 }
 
@@ -174,4 +174,8 @@
     width: 100%;
     gap: 0px;
     align-items: center;
+}
+
+.fullwidth-box.dark {
+    margin-bottom: 30px;
 }
