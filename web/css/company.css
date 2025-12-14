@@ -218,3 +218,45 @@
       gap: 30px;
     }
   }
+
+  @media (max-width: 990px) {
+
+    .content1 {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .leftside img {
+      width: 80%;
+    }
+
+    .rightside {
+      width: 100%;
+      align-items: flex-start;
+    }
+
+    .rightside h3,
+    .rightside p {
+      margin-top: 0px;
+      text-align: left;
+    }
+
+    .content2 {
+      flex-direction: column;
+    }
+
+    .leftside2 {
+      width: 100%;
+    }
+
+    .rightside2 {
+      flex-direction: column;
+      align-items: center;
+      width: 93%;
+    }
+
+    .left,
+    .right {
+      width: 100%;
+    }
+  }
