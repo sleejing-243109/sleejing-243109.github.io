@@ -27,3 +27,23 @@
     padding-right: 60px;
     margin-top: 20px;
 }
+
+/* section1 projectcontent*/
+.artistname h3 {
+    font-style: italic;
+    color: var(--primary-red);
+}
+
+.covercontent h3 {
+    color: var(--primary-red);
+    margin-bottom: 0;
+}
+
+.theme h3 {
+    color: var(--primary-red);
+    margin-bottom: 0;
+}
+
+.boldcontent p {
+    font-weight: bold;
+}
