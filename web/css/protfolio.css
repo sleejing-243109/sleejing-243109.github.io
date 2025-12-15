@@ -2,6 +2,7 @@
     background-image: url(../image/protfoliobanner.jpg);
 }
 
+/* section1 */
 .section1 h3 {
     color: var(--primary-red);
 }
@@ -45,6 +46,7 @@
     justify-content: end;
 }
 
+/* section2 */
 .section2 h3 {
     color: var(--primary-red);
 }
@@ -80,6 +82,7 @@
     color: var(--light);
 }
 
+/* section3 */
 .section3 h3 {
     color: var(--primary-red);
 }
@@ -141,6 +144,7 @@
     background-color: var(--primary-red);
 }
 
+/* section4 */
 .clienttestimonials h3 {
     color: var(--primary-red);
 }
@@ -175,13 +179,61 @@
     align-items: center;
 }
 
-.fullwidth-box.dark {
+.fullwidth-box {
     margin-bottom: 30px;
+    margin: 0 auto;
 }
 
-@media (max-width: 1180px) {}
+@media (max-width: 1180px) {
+
+    /* section1 */
+    .section1,
+    .section2,
+    .section3,
+    .clienttestimonials {
+        text-align: center;
+    }
+
+    .artistdiscription {
+        width: 80%;
+    }
+
+    .fullwidth-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .leehomimg {
+        width: 100%;
+    }
+
+    .leehomimg img {
+        width: 100%;
+    }
+
+    .artistcontent {
+        width: 50%;
+    }
+
+    /* section4 */
+    .clientdetails {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .clientimg {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+}
 
 @media (max-width: 990px) {
+
+    /* section1 */
     .artistdiscription {
         display: flex;
         flex-direction: column;
@@ -201,11 +253,13 @@
         justify-content: center;
     }
 
-    .fullwidth-box.dark {
-        width: 80%;
+    .fullwidth-box {
+        width: 70%;
         justify-content: center;
+        margin-bottom: 20px;
     }
 
+    /* section2 */
     .categorydiscription {
         display: flex;
         flex-direction: column-reverse;
@@ -221,5 +275,36 @@
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    /* section3 */
+    .trendingworksbox {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .box {
+        width: 35%;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    /* section3 */
+    .trendingworksbox {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 50%;
     }
 }

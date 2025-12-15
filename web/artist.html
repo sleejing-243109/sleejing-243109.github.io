@@ -13,13 +13,17 @@
             color: var(--light);
         }
 
-        .red {
+        .red-word {
             color: var(--primary-red);
         }
 
         /*content*/
         .content {
             padding: 0px 0px;
+        }
+
+        .content-padding {
+            padding: 0px 60px;
         }
 
         /*section1*/
@@ -80,10 +84,6 @@
         }
 
         /*section2*/
-        .content-padding {
-            padding: 40px 60px;
-        }
-
         .albumcontainer {
             display: flex;
             width: 100%;
@@ -100,10 +100,10 @@
         }
 
         /*section3*/
-        .section3 {
+        .hitsong-container {
             display: flex;
             justify-content: space-between;
-            gap: 20px;
+            gap: 30px;
         }
 
         .box {
@@ -122,6 +122,17 @@
 
         .hitsong img {
             width: 100%;
+        }
+
+        .margin-bottom {
+            margin-bottom: 0px;
+        }
+
+        /*section4*/
+        .award-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
         }
 
 
@@ -147,7 +158,19 @@
         /*section2*/
 
 
-        @media screen and (max-width: 990px) {}
+        @media screen and (max-width: 990px) {
+
+            /*section2*/
+            .hitsong-container {
+                display: flex;
+                gap: 30px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+
+
+        }
 
         @media screen and (max-width: 768px) {
 
@@ -186,6 +209,13 @@
 
             /*section2*/
 
+            /*section3*/
+            .box {
+                width: 35.4%;
+
+            }
+
+
 
         }
 
@@ -195,6 +225,21 @@
                 flex-direction: column;
                 gap: 30px;
             }
+
+            /*section3*/
+            .hitsong-container {
+                display: flex;
+                gap: 30px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .box {
+                width: 100%;
+
+            }
+
+
         }
     </style>
 </head>
@@ -260,9 +305,9 @@
             <div class="mobile-image"><img src="image/jaymobile.png" alt="image"></div>
             <div class="contact-right">
                 <div class="right-first">
-                    <h3 class="red">ABOUT THE ARTIST</h3>
+                    <h3 class="red-word">ABOUT THE ARTIST</h3>
                     <h1>JAY CHOU</h1>
-                    <h3 class="red">BIO</h3>
+                    <h3 class="red-word">BIO</h3>
                     <p>Jay Chou (b. Jan 18, 1979) is a Taiwanese singer, songwriter, producer, actor, and director.
                         Debuting in 2000, he became a major figure in Mandopop, known for his unique style and
                         songwriting. Often called the “King of Asian Pop,” he has been recognized by TIME and CNN for
@@ -270,18 +315,18 @@
                 </div>
                 <div class="right-middle">
                     <div class="message">
-                        <p class="red bold">Vocals:</p>
+                        <p class="red-word bold">Vocals:</p>
                         <p> Mandarin Pop, R&B, Hip-Hop</p>
                     </div>
                     <div class="message">
-                        <p class="red bold">Skills:</p>
+                        <p class="red-word bold">Skills:</p>
                         <p>Songwriting, Composing, Arranging, Producing</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="section2 content-padding">
-            <h2 class="section2-header red">ALBUM</h2>
+            <h2 class="red-word">ALBUM</h2>
             <div class="albumcontainer sec2margin">
                 <div class="circle">
                     <img src="image/artistcircle1.png" alt="album">
@@ -306,30 +351,54 @@
             </div>
         </div>
         <div class="section3 content-padding">
-            <div class="hitsong box">
-                <img src="image/hitsong1.png" alt="hitsong">
-                <h3 class="white">Silence-(2001)</h3>
-                <p class="white">A soft and introspective song reflecting quiet emotions and subtle feelings.</p>
-                <div class="button-dark">
-                    <button class="btn btn-light">More Info</button>
+            <h2 class="red-word">HIT SINGLES</h2>
+            <div class="hitsong-container">
+                <div class="hitsong box">
+                    <img src="image/hitsong1.png" alt="hitsong">
+                    <h3 class="white margin-bottom">Silence-(2001)</h3>
+                    <p class="white">A soft and introspective song reflecting quiet emotions and subtle feelings.</p>
+                    <div class="button-dark">
+                        <button class="btn btn-light">More Info</button>
+                    </div>
+                </div>
+                <div class="hitsong box">
+                    <img src="image/hitsong2.png" alt="hitsong">
+                    <h3 class="white margin-bottom">Nocturne-(2005)</h3>
+                    <p class="white">A melancholic and poetic song portraying nocturnal sorrow, loss, and
+                        love.</p>
+                    <div class="button-dark">
+                        <button class="btn btn-light">More Info</button>
+                    </div>
+                </div>
+                <div class="hitsong box">
+                    <img src="image/hitsong3.png" alt="hitsong">
+                    <h3 class="white margin-bottom">Flora Sea-(2006)</h3>
+                    <p class="white">A romantic ballad with gentle piano and poetic lyrics about love and longing.</p>
+                    <div class="button-dark">
+                        <button class="btn btn-light">More Info</button>
+                    </div>
                 </div>
             </div>
-            <div class="hitsong box">
-                <img src="image/hitsong2.png" alt="hitsong">
-                <h3 class="white padding-bottom">Nocturne-(2005)</h3>
-                <p class="white padding-bottom">A melancholic and poetic song portraying nocturnal sorrow, loss, and
-                    love.</p>
-                <div class="button-dark">
-                    <button class="btn btn-light">More Info</button>
+        </div>
+        <div class="section4 content-padding">
+            <h2 class="red-word">AWARDS & HONORS</h2>
+            <div class="award-container">
+                <div class="fullwidth-box dark bold">
+                    <p class="white">Golden Melody Awards - Multiple wins including Best Male Singer, Best Album, and
+                        Best Composer.
+                    </p>
                 </div>
-            </div>
-            <div class="hitsong box">
-                <img src="image/hitsong3.png" alt="hitsong">
-                <h3 class="white padding-bottom">Flora Sea-(2006)</h3>
-                <p class="white">A romantic ballad with gentle piano and poetic lyrics about love and longing.</p>
-                <div class="button-dark">
-                    <button class="btn btn-light">More Info</button>
+                <div class="fullwidth-box red bold">
+                    <p class="white">MTV Asia Awards - Winner of Best Mandarin Artist and Most Popular Artist.</p>
                 </div>
+                <div class="fullwidth-box dark bold">
+                    <p class="white">World Music Awards - Recognized for high album sales and international influence.
+                    </p>
+                </div>
+                <div class="fullwidth-box red bold">
+                    <p class="white">Asia Song Festival Awards - Honored for his contributions to Asian pop music.</p>
+                </div>
+
             </div>
         </div>
     </div>
@@ -413,25 +482,7 @@
             <p>© 2025 Bagaimana Music. All rights reserved.</p>
         </div>
     </div>
-    <script>
-        const toggleButton = document.getElementById("menu-toggle");
-        const menu = document.getElementById("menu");
-
-        toggleButton.addEventListener("click", () => {
-            menu.classList.toggle("active");
-
-            // Change icon
-            if (menu.classList.contains("active")) {
-                toggleButton.innerHTML = "&times;";
-                document.body.style.overflow = 'hidden';
-            } else {
-                toggleButton.innerHTML = "&#9776;";
-                document.body.style.overflow = 'auto';
-            }
-        });
-
-    </script>
-
+    <script src="js/menu.js"></script>
 </body>
 
 </html>
