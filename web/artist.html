@@ -49,16 +49,12 @@
             width: 100%;
         }
 
-        .section1 h1 {
+        .no-margin {
             margin: 0px;
             padding-top: 10px;
         }
 
-        .section1 h2,
-        .section1 h3 {
-            margin: 0px;
-            padding-top: 10px;
-        }
+
 
         .contact-right {
             padding-left: 120px;
@@ -98,6 +94,38 @@
         .circle img {
             width: 100%;
         }
+
+        .album-title {
+            display: none;
+        }
+
+        .circle {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .circle .album-info {
+            position: absolute;
+            inset: 0;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: var(--light);
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        .circle:hover .album-info {
+            display: flex;
+        }
+
+        .circle:hover img {
+            filter: brightness(40%);
+        }
+
+
 
         /*section3*/
         .hitsong-container {
@@ -252,7 +280,7 @@
                 margin-top: 30px;
             }
 
-            /*section2*/
+
 
             /*section3*/
             .box {
@@ -361,9 +389,9 @@
             <div class="mobile-image"><img src="image/jaymobile.png" alt="image"></div>
             <div class="contact-right">
                 <div class="right-first">
-                    <h3 class="red-word">ABOUT THE ARTIST</h3>
-                    <h1>JAY CHOU</h1>
-                    <h3 class="red-word">BIO</h3>
+                    <h3 class="red-word no-margin">ABOUT THE ARTIST</h3>
+                    <h1 class="no-margin">JAY CHOU</h1>
+                    <h3 class="red-word no-margin">BIO</h3>
                     <p>Jay Chou (b. Jan 18, 1979) is a Taiwanese singer, songwriter, producer, actor, and director.
                         Debuting in 2000, he became a major figure in Mandopop, known for his unique style and
                         songwriting. Often called the “King of Asian Pop,” he has been recognized by TIME and CNN for
@@ -386,23 +414,47 @@
             <div class="albumcontainer sec2margin">
                 <div class="circle">
                     <img src="image/artistcircle1.png" alt="album">
+                    <div class="album-info">
+                        <h3 class="no-margin">"Fantasy"</h3>
+                        <p class="no-margin">Released:2001</p>
+                    </div>
                 </div>
                 <div class="circle">
                     <img src="image/artistcircle2.png" alt="album">
+                    <div class="album-info">
+                        <h3 class="no-margin">"JAY"</h3>
+                        <p class="no-margin">Released:2000</p>
+                    </div>
                 </div>
                 <div class="circle">
                     <img src="image/artistcircle3.png" alt="album">
+                    <div class="album-info">
+                        <h3 class="no-margin">"Common Jasmin Orange"</h3>
+                        <p class="no-margin">Released:2004</p>
+                    </div>
                 </div>
             </div>
             <div class="albumcontainer">
                 <div class="circle">
                     <img src="image/artistcircle4.png" alt="album">
+                    <div class="album-info">
+                        <h3 class="no-margin">"Wow!"</h3>
+                        <p class="no-margin">Released:2011</p>
+                    </div>
                 </div>
                 <div class="circle">
                     <img src="image/artistcircle5.png" alt="album">
+                    <div class="album-info">
+                        <h3 class="no-margin">"Aiyo,No Bad</h3>
+                        <p class="no-margin">Released:2014s</p>
+                    </div>
                 </div>
                 <div class="circle">
                     <img src="image/artistcircle6.png" alt="album">
+                    <div class="album-info">
+                        <h3 class="no-margin">"Greatest Works of Art"</h3>
+                        <p class="no-margin">Released:2022</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -454,6 +506,9 @@
                 </div>
                 <div class="fullwidth-box red bold">
                     <p class="white">Asia Song Festival Awards - Honored for his contributions to Asian pop music.</p>
+                </div>
+                <div class="button2">
+                    <button class="btn btn-dark ">Read More</button>
                 </div>
 
             </div>
