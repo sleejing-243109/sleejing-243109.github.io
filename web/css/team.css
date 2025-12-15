@@ -105,3 +105,19 @@
   .content5 h3 {
       color: var(--primary-red);
   }
+
+  .join-card {
+      background-image: url(../image/joinusbg.jpg);
+      min-height: 400px;
+      border-radius: 20px;
+      background-size: cover;
+  }
+
+  .card-text {
+      color: var(--light);
+      padding: 35px;
+  }
+
+  .card-text p {
+      margin: 0px;
+  }
