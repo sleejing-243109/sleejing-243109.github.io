@@ -132,16 +132,20 @@ input {
     background-color: #f5f6f6;
 }
 
-/* Vinyls column */
+/* Vinyls columns */
 .albumvinyl {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
 }
 
 .album {
     display: table-cell;
     text-align: center;
+    width: 30%;
+    max-height: fit-content;
 }
 
 .album img {
@@ -159,6 +163,10 @@ input {
 
 .details h3 {
     margin: 10px auto;
+}
+
+.listen {
+    margin-top: auto;
 }
 
 /* header*/
@@ -277,7 +285,6 @@ a {
     gap: 30px;
 }
 
-
 .address {
     display: flex;
     align-items: center;
@@ -341,15 +348,6 @@ a {
 
     p {
         font-size: 17px;
-    }
-
-    /* vinyl column */
-    .album img {
-        width: 100%;
-    }
-
-    .albumvinyl {
-        gap: 40px;
     }
 
     /*header*/
@@ -509,30 +507,14 @@ a {
     /* vinyl column */
     .albumvinyl {
         display: block;
-        width: 100%;
-        justify-content: space-between;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .album {
-        margin-top: 60px;
-        display: block;
-        text-align: center;
-    }
-
-    .album img {
         width: 100%;
+        display: block;
+        margin-bottom: 60px;
     }
-
-    .details {
-        margin: 20px auto;
-    }
-
-    .details p {
-        margin: 0px;
-    }
-
-    .details h3 {
-        margin: 10px auto;
-    }
-
 }
