@@ -47,3 +47,8 @@
 .boldcontent p {
     font-weight: bold;
 }
+
+/* section2 */
+.section2 h2 {
+    color: var(--primary-red);
+}
