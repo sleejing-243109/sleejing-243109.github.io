@@ -2,3 +2,129 @@
 .banner {
     background-image: url("../image/blog-banner.jpg");
 }
+
+/* Content */
+.content img {
+    border-radius: 20px;
+}
+
+.headline h2 {
+    margin: 0px;
+    color: var(--primary-red);
+}
+
+.headline h1 {
+    margin-top: 0px;
+}
+
+.credit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maincontent {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 80px;
+}
+
+/* Left Column */
+
+/* Related */
+.related h2 {
+    color: var(--primary-red);
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.fnews {
+    color: var(--light);
+}
+
+.fullwidth-box.red {
+    margin: 20px auto;
+}
+
+.readmore {
+    margin-top: auto;
+}
+
+.readmore1 .btn-light:hover {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+/* Comments */
+.comments {
+    margin-top: 80px;
+}
+
+.comments h2 {
+    color: var(--primary-red);
+    margin-bottom: 10px;
+}
+
+.form {
+    width: 100%;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+/* Editors Pick */
+.picks {
+    margin: 80px auto;
+}
+
+.picks h2 {
+    color: var(--primary-red);
+    margin-bottom: 10px;
+}
+
+.editor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.peaks h3 {
+    margin: 0px;
+}
+
+.knowmore {
+    margin-top: 20px;
+    text-align: end;
+}
+
+/* Sidebar */
+.sidebar h2 {
+    color: var(--primary-red);
+}
+
+.sidebar {
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sidebar img {
+    max-width: 100%;
+}
+
+.trending {
+    margin-top: 60px;
+}
+
+.trending h2 {
+    margin-bottom: 10px;
+}
+
+.vinyl div {
+    margin-bottom: 40px;
+}
+
+.album-c .desc {
+    color: var(--primary-red);
+}
