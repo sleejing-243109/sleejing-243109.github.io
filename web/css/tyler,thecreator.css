@@ -13,7 +13,6 @@
 }
 
 /*content*/
-
 .content-padding {
     padding: 0px 60px;
 }
@@ -112,7 +111,10 @@
     }
 
     .right-middle {
+        display: flex;
         margin-top: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
 
