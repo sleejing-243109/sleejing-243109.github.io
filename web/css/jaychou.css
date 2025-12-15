@@ -167,10 +167,6 @@
      margin: 0px;
  }
 
- .fullwidth-box {
-     box-sizing: border-box;
- }
-
  /*section5*/
  .news-container {
      display: flex;
@@ -180,13 +176,13 @@
 
  .fullwidth-box .left img {
      width: 100%;
-     height: 100%;
-     object-fit: cover;
+
  }
 
  .fullwidth-box {
      display: flex;
      width: 100%;
+     box-sizing: border-box;
  }
 
  .fullwidth-box .left {
@@ -197,6 +193,7 @@
  .fullwidth-box .right {
      width: 60%;
  }
+
 
  .button1,
  .button2 {
@@ -272,6 +269,7 @@
          display: flex;
          width: 100%;
          flex-direction: column;
+         gap: 20px;
      }
 
      .fullwidth-box .left,
