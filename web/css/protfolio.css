@@ -181,7 +181,7 @@
 
 .fullwidth-box {
     margin-bottom: 30px;
-    margin: 0 auto;
+
 }
 
 @media (max-width: 1180px) {
@@ -201,6 +201,8 @@
     .fullwidth-box {
         width: 80%;
         margin-bottom: 20px;
+        margin: 0 auto;
+
     }
 
     .leehomimg {
