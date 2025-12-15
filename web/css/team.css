@@ -101,3 +101,7 @@
       display: flex;
       justify-content: flex-end;
   }
+
+  .content5 h3 {
+      color: var(--primary-red);
+  }
