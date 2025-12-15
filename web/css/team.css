@@ -111,13 +111,20 @@
       min-height: 400px;
       border-radius: 20px;
       background-size: cover;
+      display: flex;
+      align-items: flex-end;
   }
 
   .card-text {
       color: var(--light);
       padding: 35px;
+      width: 100%;
   }
 
   .card-text p {
       margin: 0px;
+  }
+
+  p.email {
+      margin-top: 20px;
   }
