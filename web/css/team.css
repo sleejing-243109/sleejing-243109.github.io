@@ -159,3 +159,22 @@
           width: 80%;
       }
   }
+
+  @media (max-width: 768px) {
+      .content1 {
+          flex-direction: column;
+      }
+
+      .leftside,
+      .rightside {
+          width: 100%;
+      }
+
+      .vinyls {
+          grid-template-columns: 1fr;
+      }
+
+      .boxes {
+          grid-template-columns: 1fr;
+      }
+  }
