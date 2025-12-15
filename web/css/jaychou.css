@@ -39,15 +39,15 @@
      align-items: center
  }
 
- .contact-left {
+ .content-left {
      width: 90%;
  }
 
- .contact-left img {
+ .content-left img {
      width: 100%;
  }
 
- .contact-right {
+ .content-right {
      padding-left: 120px;
  }
 
