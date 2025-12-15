@@ -37,3 +37,34 @@
 .rayes-news p {
     margin-bottom: 80px;
 }
+
+/* Featured News */
+.featured h2 {
+    color: var(--primary-red);
+    margin: 0px;
+}
+
+.fullwidth-box.dark {
+    margin-top: 30px;
+}
+
+.fullwidth-box.dark img {
+    border-radius: 20px;
+}
+
+.fullwidth-box.red {
+    margin-top: 30px;
+}
+
+.fullwidth-box.red img {
+    border-radius: 20px;
+}
+
+.fnews {
+    color: var(--light);
+}
+
+.editor {
+    display: flex;
+    justify-content: space-between;
+}
