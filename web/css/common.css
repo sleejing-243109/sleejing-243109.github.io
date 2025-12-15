@@ -6,6 +6,8 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+
+
 /* --- 颜色 --- */
 :root {
     --primary-red: #B30E16;
@@ -260,6 +262,12 @@ a {
 .logo-img {
     width: 200px;
 }
+
+/*暂时*/
+.submenu a.green {
+    color: green;
+}
+
 
 /* footer*/
 
