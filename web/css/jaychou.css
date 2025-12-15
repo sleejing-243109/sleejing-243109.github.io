@@ -33,7 +33,7 @@
 
  .section1 {
      margin: 0px;
-     margin-top: 73px;
+     margin-top: 40px;
      display: flex;
      justify-content: space-between;
      align-items: center
@@ -232,11 +232,13 @@
      .section1 {
          display: flex;
          flex-direction: column;
+         padding: 0px 60px;
+
      }
 
      .content-right {
          padding-left: 0px;
-         margin: 5%;
+         margin: 0%;
      }
 
      .right-first,
@@ -257,8 +259,12 @@
          width: 70%;
      }
 
+
      .right-middle {
+         display: flex;
          margin-top: 30px;
+         flex-wrap: wrap;
+         justify-content: center;
      }
 
      /*section3*/
