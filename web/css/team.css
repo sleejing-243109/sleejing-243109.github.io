@@ -31,7 +31,7 @@
   }
 
   .content2 h3 {
-      color: #b30e16;
+      color: var(--primary-red);
   }
 
   .vinyls {
@@ -71,6 +71,60 @@
       background: var(--dark);
       border-radius: 20px;
       padding: 30px;
-      color: #fff;
+      color: var(--light);
       text-align: center;
+  }
+
+  .content4 h3 {
+      color: var(--primary-red);
+  }
+
+  .bts-card {
+      background-image: url(../image/btsimg.jpg);
+      min-height: 400px;
+      border-radius: 20px;
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+  }
+
+  .text {
+      color: var(--light);
+      padding: 35px;
+  }
+
+  .text p {
+      margin-bottom: 0px;
+  }
+
+  .button-right {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .content5 h3 {
+      color: var(--primary-red);
+  }
+
+  .join-card {
+      background-image: url(../image/joinusbg.jpg);
+      min-height: 400px;
+      border-radius: 20px;
+      background-size: cover;
+      display: flex;
+      align-items: flex-end;
+  }
+
+  .card-text {
+      color: var(--light);
+      padding: 35px;
+      width: 100%;
+  }
+
+  .card-text p {
+      margin: 0px;
+  }
+
+  p.email {
+      margin-top: 20px;
   }
