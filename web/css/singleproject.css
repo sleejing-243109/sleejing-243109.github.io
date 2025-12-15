@@ -48,6 +48,10 @@
     font-weight: bold;
 }
 
+.mobileprojectimg {
+    display: none;
+}
+
 /* section2 */
 .section2 h2 {
     color: var(--primary-red);
