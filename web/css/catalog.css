@@ -9,6 +9,17 @@
     color: var(--light);
 }
 
+.image-link {
+    display: block;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.image-link:hover img {
+    transform: scale(1.08);
+    filter: brightness(1.05);
+}
+
 .content {
     padding: 40px 60px;
 }
