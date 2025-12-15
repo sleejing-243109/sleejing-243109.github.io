@@ -1,0 +1,68 @@
+/*banner*/
+.banner {
+    background-image: url(../image/tylerbanner.jpg);
+}
+
+/*font-color*/
+.white {
+    color: var(--light);
+}
+
+.red-word {
+    color: var(--primary-red);
+}
+
+/*content*/
+
+.content-padding {
+    padding: 0px 60px;
+}
+
+.no-margin {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+/*section1*/
+.mobile-image {
+    display: none;
+}
+
+.section1 {
+    margin: 0px;
+    margin-top: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.content-right {
+    width: 100%;
+}
+
+.content-right img {
+    width: 100%;
+}
+
+.content-right {
+    padding-left: 100px;
+}
+
+/*section1 message*/
+.right-middle {
+    margin-top: 50px;
+}
+
+.message {
+    display: flex;
+
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.message p {
+    margin: 0px;
+    padding: 5px 0px;
+}
