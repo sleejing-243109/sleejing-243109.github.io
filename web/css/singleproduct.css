@@ -10,6 +10,7 @@
     color: var(--light);
 }
 
+
 /* Product Section */
 .product-gallery {
     display: flex;
@@ -46,7 +47,7 @@
 }
 
 .product-section {
-    padding: 60px;
+
     background-color: #fff;
 }
 
@@ -331,7 +332,7 @@
 }
 
 
-/* Responsive Design */
+
 /* Responsive Design */
 @media (max-width: 1180px) {
 
