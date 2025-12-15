@@ -50,6 +50,10 @@
     margin-top: auto;
 }
 
+.readmore1 {
+    margin-top: auto;
+}
+
 .readmore1 .btn-light:hover {
     background-color: var(--dark);
     color: var(--light);
