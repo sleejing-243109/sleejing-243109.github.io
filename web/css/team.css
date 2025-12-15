@@ -140,3 +140,22 @@
           width: 60%;
       }
   }
+
+  @media (max-width: 990px) {
+      .leftside {
+          width: 45%;
+      }
+
+      .rightside {
+          width: 55%;
+      }
+
+      .vinyls {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 30px;
+      }
+
+      .vinyl img {
+          width: 80%;
+      }
+  }
