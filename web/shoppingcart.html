@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | BAGAIMANA MUSIC</title>
+    <title> Shopping Cart| BAGAIMANA MUSIC</title>
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/shoppingcart.css">
 </head>
+
 
 <body>
     <div class="header">
@@ -49,7 +50,7 @@
                     <a href="#">STORE</a>
                     <div><img src="image/polygon 4.png" alt="polygon"></div>
                     <div class="submenu">
-                        <a href="#">SHOPPING CART</a>
+                        <a href="shoppingcart.html" class="green">SHOPPING CART</a>
                         <a href="catalog.html" class="green">CATALOG</a>
                     </div>
                 </div>
@@ -61,77 +62,167 @@
             <div class="menu-toggle" id="menu-toggle">&#9776;</div>
         </div>
     </div>
-    <div class="banner">
-        <h1>CONTACT</h1>
-    </div>
-    <div class="content">
-        <div class="section1">
-            <div class="contact-left"><img src="image/contactpicture.png" alt="image"></div>
-            <div class="mobile-image"><img src="image/mobilecontact.png" alt="image"></div>
-            <div class="contact-right">
-                <div class="right-first">
-                    <h3>Contact Us</h3>
-                    <h2>Get in Touch</h2>
-                    <p>Get in touch with Bagaimana Music to talk about your music projects today. Give us a call, send
-                        us an email, or fill out the contact form and we'll get back to you soon.</p>
+    <!-- BAG PAGE -->
+
+    <section class="bag-page">
+
+        <!-- Title -->
+        <h2 class="bag-title">Bag</h2>
+
+        <!-- Cart List -->
+        <section class="cart-list">
+
+            <!-- Cart Item -->
+            <div class="cart-item dark">
+                <div class="cart-img">
+                    <img src="image/jay.png" alt="Jay Album">
                 </div>
-                <div class="right-middle">
-                    <div class="social"><img src="image/sociallocation.png" alt="icon">
-                        <div class="message ">
-                            <p>VISIT US</p>
-                            <p>No. 1, Jalan SS 12/1A, Ss 12, 47500 Subang Jaya, Selangor</p>
-                        </div>
-                    </div>
-                    <div class="social"><img src="image/socialphone.png" alt="icon" height="">
-                        <div class="message">
-                            <p>CALL US</p>
-                            <p>+60 12345678</p>
-                        </div>
-                    </div>
-                    <div class="social"><img src="image/socialemail.png" alt="icon">
-                        <div class="message">
-                            <p>EMAIL US</p>
-                            <p>bagai-manamusic@gmail.com</p>
-                        </div>
+
+                <div class="cart-info">
+                    <p class="cart-name">
+                        Jay Chou's 1st Self-Titled Album (CD+DVD) - Taiwan Original Import, Released in 2000.
+                    </p>
+                    <div class="cart-qty">
+                        <button class="qty-btn minus">-</button>
+                        <span class="qty-number">1</span>
+                        <button class="qty-btn plus">+</button>
                     </div>
                 </div>
-                <div class="right-bottom">
-                    <a href="https://www.facebook.com/DaseinAcademyOfArt/" target="_blank"><img src="image/facebook.png"
-                            alt="facebook"></a>
-                    <a href="https://www.instagram.com/daseinacademyofart/?hl=en" target="_blank"><img src="image/x.png"
-                            alt="instagram"></a>
-                    <a href="https://x.com/DaseinAcademy" target="_blank"><img src="image/ig.png" alt="x"></a>
-                    <a href="https://www.tiktok.com/@daseinacademy" target="_blank"><img src="image/tiktok.png"
-                            alt="tiktok"></a>
+
+                <p class="cart-price">RM 98.00</p>
+            </div>
+
+            <!-- Cart Item -->
+            <div class="cart-item red">
+                <div class="cart-img">
+                    <img src="image/flower boy.png" alt="Flower Boy">
+                </div>
+
+                <div class="cart-info">
+                    <p class="cart-name">Flower Boy (2017)</p>
+                    <div class="cart-qty">
+                        <button class="qty-btn minus">-</button>
+                        <span class="qty-number">1</span>
+                        <button class="qty-btn plus">+</button>
+
+                    </div>
+                </div>
+
+                <p class="cart-price">RM 160.00</p>
+            </div>
+
+            <!-- Cart Item -->
+            <div class="cart-item dark">
+                <div class="cart-img">
+                    <img src="image/neps twill chore jacket.png" alt="Jacket">
+                </div>
+
+                <div class="cart-info">
+                    <p class="cart-name">NEPS TWILL CHORE JACKET</p>
+                    <p class="cart-size">Size XL</p>
+
+                    <div class="cart-qty">
+                        <button class="qty-btn minus">-</button>
+                        <span class="qty-number">1</span>
+                        <button class="qty-btn plus">+</button>
+                    </div>
+                </div>
+
+                <p class="cart-price">RM 810.00</p>
+            </div>
+
+        </section>
+
+        <!-- Order Summary -->
+        <section class="order-summary">
+            <h2>Order Summary</h2>
+
+            <div class="summary-row">
+                <span>Subtotal</span>
+                <span id="Subtotal">RM 1068.00</span>
+            </div>
+
+            <div class="summary-row">
+                <span>Shipping cost</span>
+                <span>Free</span>
+            </div>
+
+            <div class="summary-row">
+                <span>SST</span>
+                <span id="sst">6%</span>
+            </div>
+
+            <hr>
+
+            <div class="summary-row total">
+                <span>Total</span>
+                <span>RM 1132.00</span>
+            </div>
+
+            <button class="btn btn-dark">Checkout</button>
+        </section>
+
+        <!-- Payment Method -->
+        <section class="payment-method">
+            <h2>Payment Method</h2>
+
+            <div class="payment-list">
+                <div class="payment-item">
+                    <img src="image/credit-card (1).png" alt="credit card">
+                    <span>card</span>
+                </div>
+
+                <div class="payment-item">
+                    <img src="image/wallet-filled-money-tool (1).png" alt="wallet">
+                    <span>wallet</span>
+                </div>
+
+                <div class="payment-item">
+                    <img src="image/cod (1) 1.png" alt="cod">
+                    <span>cod</span>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="section2">
-        <div class="dropemail">
-            <h1>DROP US EMAIL</h1>
-            <p>Your email address will not be published. Required fields are marked*</p>
-        </div>
-        <form action="contactform">
-            <div class="top">
-                <div class="firstname">
-                    <input type="text" id="fname" name="fname" required placeholder="First Name">
+        </section>
+
+        <!-- You Might Also Like -->
+        <section class="recommend">
+            <h2>You Might also like</h2>
+
+            <div class="recommend-list">
+
+                <div class="recommend-item">
+                    <img src="image/jay member tee.png" alt="">
+                    <p>JAYMS MEMBER TEE</p>
+                    <p>RM 68.90</p>
                 </div>
-                <div class="lastname">
-                    <input type="text" id="lname" name="lname" required placeholder="Last Name">
+
+                <div class="recommend-item">
+                    <img src="image/graden linen button up.png" alt="">
+                    <p>GARDEN LINEN BUTTON UP</p>
+                    <p>RM 655.00</p>
                 </div>
-            </div>
-            <div class="middle">
-                <div class="email">
-                    <input type="email" id="email" name="email" required placeholder="Email">
+
+                <div class="recommend-item">
+                    <img src="image/florasea.png" alt="">
+                    <p>Flora Sea</p>
+                    <p>RM 655.00</p>
                 </div>
+
             </div>
-            <div class="last">
-                <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Your Message....."></textarea>
-            </div>
-            <div class="submit"><input type="submit" value="Submit"></div>
-        </form>
-    </div>
+        </section>
+
+        <!-- Policy -->
+        <section class="refund-policy">
+            <p>
+                We specialize in official albums, merchandise, and limited collectibles. As most items are sealed,
+                returns or exchanges are only accepted for defective or incorrectly delivered products. If there are
+                issues, please contact us within 48 hours with an unboxing video or photos. Refunds, if applicable, will
+                be processed within 3–7 working days. All products are sourced from official distributors.
+            </p>
+        </section>
+
+    </section>
+
     <div class="footer">
         <div class="footer-top">
             <div class="logo">

@@ -1,0 +1,226 @@
+/* =========================
+   BAG PAGE
+========================= */
+
+.bag-page {
+    padding: 40px 60px;
+    margin: 0 auto;
+}
+
+.bag-title {
+    margin-bottom: 30px;
+    color: var(--primary-red);
+}
+
+/* =========================
+   CART LIST
+========================= */
+
+.cart-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* 单个商品 */
+.cart-item {
+    display: grid;
+    grid-template-columns: 120px 1fr auto;
+    align-items: center;
+    gap: 30px;
+    padding: 25px 30px;
+    border-radius: 22px;
+    color: var(--light);
+}
+
+/* 背景色 */
+.cart-item.dark {
+    background: var(--dark);
+}
+
+.cart-item.red {
+    background: var(--primary-red);
+}
+
+
+.cart-img img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.cart-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cart-name {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.cart-size {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+.cart-qty {
+    display: inline-flex;
+    align-items: center;
+    background: var(--light);
+    border-radius: 8px;
+    width: fit-content;
+    overflow: hidden;
+}
+
+.qty-btn {
+    border: none;
+    background: transparent;
+    padding: 5px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.qty-number {
+    padding: 5px 12px;
+    color: var(--dark);
+}
+
+.cart-price {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* =========================
+   ORDER SUMMARY
+========================= */
+
+.order-summary {
+    margin-top: 60px;
+    position: relative;
+}
+
+.order-summary h2 {
+    margin-bottom: 20px;
+    color: var(--primary-red);
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.summary-row.total {
+    font-weight: 700;
+}
+
+.order-summary hr {
+    margin: 20px 0;
+}
+
+.order-summary .btn {
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+}
+
+/* =========================
+   PAYMENT METHOD
+========================= */
+
+.payment-method {
+    margin-top: 80px;
+    background: linear-gradient(180deg, #000000, #1a1a1a);
+    padding: 40px;
+    border-radius: 25px;
+    color: var(--light);
+}
+
+.payment-method h2 {
+    margin-bottom: 30px;
+    color: var(--primary-red);
+}
+
+.payment-list {
+    display: flex;
+    gap: 30px;
+}
+
+.payment-item {
+    flex: 1;
+    background: var(--primary-red);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.payment-item:hover {
+    transform: translateY(-5px);
+}
+
+.payment-item img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.payment-item span {
+    display: block;
+    font-weight: 500;
+}
+
+/* =========================
+   YOU MIGHT ALSO LIKE
+========================= */
+
+.recommend {
+    margin-top: 80px;
+}
+
+.recommend h2 {
+    margin-bottom: 30px;
+    color: var(--primary-red);
+}
+
+.recommend-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.recommend-item {
+    background: #e5e5e5;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+.recommend-item img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.recommend-item p {
+    margin: 5px 0;
+}
+
+/* =========================
+   REFUND POLICY
+========================= */
+
+.refund-policy {
+    margin-top: 80px;
+    background: var(--primary-red);
+    color: var(--light);
+    padding: 30px;
+    border-radius: 20px;
+    line-height: 1.6;
+}

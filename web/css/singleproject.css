@@ -48,6 +48,10 @@
     font-weight: bold;
 }
 
+.mobileprojectimg {
+    display: none;
+}
+
 /* section2 */
 .section2 h2 {
     color: var(--primary-red);
@@ -105,4 +109,8 @@
 
 .songcontent p {
     margin-top: 4px;
+}
+
+.fullwidth-box {
+    margin-bottom: 20px;
 }
