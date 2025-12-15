@@ -133,7 +133,6 @@
     width: calc(100% / 3);
 }
 
-/*section4*/
 
 /*section4*/
 .award-container {
@@ -152,8 +151,6 @@
 }
 
 
-
-
 @media screen and (max-width: 1180px) {
 
     /*section1*/
@@ -161,7 +158,6 @@
         padding-left: 10px;
     }
 }
-
 
 @media screen and (max-width: 990px) {
 
