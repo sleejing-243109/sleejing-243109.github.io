@@ -96,4 +96,13 @@
 .songcontent {
     width: 75%;
     align-items: center;
+    color: var(--light);
+}
+
+.songcontent h3 {
+    margin-bottom: 0;
+}
+
+.songcontent p {
+    margin-top: 4px;
 }
