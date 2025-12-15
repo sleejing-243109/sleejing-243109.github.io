@@ -127,3 +127,13 @@
         gap: 40px;
     }
 }
+
+@media (max-width: 990px) {
+    .rayes-news p {
+        margin-bottom: 20px;
+    }
+
+    .eventreadmore {
+        margin: 0px
+    }
+}
