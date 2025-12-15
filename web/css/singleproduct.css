@@ -215,14 +215,14 @@
     line-height: 1;
 }
 
-.review-link {
+.review-link p {
     color: #fff;
     text-decoration: underline;
-    font-size: 14px;
+
 }
 
 
-.rating-total {
+.rating-total p.deco {
     font-size: 14px;
 }
 
@@ -255,11 +255,10 @@
     background: #000000;
 }
 
-.label {
+.label .desc p {
     width: 40px;
     flex-shrink: 0;
     text-align: right;
-    font-size: 14px;
     color: gold;
 }
 
@@ -333,3 +332,244 @@
 
 
 /* Responsive Design */
+/* Responsive Design */
+@media (max-width: 1180px) {
+
+    /* Product Section */
+    .product-wrapper {
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .album-card {
+        width: 320px;
+    }
+
+    .thumbs {
+        padding: 40px 20px;
+        gap: 15px;
+    }
+
+    .thumbs img {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* Review Section */
+    .review-card {
+        width: 280px;
+        padding: 20px;
+        left: -50px;
+    }
+
+    .review-list {
+        margin-left: 250px;
+        padding: 30px;
+    }
+
+    /* Related Section */
+    .related-grid {
+        gap: 25px;
+    }
+
+    .related-item img {
+        height: 350px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 990px) {
+    #banner {
+        height: 300px;
+    }
+
+    /* Product Section */
+    .product-section {
+        padding: 40px 20px;
+    }
+
+    .product-wrapper {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .product-gallery {
+        padding-top: 40px;
+    }
+
+    .album-card {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .product-main {
+        margin-left: 20px;
+    }
+
+    .thumbs {
+        justify-content: center;
+        padding: 30px 20px;
+    }
+
+    /* Review Section */
+    .review-wrapper {
+        flex-direction: column;
+        margin: 0 20px 60px;
+    }
+
+    .review-card {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .review-list {
+        margin-left: 0;
+        padding: 30px;
+    }
+
+    /* Related Section */
+    .related-section {
+        padding: 40px 20px;
+    }
+
+    .related-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .related-item img {
+        height: 300px;
+    }
+
+    z
+
+    /* Description Section */
+    .description-section {
+        padding: 40px 20px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    #banner {
+        height: 250px;
+    }
+
+    /* Product Section */
+    .product-section {
+        padding: 30px 15px;
+    }
+
+    .product-wrapper {
+        gap: 30px;
+    }
+
+    .album-card {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .bg-block {
+        width: 50%;
+        height: 35%;
+    }
+
+    .product-main {
+        margin-left: 10px;
+    }
+
+    .thumbs {
+        padding: 20px 10px;
+        gap: 10px;
+    }
+
+    .thumbs img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .product-info .btn {
+        width: 100%;
+    }
+
+    /* Description Section */
+    .description-section {
+        padding: 30px 15px;
+    }
+
+    /* Review Section */
+    .review-section h2 {
+        padding: 20px 15px;
+    }
+
+    .review-wrapper {
+        margin: 0 15px 40px;
+    }
+
+    .review-card {
+        padding: 20px;
+    }
+
+    .rating-title p {
+        font-size: 18px;
+    }
+
+    .review-list {
+        padding: 20px;
+    }
+
+    /* Related Section */
+    .related-section {
+        padding: 30px 15px;
+    }
+
+    .related-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .related-item {
+        gap: 20px;
+    }
+
+    .related-item img {
+        height: auto;
+        max-height: 350px;
+    }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 480px) {
+    #banner {
+        height: 200px;
+    }
+
+    .album-card {
+        max-width: 280px;
+    }
+
+    .thumbs img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .review-card {
+        padding: 15px;
+    }
+
+    .review-list {
+        padding: 15px;
+    }
+
+    .description-section {
+        padding: 20px 10px;
+    }
+
+    .related-item img {
+        max-height: 300px;
+    }
+}
