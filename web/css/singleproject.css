@@ -72,3 +72,28 @@
     height: auto;
     display: block;
 }
+
+/* section3 */
+.section3 h2 {
+    color: var(--primary-red);
+}
+
+.songlist {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.songimg {
+    width: 15%;
+}
+
+.songimg img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.songcontent {
+    width: 75%;
+    align-items: center;
+}
