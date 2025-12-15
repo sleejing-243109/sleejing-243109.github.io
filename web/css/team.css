@@ -92,3 +92,12 @@
       color: var(--light);
       padding: 35px;
   }
+
+  .text p {
+      margin-bottom: 0px;
+  }
+
+  .button-right {
+      display: flex;
+      justify-content: flex-end;
+  }
