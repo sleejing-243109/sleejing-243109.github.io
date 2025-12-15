@@ -195,18 +195,17 @@
     }
 
     .artistdiscription {
-        width: 80%;
+        width: 90%;
     }
 
     .fullwidth-box {
-        width: 80%;
+        width: 90%;
         margin-bottom: 20px;
         margin: 0 auto;
-
     }
 
     .leehomimg {
-        width: 100%;
+        width: 50%;
     }
 
     .leehomimg img {
@@ -214,7 +213,7 @@
     }
 
     .artistcontent {
-        width: 50%;
+        width: 60%;
     }
 
     /* section4 */
@@ -292,8 +291,6 @@
         margin: 0 auto;
     }
 
-
-
 }
 
 @media (max-width: 768px) {
@@ -307,6 +304,10 @@
     }
 
     .box {
-        width: 50%;
+        width: 60%;
+    }
+
+    .artistdiscription {
+        width: 60%;
     }
 }
