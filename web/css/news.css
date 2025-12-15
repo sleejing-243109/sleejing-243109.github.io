@@ -97,3 +97,33 @@
     text-align: end;
     margin-top: 70px;
 }
+
+/* Small Desktop Display */
+@media (max-width: 1180px) {
+
+    /* Latest */
+    .rayevinyl img {
+        width: 180%;
+    }
+
+    .rayes-news {
+        margin-left: 160px;
+    }
+
+    .rayes-news h1 {
+        margin: 20px auto;
+    }
+
+    .rayes-news p {
+        margin-bottom: 60px;
+    }
+
+    /* Upcoming Release */
+    .album img {
+        width: 100%;
+    }
+
+    .albumvinyl {
+        gap: 40px;
+    }
+}
