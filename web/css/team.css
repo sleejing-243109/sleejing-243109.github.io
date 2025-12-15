@@ -9,7 +9,7 @@
   }
 
   .leftside {
-      width: 65%;
+      width: 40%;
   }
 
   .leftside img {
@@ -19,6 +19,7 @@
 
   .rightside {
       flex-direction: column;
+      width: 60%;
   }
 
   .rightside h3 {
@@ -51,10 +52,11 @@
   .vinyl {
       display: flex;
       justify-content: center;
+      width: 100%;
   }
 
   .vinyl img {
-      width: 80%;
+      width: 100%;
   }
 
   .content3>h3 {
@@ -94,7 +96,7 @@
   }
 
   .text p {
-      margin-bottom: 0px;
+      margin-bottom: 40px;
   }
 
   .button-right {
@@ -126,5 +128,15 @@
   }
 
   p.email {
-      margin-top: 20px;
+      margin: 40px 0px;
+  }
+
+  @media (max-width: 1180px) {
+      .leftside {
+          width: 40%;
+      }
+
+      .rightside {
+          width: 60%;
+      }
   }
