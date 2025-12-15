@@ -304,6 +304,10 @@
     }
 
     .box {
-        width: 50%;
+        width: 60%;
+    }
+
+    .artistdiscription {
+        width: 60%;
     }
 }
