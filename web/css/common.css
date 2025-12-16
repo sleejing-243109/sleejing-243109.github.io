@@ -144,7 +144,6 @@ input {
 }
 
 .album {
-    display: table-cell;
     text-align: center;
     width: 30%;
     max-height: fit-content;
@@ -488,41 +487,49 @@ a {
         gap: 40px;
     }
 
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 36px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    h3 {
-        font-size: 18px;
-    }
-
-    p {
-        font-size: 15px;
-    }
-
-    .desc p {
-        font-size: 12px;
-    }
-
     /* vinyl column */
-    .albumvinyl {
-        display: block;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
+    .album {
+        margin: 0px auto;
     }
 
-    .album {
-        width: 100%;
-        display: block;
-        margin-bottom: 60px;
+    .details {
+        min-height: 100px;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        .desc p {
+            font-size: 12px;
+        }
+
+        /* vinyl column */
+        .albumvinyl {
+            display: block;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .album {
+            width: 100%;
+            display: block;
+            margin-bottom: 60px;
+        }
     }
 }
