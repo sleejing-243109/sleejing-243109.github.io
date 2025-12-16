@@ -22,7 +22,7 @@
     gap: 25px;
 }
 
-/* 单个商品 */
+
 .cart-item {
     display: grid;
     grid-template-columns: 120px 1fr auto;
@@ -33,7 +33,7 @@
     color: var(--light);
 }
 
-/* 背景色 */
+
 .cart-item.dark {
     background: var(--dark);
 }
@@ -127,6 +127,10 @@
     margin-top: 25px;
     display: block;
     margin-left: auto;
+}
+
+.total {
+    padding-right: 20px;
 }
 
 /* =========================
@@ -294,6 +298,7 @@
     }
 
     /* Order Summary */
+
     .order-summary {
         margin-top: 50px;
     }
