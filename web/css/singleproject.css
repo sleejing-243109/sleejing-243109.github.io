@@ -150,3 +150,16 @@
     margin-bottom: 5px;
     margin-top: 15px;
 }
+
+/* section5 */
+.artist-albumn {
+    display: flex;
+    gap: 20px;
+}
+
+.artist-box {
+    display: flex;
+    width: 80%;
+    padding: 20px;
+    color: var(--dark);
+}
