@@ -224,3 +224,101 @@
     border-radius: 20px;
     line-height: 1.6;
 }
+
+/* responsive design */
+/* =========================
+   TABLET (≤ 990px)
+========================= */
+@media (max-width: 990px) {
+
+    .bag-page {
+        padding: 30px 40px;
+    }
+
+    /* Cart Item */
+    .cart-item {
+        grid-template-columns: 100px 1fr;
+        grid-template-rows: auto auto;
+        gap: 20px;
+    }
+
+    .cart-img img {
+        height: 90px;
+    }
+
+    .cart-price {
+        grid-column: 2;
+        justify-self: end;
+        margin-top: 10px;
+    }
+
+    /* Payment */
+    .payment-list {
+        flex-direction: column;
+    }
+
+    /* Recommend */
+    .recommend-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* =========================
+   MOBILE (≤ 768px)
+========================= */
+@media (max-width: 768px) {
+
+    .bag-page {
+        padding: 25px 20px;
+    }
+
+    /* Cart Item */
+    .cart-item {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .cart-img img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .cart-info {
+        gap: 10px;
+    }
+
+    .cart-price {
+        justify-self: start;
+        font-size: 16px;
+    }
+
+    /* Order Summary */
+    .order-summary {
+        margin-top: 50px;
+    }
+
+    .order-summary .btn {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* Payment */
+    .payment-method {
+        padding: 30px 20px;
+    }
+
+    .payment-item {
+        padding: 25px;
+    }
+
+    /* Recommend */
+    .recommend-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Refund Policy */
+    .refund-policy {
+        padding: 25px 20px;
+    }
+}
