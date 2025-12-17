@@ -89,6 +89,7 @@ p {
     min-height: 350px;
     color: var(--light);
     text-align: center;
+    background-position: center;
 }
 
 /* content的距离 */
