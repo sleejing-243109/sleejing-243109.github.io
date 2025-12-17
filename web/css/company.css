@@ -120,6 +120,11 @@
     justify-items: center;
   }
 
+  .team1 img,
+  .team2 img {
+    border-radius: 20px;
+  }
+
   .team-card {
     position: relative;
     max-width: 320px;
@@ -171,12 +176,13 @@
   }
 
   .right h3 {
-    margin: 10px;
+    margin-left: 20px;
+    margin-bottom: 0px;
     color: var(--primary-red);
   }
 
-  .right-content h2 {
-    margin-top: 0px;
+  .right h2 {
+    margin: 0px 0px 10px 20px;
   }
 
   .right-content p {
@@ -184,8 +190,8 @@
   }
 
   .year {
-    font-weight: 600;
-    margin: 0px;
+    font-weight: 800;
+    margin-bottom: 10px;
   }
 
   .right-content {
@@ -279,10 +285,11 @@
     }
 
     .content4 {
+      padding: 0px 60px;
       flex-direction: column;
     }
 
     .left img {
-      display: none;
+      height: auto;
     }
   }
