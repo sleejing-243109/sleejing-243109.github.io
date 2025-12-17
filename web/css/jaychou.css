@@ -26,6 +26,10 @@
      padding-top: 10px;
  }
 
+ .image-border {
+     border-radius: 20px;
+ }
+
  /*section1*/
  .mobile-image {
      display: none;
