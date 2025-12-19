@@ -240,6 +240,7 @@
         flex-direction: column;
         text-align: center;
         align-items: center;
+        width: 100%;
     }
 
     .leehomimg {
@@ -295,6 +296,19 @@
 
 @media (max-width: 768px) {
 
+    /* section1 */
+    .leehomimg {
+        width: 100%;
+    }
+
+    .leehomimg img {
+        width: 100%;
+    }
+
+    .artistdiscription {
+        width: 100%;
+    }
+
     /* section3 */
     .trendingworksbox {
         width: 100%;
@@ -307,7 +321,5 @@
         width: 60%;
     }
 
-    .artistdiscription {
-        width: 60%;
-    }
+
 }

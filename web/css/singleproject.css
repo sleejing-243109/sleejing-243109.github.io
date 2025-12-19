@@ -196,3 +196,61 @@
 .red {
     background-color: var(--primary-red);
 }
+
+@media screen and (max-width: 1180px) {
+
+    /* section1 */
+    .projectdetails {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .mobileprojectimg {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .mobileprojectimg img {
+        width: 70%;
+    }
+
+    .projectimg {
+        display: none;
+    }
+
+    /* section2 */
+    .behindimg {
+        width: 100%;
+    }
+
+    .behindimg div {
+        width: 45%;
+    }
+
+    /* section3 */
+    .fullwidth-box {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .songimg {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .songcontent {
+        width: 100%;
+        align-items: center;
+    }
+
+    /* section4 */
+    .full-lyrics {
+        width: 90%;
+    }
+}
