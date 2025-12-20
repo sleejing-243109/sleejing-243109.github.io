@@ -28,6 +28,10 @@
     margin-top: 20px;
 }
 
+.projectcontent h3 {
+    color: var(--dark);
+}
+
 /* section1 projectcontent*/
 .artistname h3 {
     font-style: italic;
