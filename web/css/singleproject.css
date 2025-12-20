@@ -239,13 +239,22 @@
     .fullwidth-box {
         flex-direction: column;
         width: 90%;
+        align-items: center;
+    }
+
+    .songlist {
+        width: 100%;
+
     }
 
     .songimg {
-        width: 25%;
+        width: 35%;
         display: flex;
         justify-content: center;
-        margin-bottom: 10px;
+    }
+
+    .songimg img {
+        width: 100%;
     }
 
     .songcontent {
@@ -255,6 +264,6 @@
 
     /* section4 */
     .full-lyrics {
-        width: 90%;
+        width: 100%;
     }
 }
