@@ -50,6 +50,11 @@ p {
     font-weight: 500;
     cursor: pointer;
     font-family: "Inter";
+    transition: transform 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-4px) scale(1.05);
 }
 
 .btn-dark {
