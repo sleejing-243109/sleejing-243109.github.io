@@ -31,12 +31,23 @@
     padding: 25px 30px;
     border-radius: 22px;
     color: var(--light);
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-origin: center;
 }
+
+.cart-item:hover {
+    transform: scale(1.04);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.25);
+}
+
 
 
 .cart-item.dark {
     background: var(--dark);
 }
+
+
 
 .cart-item.red {
     background: var(--primary-red);
@@ -49,10 +60,7 @@
     border-radius: 20px;
 }
 
-.cart-img img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
+
 
 .cart-info {
     display: flex;
