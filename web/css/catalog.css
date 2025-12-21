@@ -114,6 +114,11 @@ section h2 {
     margin-bottom: 10px;
 }
 
+.single-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
 .bg-red {
     background-color: var(--primary-red);
     color: var(--light);
@@ -154,6 +159,11 @@ section h2 {
     width: 40%;
 }
 
+.single-wide-card img :hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
 .single-wide-card.bg-red {
     background: var(--primary-red);
     border-radius: 20px;
@@ -185,10 +195,15 @@ section h2 {
 
 .merch-card img {
     width: 100%;
-    height: 400px;
+    height: 320px;
     object-fit: contain;
     object-position: center;
     margin-bottom: 20px;
+}
+
+.merch-card img :hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .merch-card h3 {
