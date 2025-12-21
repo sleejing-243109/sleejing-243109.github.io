@@ -75,6 +75,18 @@
     margin-left: 40px;
 }
 
+.product-main img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    object-position: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-main img:hover {
+    transform: scale(1.15);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
 
 .thumbs {
     display: flex;
@@ -375,7 +387,15 @@
 
     .related-item img {
         height: 350px;
+        display: block;
+        transition: transform 0.3s ease;
     }
+
+    .related-item:hover img {
+        transform: scale(1.1);
+    }
+
+
 }
 
 /* Tablet */
