@@ -180,7 +180,7 @@
 
 .artist-songimg {
     width: 25%;
-    padding-left: 20px;
+    margin: 0 20px;
 }
 
 .artist-songimg img {
@@ -209,6 +209,11 @@
 
 .red {
     background-color: var(--primary-red);
+}
+
+.songimg,
+.artist-songimg {
+    flex-shrink: 0;
 }
 
 @media screen and (max-width: 1180px) {
@@ -248,8 +253,6 @@
     /* section3 */
     .fullwidth-box {
         flex-direction: column;
-        width: 90%;
-        align-items: center;
     }
 
     .songlist {
@@ -258,16 +261,17 @@
     }
 
     .songimg {
-        width: 35%;
+        width: 25%;
         display: flex;
         justify-content: center;
     }
 
     .songimg img {
-        width: 100%;
+        width: 70%;
     }
 
     .songcontent {
+        width: 50%;
         padding-top: 20px;
         width: 100%;
         align-items: center;
@@ -322,6 +326,30 @@
         width: 80%;
     }
 
+    /* section3 */
+    .fullwidth-box {
+        flex-direction: column;
+    }
+
+    .songlist {
+        flex-direction: column;
+    }
+
+    .songimg {
+        width: 100%;
+        display: flex;
+    }
+
+    .songimg img {
+        width: 100%;
+        height: auto;
+    }
+
+    .songcontent {
+        padding-top: 20px;
+        width: 100%;
+    }
+
     /* section4 */
     .full-lyrics {
         flex-direction: column;
@@ -337,29 +365,38 @@
     /* section5 */
     .artist-albumn {
         flex-direction: column;
-
+        width: 93%;
+        text-align: center;
     }
 
     .firstartist-albumn,
     .secondartist-albumn {
-        width: 98%;
+        width: 100%;
+        height: auto;
+        gap: 30px;
     }
 
     .artist-box {
-        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: auto;
     }
 
     .artist-songimg {
-        width: 20%;
+        width: 100%;
+        display: flex;
     }
 
     .artist-songimg img {
-        width: 60%;
+        width: 100%;
         border-radius: 20px;
+        margin: 0 auto;
     }
 
     .artist-songcontent {
-        width: 75%;
+        width: 100%;
 
     }
 }
