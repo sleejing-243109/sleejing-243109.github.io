@@ -210,9 +210,15 @@
 
 .recommend-item img {
     width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    margin-bottom: 15px;
+    height: 320px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 20px;
+}
+
+.recommend-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
 .recommend-item p {
