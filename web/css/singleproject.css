@@ -265,5 +265,23 @@
     /* section4 */
     .full-lyrics {
         width: 100%;
+
+    }
+
+    /* section5 */
+    .artist-box {
+        width: 100%;
+    }
+
+    .artist-songimg {
+        width: 35%;
+    }
+
+    .artist-songimg img {
+        width: 90%;
+    }
+
+    .songcontent {
+        width: 55%;
     }
 }
