@@ -38,7 +38,6 @@
 }
 
 .section1 {
-
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -183,7 +182,8 @@
     }
 
     .left-first,
-    .section2-header {
+    .section2-header,
+    .center {
         text-align: center;
     }
 

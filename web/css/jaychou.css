@@ -243,7 +243,8 @@
      }
 
      .right-first,
-     .section2-header {
+     .section2-header,
+     .center {
          text-align: center;
      }
 
