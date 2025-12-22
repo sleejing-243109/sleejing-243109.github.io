@@ -1,6 +1,9 @@
 /* Banner */
 .banner {
     background-image: url("../image/news-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
 }
 
 /* Content */
