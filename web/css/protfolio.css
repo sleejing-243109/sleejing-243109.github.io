@@ -46,6 +46,18 @@
     justify-content: end;
 }
 
+.button-dark {
+    display: flex;
+    justify-content: end;
+}
+
+.button-dark .btn-light:hover {
+    background: var(--dark);
+    color: var(--light);
+}
+
+
+
 /* section2 */
 .section2 h3 {
     color: var(--primary-red);
