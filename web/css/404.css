@@ -195,37 +195,6 @@ input[type=text] {
         font-size: 18px;
     }
 
-    /* Best of The MOnth */
-    /* .bestofmonth {
-        margin: 60px auto;
-    }
-
-    .bestofmonth h1 {
-        margin: 0px auto;
-    }
-
-    .albumvinyl {
-        display: block;
-        margin: auto 60px;
-        justify-content: space-between;
-    }
-
-    .album {
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 60px;
-    }
-
-    .album img {
-        width: 80%;
-        justify-items: center;
-        align-content: center;
-    }
-
-    .details {
-        margin: 10px auto;
-    } */
-
     /* Popular Tracks */
     .popular {
         margin: 60px auto;
