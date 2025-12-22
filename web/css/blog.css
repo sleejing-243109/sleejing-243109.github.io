@@ -79,6 +79,34 @@
     margin-top: 10px;
 }
 
+/* Pop-Up Modal */
+.modal-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: 0.3s ease;
+}
+
+.modal-container.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
 /* Editors Pick */
 .picks {
     margin: 80px auto;

@@ -136,7 +136,8 @@
                                     </div>
                                 </div>
                                 <div class="readmore">
-                                    <button class="btn btn-light">Read More</button>
+                                    <a href="https://www.billboard.com/culture/tv-film/ariana-grande-miss-brazil-wicked-premiere-safety-issue-1236104854/"
+                                        class="btn btn-light">Read More</a>
                                 </div>
                             </div>
 
@@ -155,7 +156,8 @@
                                     </div>
                                 </div>
                                 <div class="readmore1">
-                                    <button class="btn btn-light">Read More</button>
+                                    <a href="https://www.billboard.com/music/pop/mariah-carey-christmas-season-its-time-1235460616/"
+                                        class="btn btn-light">Read More</a>
                                 </div>
                             </div>
 
@@ -174,7 +176,8 @@
                                     </div>
                                 </div>
                                 <div class="readmore">
-                                    <button class="btn btn-light">Read More</button>
+                                    <a href="https://www.billboard.com/culture/tv-film/ariana-grande-focker-in-law-ben-stiller-wrap-photos-1236103387/"
+                                        class="btn btn-light">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -187,8 +190,18 @@
                             <textarea id="cmmt" name="cmmt" rows="7" width="100%"
                                 cols="100%">any thoughts to share?</textarea>
                         </form>
-                        <div class="submit">
+                        <div class="submit" id="submit">
                             <button class="btn btn-dark">Submit</button>
+                        </div>
+                    </div>
+
+                    <!-- Pop-up -->
+                    <div class="modal-container" id="modal_container">
+                        <div class="modal">
+                            <h3>Thank you for your comment!</h3>
+                            <div id="close">
+                                <button class="btn btn-dark">Close</button>
+                            </div>
                         </div>
                     </div>
 
@@ -220,7 +233,8 @@
                                 </div>
 
                                 <div class="knowmore">
-                                    <button class="btn btn-light">Know More</button>
+                                    <a href="https://open.spotify.com/track/5b5pCnxAi6EVkYBGPmmJkI?si=b284e172da9749b5"
+                                        class="btn btn-light">Know More</a>
                                 </div>
                             </div>
                         </div>
@@ -346,6 +360,20 @@
     </div>
 
     <script src="js/menu.js"></script>
+
+    <script>
+        const submit = document.getElementById('submit');
+        const modal_container = document.getElementById('modal_container');
+        const close = document.getElementById('close');
+
+        submit.addEventListener('click', () => {
+            modal_container.classList.add('show');
+        });
+
+        close.addEventListener('click', () => {
+            modal_container.classList.remove('show');
+        });
+    </script>
 
 </body>
 
