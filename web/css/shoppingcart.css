@@ -288,34 +288,88 @@
 /* =========================
    MOBILE (≤ 768px)
 ========================= */
+
+
 @media (max-width: 768px) {
 
+    /* Page Padding */
     .bag-page {
         padding: 25px 20px;
     }
 
-    /* Cart Item */
+    /* =========================
+       Cart Item (Mobile Layout)
+       ========================= */
     .cart-item {
-        grid-template-columns: 1fr;
-        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    /* Image Area */
+    .cart-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .cart-img img {
-        width: 100%;
+        width: 180px;
         height: 180px;
+        object-fit: contain;
+        border-radius: 14px;
     }
 
     .cart-info {
-        gap: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
     }
 
-    .cart-price {
-        justify-self: start;
+    .cart-info h3 {
         font-size: 16px;
+        line-height: 1.4;
     }
 
-    /* Order Summary */
+    .cart-info p {
+        font-size: 14px;
+        opacity: 0.85;
+    }
 
+    /* Quantity Control */
+    .quantity {
+        align-self: flex-start;
+        margin-top: 4px;
+    }
+
+    .quantity button {
+        width: 36px;
+        height: 36px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .quantity span {
+        min-width: 32px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    /* Price */
+    .cart-price {
+        align-self: flex-start;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 6px;
+    }
+
+    /* =========================
+       Order Summary
+       ========================= */
     .order-summary {
         margin-top: 50px;
     }
@@ -325,7 +379,9 @@
         margin-left: 0;
     }
 
-    /* Payment */
+    /* =========================
+       Payment Section
+       ========================= */
     .payment-method {
         padding: 30px 20px;
     }
@@ -334,12 +390,16 @@
         padding: 25px;
     }
 
-    /* Recommend */
+    /* =========================
+       Recommend Section
+       ========================= */
     .recommend-list {
         grid-template-columns: 1fr;
     }
 
-    /* Refund Policy */
+    /* =========================
+       Refund Policy
+       ========================= */
     .refund-policy {
         padding: 25px 20px;
     }
