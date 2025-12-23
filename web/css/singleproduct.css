@@ -194,7 +194,6 @@
 .review-card {
     position: absolute;
     top: -40px;
-    left: -70px;
     width: 320px;
     background: var(--primary-red);
     color: var(--light);
@@ -291,11 +290,13 @@
 
 .review-list h3 {
     margin-bottom: 10px;
+    padding-left: 80px;
 }
 
 
 .review-list p {
     text-align: left;
+    padding-left: 80px;
     display: flex;
     line-height: 1.7;
     opacity: 0.9;

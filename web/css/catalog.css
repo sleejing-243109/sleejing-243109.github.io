@@ -110,6 +110,7 @@ section h2 {
 .single-card img {
     width: 100%;
     margin-bottom: 10px;
+    border-radius: 20px
 }
 
 .single-card img:hover {
