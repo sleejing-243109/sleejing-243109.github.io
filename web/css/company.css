@@ -167,7 +167,7 @@
 
   .left img {
     width: 100%;
-    height: 400px;
+    height: auto;
     border-radius: 20px;
   }
 
@@ -176,13 +176,13 @@
   }
 
   .right h3 {
-    margin-left: 20px;
+    margin-left: 40px;
     margin-bottom: 0px;
     color: var(--primary-red);
   }
 
   .right h2 {
-    margin: 0px 0px 10px 20px;
+    margin: 0px 0px 10px 40px;
   }
 
   .right-content p {
@@ -197,7 +197,7 @@
   .right-content {
     background-color: var(--dark);
     color: var(--light);
-    padding: 30px;
+    padding: 40px;
     border-radius: 20px;
   }
 
