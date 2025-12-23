@@ -216,7 +216,6 @@ p {
     .contentbox-middle {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         width: 100%;
     }
 
@@ -293,10 +292,6 @@ p {
         display: none;
     }
 
-    .firstcontent-middle {
-        text-align: center;
-    }
-
     .section3box {
         display: flex;
         flex-wrap: wrap;
@@ -310,9 +305,6 @@ p {
         height: auto;
     }
 
-    .section3content {
-        text-align: center;
-    }
 }
 
 @media (max-width: 990px) {

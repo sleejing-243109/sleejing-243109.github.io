@@ -199,13 +199,6 @@
 @media (max-width: 1180px) {
 
     /* section1 */
-    .section1,
-    .section2,
-    .section3,
-    .clienttestimonials {
-        text-align: center;
-    }
-
     .artistdiscription {
         width: 90%;
     }
