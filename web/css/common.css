@@ -153,7 +153,8 @@ p {
 }
 
 /* Animation */
-.fullwidth-box {
+.fullwidth-box,
+.box {
     animation: reveal 1s ease-out both;
     animation-timeline: view();
     animation-range: entry 20% cover 30%;
