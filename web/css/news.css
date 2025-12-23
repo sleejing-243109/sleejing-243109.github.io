@@ -81,7 +81,7 @@
 .fullwidth-box {
     animation: reveal 1s ease-out both;
     animation-timeline: view();
-    animation-range: entry 20% cover 40%;
+    animation-range: entry 20% cover 30%;
 }
 
 @keyframes reveal {
@@ -104,7 +104,7 @@
 .album {
     animation: album 1s ease-out both;
     animation-timeline: view();
-    animation-range: entry 20% cover 40%;
+    animation-range: entry 20% cover 30%;
 }
 
 .album:nth-child(2) {
