@@ -6,8 +6,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-/*progress*/
-
+/*progress bar*/
 .progress {
     position: fixed;
     top: 0;
@@ -291,14 +290,8 @@ a {
     width: 200px;
 }
 
-/*暂时*/
-.submenu a.green {
-    color: green;
-}
-
 
 /* footer*/
-
 .footer {
     padding: 15px 30px;
     background-color: #f5f6f6;
