@@ -272,6 +272,11 @@ p {
         flex-direction: column;
     }
 
+    .pointcontent1 ul,
+    .pointcontent2 ul {
+        margin: 0;
+    }
+
     .pointcontent1 li,
     .pointcontent2 li {
         width: auto;
