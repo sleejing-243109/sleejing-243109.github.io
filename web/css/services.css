@@ -317,6 +317,14 @@ p {
         align-items: center;
     }
 
+    .musicproduction,
+    .recordingmix,
+    .musicvideoproduction,
+    .artistdevo,
+    .songwrite,
+    .livesession {
+        width: 60%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -342,7 +350,7 @@ p {
     .artistdevo,
     .songwrite,
     .livesession {
-        width: 50%;
+        width: 85%;
     }
 
     .section3 .box {
