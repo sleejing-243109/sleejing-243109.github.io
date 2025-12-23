@@ -6,6 +6,29 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+/*progress*/
+
+.progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6px;
+    background: var(--primary-red);
+    width: 0;
+    z-index: 20001;
+    animation: grow linear both;
+    animation-timeline: scroll();
+}
+
+@keyframes grow {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
 
 
 /* --- 颜色 --- */
