@@ -148,13 +148,9 @@
             bottom: -50px;
         }
 
-        .artist-container {
-            gap: 20px;
-        }
-
         .box {
-            width: 30%;
             padding: 20px;
+            width: 27%;
         }
 
         .box img {
@@ -233,6 +229,10 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
+        }
+
+        .right-artist .btn {
+            align-self: flex-end;
         }
     }
 
