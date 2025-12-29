@@ -227,10 +227,6 @@
 }
 
 @media (max-width: 768px) {
-    .headline {
-        margin-bottom: 40px;
-    }
-
     .maincontent {
         margin: 0 auto;
         display: block;
