@@ -31,12 +31,10 @@
 }
 
 input[type=text] {
-    border: 1px solid;
     border-radius: 20px;
-    padding: 12px 30px;
+    padding: 15px auto;
     width: 500px;
-    font-size: 20px;
-    background-color: #ffffff;
+    background-color: var(--light);
 }
 
 .searchbar {
@@ -64,7 +62,6 @@ input[type=text] {
 
 .popular h1 {
     color: var(--primary-red);
-    font-size: 52px;
     text-align: center;
 }
 
@@ -188,11 +185,7 @@ input[type=text] {
     }
 
     input[type=text] {
-        border: 1px solid;
-        border-radius: 20px;
-        padding: 12px 20px;
         width: 200px;
-        font-size: 18px;
     }
 
     /* Popular Tracks */
