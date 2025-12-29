@@ -120,6 +120,37 @@ input[type=text] {
     width: 100%;
 }
 
+.row {
+    animation: row 1s ease-out both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 30%;
+}
+
+.row:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.row:nth-child(3) {
+    animation-delay: 1s;
+}
+
+@keyframes row {
+    0% {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateY(80px);
+    }
+
+    30% {
+        filter: blur(0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* Homepage Button */
 .backhome {
     justify-content: space-around;
@@ -229,6 +260,30 @@ input[type=text] {
         padding: 15px;
         gap: 15px;
         align-items: end;
+    }
+
+    .mtracks1,
+    .mtracks2 {
+        animation: track 1s ease-out both;
+        animation-timeline: view();
+        animation-range: entry 20% cover 30%;
+    }
+
+    @keyframes track {
+        0% {
+            opacity: 0;
+            filter: blur(5px);
+            transform: translateY(80px);
+        }
+
+        30% {
+            filter: blur(0px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 
     .martistsingles h3 {
