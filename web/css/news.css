@@ -185,10 +185,6 @@
         margin-bottom: 30px;
     }
 
-    .rayes-news p {
-        display: none;
-    }
-
     /* Featured News */
     .fullwidth-box {
         display: block;
@@ -231,10 +227,6 @@
     .tour h2 {
         color: var(--light);
         margin-bottom: 0px;
-    }
-
-    .tour p {
-        display: none;
     }
 
     .eventreadmore {
