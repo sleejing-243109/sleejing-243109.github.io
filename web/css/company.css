@@ -108,7 +108,6 @@
   .team1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 100%;
     justify-items: center;
     margin-bottom: 80px;
   }
@@ -127,7 +126,7 @@
 
   .team-card {
     position: relative;
-    width: 100%;
+    width: 90%;
   }
 
   .team-info {
@@ -207,10 +206,6 @@
       width: 100%;
     }
 
-    .content2 {
-      gap: 30px;
-    }
-
     .rightside2 {
       gap: 20px;
     }
@@ -222,6 +217,10 @@
     .team2 {
       width: 65%;
       gap: 30px;
+    }
+
+    .team-info {
+      width: 85%;
     }
   }
 
@@ -269,12 +268,16 @@
     .right {
       width: 100%;
     }
+
+    .team-info {
+      width: 95%;
+    }
   }
 
   @media (max-width: 768px) {
 
     .leftside img {
-      width: 70%;
+      width: 60%;
     }
 
     .team1,
@@ -289,7 +292,7 @@
     }
 
     .content4 {
-      padding: 0px 30px;
+      padding: 0px 60px;
       flex-direction: column;
     }
 
@@ -300,5 +303,15 @@
     .right h3,
     .right h2 {
       margin-left: 0px;
+    }
+
+    .team-info {
+      width: 75%;
+    }
+  }
+
+  @media (max-width: 438px) {
+    .content4 {
+      padding: 0px 30px;
     }
   }
