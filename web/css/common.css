@@ -625,6 +625,10 @@ a {
 }
 
 @media (max-width: 438px) {
+    h1 {
+        font-size: 30px;
+    }
+
     .content {
         padding: 30px 30px;
     }
