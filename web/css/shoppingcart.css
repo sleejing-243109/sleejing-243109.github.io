@@ -182,12 +182,12 @@
 
 /* White box */
 .payment-box {
-    background: var(--primary-red);
+    background: var(--light);
     padding: 35px 40px;
     border-radius: 18px;
     text-align: center;
     width: 380px;
-    color: var(--light);
+    color: var(--dark);
 }
 
 /* Button */
@@ -206,7 +206,7 @@
     height: 70px;
     margin: 0 auto 18px;
     border-radius: 50%;
-    background: #2ec4b6;
+    background: var(--primary-red);
     color: #fff;
     font-size: 36px;
     font-weight: bold;
@@ -393,8 +393,8 @@
     }
 
     .payment-box {
-        background: var(--primary-red);
-        color: var(--light);
+        background: var(--light);
+        color: var(--dark);
         padding: 30px;
         border-radius: 20px;
         margin: 40px;
