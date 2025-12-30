@@ -76,7 +76,7 @@ p {
 }
 
 .outside::after {
-    content: '▶';
+    content: '&#9654;';
     padding-left: 5px;
     align-items: center;
 }
