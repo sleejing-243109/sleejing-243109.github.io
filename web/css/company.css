@@ -296,4 +296,9 @@
     .left img {
       height: auto;
     }
+
+    .right h3,
+    .right h2 {
+      margin-left: 0px;
+    }
   }
