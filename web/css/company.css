@@ -127,7 +127,7 @@
 
   .team-card {
     position: relative;
-    max-width: 320px;
+    width: 100%;
   }
 
   .team-info {
@@ -289,7 +289,7 @@
     }
 
     .content4 {
-      padding: 0px 60px;
+      padding: 0px 30px;
       flex-direction: column;
     }
 
