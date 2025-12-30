@@ -230,6 +230,11 @@
 
  @media screen and (max-width: 768px) {
 
+     /*btn1*/
+     .button1 {
+         justify-content: center;
+     }
+
      /*section1*/
      .section1 {
          display: flex;
@@ -285,6 +290,11 @@
  }
 
  @media screen and (max-width: 650px) {
+
+     /*btn1*/
+     .button1 {
+         justify-content: center;
+     }
 
      /*section2*/
      .albumcontainer {
