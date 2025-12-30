@@ -623,3 +623,9 @@ a {
         }
     }
 }
+
+@media (max-width: 438px) {
+    .content {
+        padding: 30px 30px;
+    }
+}
