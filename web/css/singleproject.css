@@ -337,8 +337,17 @@
         margin-top: 10px;
     }
 
+    .mobileprojectimg {
+        width: 90%;
+    }
+
     .mobileprojectimg img {
-        width: 60%;
+        width: 75%;
+    }
+
+    .projectcontent {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     /* section2 */
@@ -349,7 +358,7 @@
     }
 
     .behindimg img {
-        width: 80%;
+        width: 100%;
     }
 
     /* section3 */
@@ -390,6 +399,7 @@
 
     /* section5 */
     .artist-albumn {
+        display: flex;
         flex-direction: column;
         width: 93%;
         text-align: center;
@@ -403,6 +413,7 @@
     }
 
     .artist-box {
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;

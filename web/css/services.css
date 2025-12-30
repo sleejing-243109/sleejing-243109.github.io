@@ -380,11 +380,37 @@ p {
     .artistdevo,
     .songwrite,
     .livesession {
-        width: 85%;
+        width: 75%;
+        align-items: center;
     }
 
     .section3 .box {
-        width: 55%;
+        width: 70%;
         min-height: auto;
     }
+
+    .btn {
+        align-items: center;
+    }
+}
+
+@media (max-width: 438px) {
+
+    .musicproduction,
+    .recordingmix,
+    .musicvideoproduction,
+    .artistdevo,
+    .songwrite,
+    .livesession {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: center;
+    }
+
+    .section3 .box {
+        width: 70%;
+        min-height: auto;
+    }
+
 }

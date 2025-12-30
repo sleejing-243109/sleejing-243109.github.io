@@ -55,7 +55,7 @@
   }
 
   .rightside2 {
-    width: 50%;
+    width: 100%;
     display: flex;
     gap: 30px;
   }
@@ -127,7 +127,7 @@
 
   .team-card {
     position: relative;
-    max-width: 320px;
+    width: 100%;
   }
 
   .team-info {
@@ -258,7 +258,11 @@
     .rightside2 {
       flex-direction: column;
       align-items: center;
-      width: 93%;
+      width: 100%;
+    }
+
+    .border {
+      box-sizing: border-box;
     }
 
     .left,
@@ -285,11 +289,16 @@
     }
 
     .content4 {
-      padding: 0px 60px;
+      padding: 0px 30px;
       flex-direction: column;
     }
 
     .left img {
       height: auto;
+    }
+
+    .right h3,
+    .right h2 {
+      margin-left: 0px;
     }
   }

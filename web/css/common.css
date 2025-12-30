@@ -7,17 +7,25 @@ body {
 }
 
 /*progress bar*/
-.progress {
+#progress-container {
     position: fixed;
     top: 0;
     left: 0;
-    height: 6px;
-    background: var(--primary-red);
-    width: 0;
-    z-index: 20001;
-    animation: grow linear both;
-    animation-timeline: scroll();
+    width: 100%;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 9999;
 }
+
+#progress-bar {
+    width: 0%;
+    height: 100%;
+    background: var(--primary-red);
+    transform-origin: left center;
+}
+
+
+
 
 @keyframes grow {
     from {
@@ -76,7 +84,7 @@ p {
 }
 
 .outside::after {
-    background-image: url("../image/right-arrow.png");
+    content: '&#9654;';
     padding-left: 5px;
     align-items: center;
 }
@@ -625,7 +633,15 @@ a {
 }
 
 @media (max-width: 438px) {
+    h1 {
+        font-size: 30px;
+    }
+
     .content {
         padding: 30px 30px;
+    }
+
+    .logo-img {
+        width: 150px;
     }
 }
