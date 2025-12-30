@@ -609,9 +609,10 @@ p.deco {
 
 /* Extra Small Mobile */
 @media (max-width: 480px) {
-    #banner {
-        height: 200px;
+    .content {
+        padding: 30px 30px;
     }
+
 
     .album-card {
         max-width: 280px;

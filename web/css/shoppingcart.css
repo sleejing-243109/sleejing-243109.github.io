@@ -381,14 +381,13 @@
 
 @media (max-width: 768px) {
 
-    /* Page Padding */
-    .bag-page {
-        padding: 25px 20px;
-    }
-
     /* =========================
        Cart Item (Mobile Layout)
        ========================= */
+    .content {
+        padding: 30px 30px;
+    }
+
     .cart-item {
         display: flex;
         flex-direction: column;
