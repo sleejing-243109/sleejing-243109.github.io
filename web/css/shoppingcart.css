@@ -326,9 +326,12 @@
 /* =========================
    REFUND POLICY
 ========================= */
+.store-policy h2 {
+    color: var(--primary-red);
+    margin-top: 80px;
+}
 
 .refund-policy {
-    margin-top: 80px;
     background: var(--primary-red);
     color: var(--light);
     padding: 30px;
