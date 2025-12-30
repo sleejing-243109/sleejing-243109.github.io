@@ -614,16 +614,16 @@ p.deco {
         width: 60px;
         height: 60px;
     }
-}
 
-.review-list {
-    padding: 15px;
-}
+    .review-list {
+        padding: 15px;
+    }
 
-.description-section {
-    padding: 20px 10px;
-}
+    .description-section {
+        padding: 20px 10px;
+    }
 
-.related-item img {
-    max-height: 300px;
+    .related-item img {
+        max-height: 300px;
+    }
 }
