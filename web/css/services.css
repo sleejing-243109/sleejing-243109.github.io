@@ -393,3 +393,16 @@ p {
         align-items: center;
     }
 }
+
+@media (max-width: 438px) {
+
+    .musicproduction,
+    .recordingmix,
+    .musicvideoproduction,
+    .artistdevo,
+    .songwrite,
+    .livesession {
+        width: 85%;
+        align-items: center;
+    }
+}
