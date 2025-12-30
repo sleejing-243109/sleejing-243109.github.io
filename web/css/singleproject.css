@@ -337,8 +337,12 @@
         margin-top: 10px;
     }
 
+    .mobileprojectimg {
+        width: 90%;
+    }
+
     .mobileprojectimg img {
-        width: 65%;
+        width: 75%;
     }
 
     .projectcontent {
@@ -354,7 +358,7 @@
     }
 
     .behindimg img {
-        width: 90%;
+        width: 100%;
     }
 
     /* section3 */
