@@ -325,12 +325,14 @@ section h2 {
         flex-direction: column;
         max-width: 450px;
         margin: 0 auto;
+        padding: 25px;
 
     }
 
     .singles-bottom-wrapper {
         max-width: 450px;
         margin: 40px auto 0;
+        padding: 0px;
     }
 
     .single-wide-card {
@@ -343,10 +345,15 @@ section h2 {
         width: 100%;
     }
 
+    .merch-card {
+        padding: 25px;
+    }
+
     .merch-grid {
         grid-template-columns: 1fr;
         max-width: 450px;
         margin: 0 auto;
+        padding: 0px;
 
     }
 
