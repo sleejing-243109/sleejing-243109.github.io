@@ -438,9 +438,6 @@ p.deco {
     }
 
     /* Product Section */
-    .product-section {
-        padding: 40px 20px;
-    }
 
     .product-wrapper {
         grid-template-columns: 1fr;
@@ -514,9 +511,6 @@ p.deco {
     }
 
     /* Product Section */
-    .product-section {
-        padding: 30px 15px;
-    }
 
     .product-wrapper {
         gap: 30px;
@@ -601,9 +595,7 @@ p.deco {
 
 /* Extra Small Mobile */
 @media (max-width: 480px) {
-    .content {
-        padding: 30px 30px;
-    }
+
 
 
     .album-card {

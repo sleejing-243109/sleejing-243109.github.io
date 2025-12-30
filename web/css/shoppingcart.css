@@ -345,9 +345,6 @@
 ========================= */
 @media (max-width: 990px) {
 
-    .bag-page {
-        padding: 30px 40px;
-    }
 
     /* Cart Item */
     .cart-item {
@@ -388,15 +385,8 @@
     /* =========================
        Cart Item (Mobile Layout)
        ========================= */
-    .content {
-        padding: 30px 30px;
-    }
 
     .payment-box {
-        background: var(--light);
-        color: var(--dark);
-        padding: 30px;
-        border-radius: 20px;
         margin: 40px;
     }
 

@@ -250,9 +250,7 @@ section h2 {
    RESPONSIVE
 /* 电脑 */
 @media (max-width: 1180px) {
-    .content {
-        padding: 60px 40px;
-    }
+
 
     .album-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -265,9 +263,6 @@ section h2 {
 
 @media (max-width: 990px) {
 
-    .content {
-        padding: 40px 30px;
-    }
 
     .album-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -306,9 +301,6 @@ section h2 {
 /* 平板 */
 @media (max-width: 768px) {
 
-    .content {
-        padding: 40px 30px;
-    }
 
     .album-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -369,11 +361,6 @@ section h2 {
 
     #banner h1 {
         font-size: 36px;
-    }
-
-
-    .content {
-        padding: 30px 30px;
     }
 
 
