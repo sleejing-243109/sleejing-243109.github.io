@@ -381,10 +381,15 @@ p {
     .songwrite,
     .livesession {
         width: 85%;
+        align-items: center;
     }
 
     .section3 .box {
-        width: 65%;
+        width: 70%;
         min-height: auto;
+    }
+
+    .btn {
+        align-items: center;
     }
 }
