@@ -8,7 +8,7 @@
 
 /* Content */
 .latest {
-    margin: 60px auto;
+    margin: 60px 0px;
     margin-right: 60px;
     display: flex;
     justify-content: space-between;
@@ -157,7 +157,7 @@
 /* Mobile Display */
 @media(max-width:768px) {
     .latest {
-        margin: 30px auto;
+        margin: 30px 0px;
         display: block;
         align-items: center;
         text-align: center;

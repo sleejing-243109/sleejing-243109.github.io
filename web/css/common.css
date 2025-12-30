@@ -76,7 +76,7 @@ p {
 }
 
 .outside::after {
-    content: '▶';
+    background-image: url("../image/right-arrow.png");
     padding-left: 5px;
     align-items: center;
 }

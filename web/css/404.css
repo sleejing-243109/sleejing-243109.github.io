@@ -26,14 +26,29 @@
 }
 
 /* Search Bar */
-.mob {
+.search-mob {
     display: none;
+}
+
+.search-desk {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-desk div {
+    gap: 12px;
+}
+
+.desk-form {
+    width: 100%;
 }
 
 input[type=text] {
     border-radius: 20px;
     padding: 15px auto;
-    width: 500px;
+    width: 100%;
     background-color: var(--light);
 }
 
@@ -208,6 +223,7 @@ input[type=text] {
 
     .mob {
         display: flex;
+        /* width: 100%; */
     }
 
     .searchbar {
@@ -215,9 +231,9 @@ input[type=text] {
         gap: 10px;
     }
 
-    input[type=text] {
+    /* input[type=text] {
         width: 200px;
-    }
+    } */
 
     /* Popular Tracks */
     .popular {
