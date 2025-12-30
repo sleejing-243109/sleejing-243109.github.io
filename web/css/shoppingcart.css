@@ -182,11 +182,12 @@
 
 /* White box */
 .payment-box {
-    background: #fff;
+    background: var(--primary-red);
     padding: 35px 40px;
     border-radius: 18px;
     text-align: center;
     width: 380px;
+    color: var(--light);
 }
 
 /* Button */
@@ -386,6 +387,14 @@
        ========================= */
     .content {
         padding: 30px 30px;
+    }
+
+    .payment-box {
+        background: var(--primary-red);
+        color: var(--light);
+        padding: 30px;
+        border-radius: 20px;
+        margin: 40px;
     }
 
     .cart-item {

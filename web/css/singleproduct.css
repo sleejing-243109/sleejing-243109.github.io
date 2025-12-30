@@ -149,11 +149,6 @@
     color: var(--dark);
 }
 
-.desc-short {
-    line-height: 1.8;
-    color: #666;
-    text-align: justify;
-}
 
 .product-info .btn {
     width: fit-content;
@@ -192,9 +187,7 @@
 
 
 .description-section p {
-    line-height: 1.8;
     color: var(--light);
-    text-align: justify;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -332,7 +325,6 @@ p.deco {
     text-align: left;
     padding-left: 80px;
     display: flex;
-    line-height: 1.7;
     opacity: 0.9;
 }
 
@@ -622,20 +614,16 @@ p.deco {
         width: 60px;
         height: 60px;
     }
+}
 
-    .review-card {
-        padding: 15px;
-    }
+.review-list {
+    padding: 15px;
+}
 
-    .review-list {
-        padding: 15px;
-    }
+.description-section {
+    padding: 20px 10px;
+}
 
-    .description-section {
-        padding: 20px 10px;
-    }
-
-    .related-item img {
-        max-height: 300px;
-    }
+.related-item img {
+    max-height: 300px;
 }
