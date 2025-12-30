@@ -632,4 +632,8 @@ a {
     .content {
         padding: 30px 30px;
     }
+
+    .logo-img {
+        width: 150px;
+    }
 }
