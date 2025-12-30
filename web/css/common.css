@@ -643,5 +643,6 @@ a {
 
     .logo-img {
         width: 150px;
+        display: flex;
     }
 }
