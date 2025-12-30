@@ -380,7 +380,7 @@ p {
     .artistdevo,
     .songwrite,
     .livesession {
-        width: 85%;
+        width: 75%;
         align-items: center;
     }
 
@@ -407,4 +407,10 @@ p {
         width: 75%;
         align-items: center;
     }
+
+    .section3 .box {
+        width: 70%;
+        min-height: auto;
+    }
+
 }
