@@ -399,6 +399,7 @@
 
     /* section5 */
     .artist-albumn {
+        display: flex;
         flex-direction: column;
         width: 93%;
         text-align: center;
