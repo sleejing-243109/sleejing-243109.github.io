@@ -84,7 +84,7 @@ p {
 }
 
 .outside::after {
-    content: '&#9654;';
+    background-image: url("../image/right-arrow.png");
     padding-left: 5px;
     align-items: center;
 }
@@ -643,6 +643,5 @@ a {
 
     .logo-img {
         width: 150px;
-        display: flex;
     }
 }
