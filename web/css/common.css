@@ -100,7 +100,9 @@ p {
     background-size: contain;
 }
 
-.btn-dark.outside::after {
+.btn-dark.outside::after,
+.btn-light.outside:hover::after,
+.btn-red.outside:hover::after {
     filter: invert(1) brightness(2);
 }
 
