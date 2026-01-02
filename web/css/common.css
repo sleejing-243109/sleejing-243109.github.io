@@ -101,6 +101,10 @@ p {
     background-repeat: no-repeat;
 }
 
+.btn-dark.outside::after {
+    filter: invert(1) brightness(2);
+}
+
 .btn:hover {
     transform: translateY(-4px) scale(1.05);
 }
