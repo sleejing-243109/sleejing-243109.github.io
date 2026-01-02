@@ -91,18 +91,13 @@ p {
 .outside::after {
     content: "";
     position: absolute;
-    right: 26px;
+    right: 40px;
     top: 50%;
     transform: translateY(-50%);
     width: 16px;
     height: 16px;
-    background-image: url("../image/right-arrow.png");
+    background-image: url("../image/triangle.png");
     background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.btn-dark.outside::after {
-    filter: invert(1) brightness(2);
 }
 
 .btn:hover {
