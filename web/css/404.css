@@ -176,9 +176,6 @@ input[type=text] {
 .backhome a {
     background-color: var(--dark);
     color: var(--light);
-    font-size: 20px;
-    border-radius: 20px;
-    padding: 10px 30px;
 }
 
 /* Small Desktop Display */
