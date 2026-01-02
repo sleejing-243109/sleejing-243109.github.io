@@ -83,10 +83,22 @@ p {
     transition: transform 0.3s ease;
 }
 
+.outside {
+    position: relative;
+    padding-right: 60px;
+}
+
 .outside::after {
+    content: "";
+    position: absolute;
+    right: 26px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
     background-image: url("../image/right-arrow.png");
-    padding-left: 5px;
-    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .btn:hover {
