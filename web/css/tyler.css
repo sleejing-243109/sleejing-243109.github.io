@@ -175,6 +175,12 @@
 
 @media screen and (max-width: 768px) {
 
+    /*btn*/
+    .button1,
+    .button2 {
+        justify-content: center;
+    }
+
     /*section1*/
     .section1 {
         display: flex;
@@ -183,7 +189,8 @@
 
     .left-first,
     .section2-header,
-    .center {
+    .center,
+    .fullwidth-box {
         text-align: center;
     }
 
@@ -215,6 +222,10 @@
         width: 100%;
     }
 
+    .news {
+        margin-bottom: 15px;
+    }
+
     /*section3*/
     .hitsong {
         width: 40%;
@@ -223,6 +234,13 @@
 }
 
 @media screen and (max-width: 650px) {
+
+    /*btn*/
+    .button1,
+    .button2 {
+        justify-content: center;
+    }
+
     .hitsong-container {
         display: flex;
         gap: 30px;

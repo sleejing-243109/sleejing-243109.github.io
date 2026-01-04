@@ -13,18 +13,6 @@
  }
 
  /*content*/
- .content {
-     padding: 0px 0px;
- }
-
- .content-padding {
-     padding: 0px 60px;
- }
-
- .no-margin {
-     margin: 0px;
-     padding-top: 10px;
- }
 
  .image-border {
      border-radius: 20px;
@@ -240,7 +228,7 @@
      .section1 {
          display: flex;
          flex-direction: column;
-         padding: 0px 60px;
+
 
      }
 
@@ -251,7 +239,9 @@
 
      .right-first,
      .section2-header,
-     .center {
+     .center,
+     .hitsong,
+     .fullwidth-box {
          text-align: center;
      }
 
