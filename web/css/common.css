@@ -294,7 +294,9 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: var(--light);
-    padding: 15px 30px;
+    padding: 0px 30px;
+    padding-top: 25px;
+    padding-bottom: 15px;
     position: relative;
     z-index: 2001;
 
@@ -550,6 +552,15 @@ a {
         border-radius: 20px;
     }
 
+    .header {
+        padding: 0px 30px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+
+
+
     /**footer**/
     .footer-sub {
         display: none;
@@ -648,6 +659,12 @@ a {
 }
 
 @media (max-width: 438px) {
+    .header {
+        padding: 0px 30px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
     h1 {
         font-size: 30px;
     }
