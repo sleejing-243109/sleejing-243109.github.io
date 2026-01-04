@@ -12,8 +12,15 @@
      color: var(--primary-red);
  }
 
- /*content*/
 
+
+ /*no margin*/
+ .no-margin {
+     margin: 0px;
+
+ }
+
+ /*content*/
  .image-border {
      border-radius: 20px;
  }
