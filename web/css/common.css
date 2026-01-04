@@ -656,7 +656,13 @@ a {
         padding: 30px 30px;
     }
 
+    .header-left {
+        display: flex;
+        align-items: center;
+    }
+
     .logo-img {
         width: 150px;
+        display: flex;
     }
 }

@@ -230,8 +230,9 @@
 
  @media screen and (max-width: 768px) {
 
-     /*btn1*/
-     .button1 {
+     /*btn*/
+     .button1,
+     .button2 {
          justify-content: center;
      }
 
@@ -291,8 +292,9 @@
 
  @media screen and (max-width: 650px) {
 
-     /*btn1*/
-     .button1 {
+     /*btn*/
+     .button1,
+     .button2 {
          justify-content: center;
      }
 
