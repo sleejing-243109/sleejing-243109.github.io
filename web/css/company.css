@@ -126,7 +126,7 @@
 
   .team-card {
     position: relative;
-    width: 90%;
+    width: 80%;
   }
 
   .team-info {
@@ -220,7 +220,7 @@
     }
 
     .team-info {
-      width: 85%;
+      width: 90%;
     }
   }
 
@@ -269,8 +269,12 @@
       width: 100%;
     }
 
+    .team-card {
+      width: 100%;
+    }
+
     .team-info {
-      width: 95%;
+      width: 90%;
     }
   }
 
