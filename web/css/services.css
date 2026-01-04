@@ -392,6 +392,14 @@ p {
     .btn {
         align-items: center;
     }
+
+    .round-image {
+        width: 100%
+    }
+
+    .round-image img {
+        width: 60%;
+    }
 }
 
 @media (max-width: 438px) {
@@ -412,5 +420,6 @@ p {
         width: 70%;
         min-height: auto;
     }
+
 
 }
