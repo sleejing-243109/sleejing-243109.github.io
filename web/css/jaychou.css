@@ -217,6 +217,7 @@
  }
 
  @media screen and (max-width: 768px) {
+     /*section*/
 
      /*btn*/
      .button1,
@@ -228,8 +229,7 @@
      .section1 {
          display: flex;
          flex-direction: column;
-
-
+         padding: 40px 60px;
      }
 
      .content-right {
@@ -270,7 +270,7 @@
          display: flex;
          width: 100%;
          flex-direction: column;
-         gap: 20px;
+         gap: 0px;
      }
 
      .fullwidth-box .left,
@@ -305,5 +305,11 @@
 
      .box {
          width: 100%;
+     }
+ }
+
+ @media (max-width: 438px) {
+     .section1 {
+         padding: 30px 30px;
      }
  }
