@@ -326,5 +326,7 @@
         width: 70%;
     }
 
-
+    .button-dark {
+        justify-content: center;
+    }
 }
