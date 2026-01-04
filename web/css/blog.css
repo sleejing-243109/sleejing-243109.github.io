@@ -230,8 +230,6 @@
     .maincontent {
         margin: 0 auto;
         display: block;
-        /* grid-template-columns: 4fr 1fr;
-        gap: 80px;*/
     }
 
     /* Left Column */
